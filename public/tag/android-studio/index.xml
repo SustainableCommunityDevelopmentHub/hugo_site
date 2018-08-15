@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Android Studio on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/android-studio/</link>
+    <description>Recent content in Android Studio on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/android-studio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android Studio 3.0 Canary 1</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/android-studio-3-0-canary-1/index.html/</link>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/android-studio-3-0-canary-1/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=rHiA66zUv8c&amp;amp;list=PLWz5rJ2EKKc_w6fodMGrA1_tsI3pqPbqa
+This video shows many of the important and useful features common in IDEs or Integrated Development Environment. IntelliJ IDE provides the core features of the Android Studio distribution.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <main>
+    {{ .Content }}
+    <ul class="contents">
+      {{ range .Paginator.Pages }}
+        <li>
+          <h2><a href="{{ .Permalink }}">{{.Title}}</a></h2>
+          <dl>
+            <dt>Video Description</dt><dd>{{ .Params.description }}</dd>
+            <dt>Category</dt>
+            <dd>
+              {{ partial "cat-list.html" . }}
+            </dd>
+          </dl>
+        </li>
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}

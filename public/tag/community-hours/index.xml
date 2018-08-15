@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Community Hours on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/community-hours/</link>
+    <description>Recent content in Community Hours on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/community-hours/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ithaca Hours- Local Currency</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/ithaca-hours-local-currency/index.html/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/ithaca-hours-local-currency/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=Jy2nCHX36tI **Uploaded on Aug 15, 2010  **Grassroots Activist Guild ithacahours.org Ithaca Hours is a local currency system that promotes local economic strength and community self-reliance in ways which will support economic and social justice, ecology, community participation and human aspirations in and around Ithaca, New York.</description>
+    </item>
+    
+  </channel>
+</rss>

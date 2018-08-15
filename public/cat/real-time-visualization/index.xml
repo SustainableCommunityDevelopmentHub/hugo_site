@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Real Time Visualization on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/real-time-visualization/</link>
+    <description>Recent content in Real Time Visualization on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/real-time-visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>earth.nullschool.net</title>
+      <link>https://scdhub.netlify.com/videos/2018/04/earth-nullschool-net/index.html/</link>
+      <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2018/04/earth-nullschool-net/index.html/</guid>
+      <description>&amp;nbsp;
+earth.nullschool.net URL path allows simple queries of past events &amp;amp; climate conditions.
+a visualization of global weather conditions forecast by supercomputers updated every three hours
+ocean surface current estimates updated every five days
+ocean surface temperatures and anomaly from daily average (1981-2011) updated daily
+ocean waves updated every three hours
+aurora updated every thirty minutes
+ &amp;nbsp;    Wind wind speed at specified height   Temp temperature at specified height   RH relative humidity at specified height   WPD Instantaneous Wind Power Density measure of power available in the wind: ½ρv3, where ρ is air density and v is wind velocity   TPW Total Precipitable Water total amount of water in a column of air stretching from ground to space   TCW Total Cloud Water total amount of water in clouds in a column of air from ground to space   3HPA 3-hour Precipitation Accumulation amount of precipitation over the next three hours   CAPE Convective Available Potential Energy from Surface indicates the buoyancy of air, a measure of atmospheric instability and predictor of severe weather   MSLP Mean Sea Level Pressure air pressure reduced to sea level   MI Misery Index perceived air temperature as combination of heat index and wind chill   SST Sea Surface Temperature temperature of the ocean surface   SSTA Sea Surface Temperature Anomaly difference in ocean temperature from daily average during years 1981-2011   HTSGW Significant Wave Height roughly equal to mean wave height as estimated by a &amp;ldquo;trained observer&amp;rdquo;   COsc Carbon Monoxide Surface Concentration the fraction of carbon monoxide present in air at the earth&amp;rsquo;s surface   CO2sc Carbon Dioxide Surface Concentration the fraction of carbon dioxide present in air at the earth&amp;rsquo;s surface   SO2sm Sulfur Dioxide Surface Mass amount of sulfur dioxide in the air near the earth&amp;rsquo;s surface   DUex Dust Extinction the aerosol optical thickness (AOT) of light at 550 nm due to dust   SO4ex Sulfate Extinction the aerosol optical thickness (AOT) of light at 550 nm due to sulfate   PM1 Particulate Matter &amp;lt; 1 µm mass of atmospheric particles with a diameter less than 1 micron   PM2.</description>
+    </item>
+    
+  </channel>
+</rss>

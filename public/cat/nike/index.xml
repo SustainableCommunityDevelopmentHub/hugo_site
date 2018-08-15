@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nike on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/nike/</link>
+    <description>Recent content in Nike on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Aug 2017 07:30:21 -0600</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/nike/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>NIKE AIR VAPORMAX FLYKNIT EXPLORER</title>
+      <link>https://scdhub.netlify.com/videos/nike-air-vapormax-flyknit-explorer/</link>
+      <pubDate>Sat, 05 Aug 2017 07:30:21 -0600</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/nike-air-vapormax-flyknit-explorer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nike Airmax 97</title>
+      <link>https://scdhub.netlify.com/videos/nike-airmax-97/</link>
+      <pubDate>Sat, 05 Aug 2017 07:30:21 -0600</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/nike-airmax-97/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

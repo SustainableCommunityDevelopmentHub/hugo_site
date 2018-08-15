@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engineering Education on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/engineering-education/</link>
+    <description>Recent content in Engineering Education on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/engineering-education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Engineering</title>
+      <link>https://scdhub.netlify.com/videos/2017/07/engineering/index.html/</link>
+      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/07/engineering/index.html/</guid>
+      <description>ENGINEERING EDUCATION An estimated population growth of 1.5 billion people over the next two decades, 97% of it in developing regions, will exacerbate the already unprecedented demands for energy, food, land, water, transportation, materials, waste disposal, earth moving, public health care, environmental cleanup, telecommunication, and infrastructure [3]. The role of engineers will be critical in fulfilling these demands at various scales, ranging from small remote communities to large urban areas (megacities), mostly in the developing world.</description>
+    </item>
+    
+  </channel>
+</rss>

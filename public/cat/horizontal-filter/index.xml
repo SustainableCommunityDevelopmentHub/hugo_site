@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Horizontal Filter on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/horizontal-filter/</link>
+    <description>Recent content in Horizontal Filter on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/horizontal-filter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decentralised Sanitation - DEWATS Animation</title>
+      <link>https://scdhub.netlify.com/videos/2017/12/decentralised-sanitation-dewats-animation/index.html/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/12/decentralised-sanitation-dewats-animation/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=Ex9mlkB1r7I
+This video shows how the Decentralised Wastewater Treatment System (DEWATS) works. It is a simple and proven technology to treat organic wastewater. Since it requires no electricity and only little maintenance it can be used to provide marginalized communities with wastewater treatment.
+The decentralised wastewater treatment system (DEWATS) is a simple design, non-dependent on energy, reliable, long-lasting, tolerant towards inflow fluctuation, and low in costs. It can treat organic wastewater from domestic and industrial sources.</description>
+    </item>
+    
+  </channel>
+</rss>

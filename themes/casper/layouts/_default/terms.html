@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <ul>
+    {{ range .Data.Pages }}
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <li>
+        <dl>
+          {{ with .Params.website }}
+            <dt><b>Source:</b></dt><dd>{{ . }}</dd>
+          {{ end }}
+          {{ with .Params.description }}
+            <dt>Description</dt><dd>{{ . }}</dd>
+          {{ end }}
+          <dd>
+          {{ if ne .Params.logo nil }}
+            <img src="{{ .Params.logo }}" height="90" />
+          {{ end }}
+          </dd>
+        </dl>
+      </li>
+          {{ end }}
+  </ul>
+
+  <h2>List all relevant taxonomies and all the pages that belong to it</h2>
+  <ul>
+
+    {{ partial "tag-list.html" . }}
+
+  </ul>
+{{ end }}

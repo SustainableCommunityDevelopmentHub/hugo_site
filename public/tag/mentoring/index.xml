@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mentoring on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/mentoring/</link>
+    <description>Recent content in Mentoring on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Apr 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/mentoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Be a Mentor</title>
+      <link>https://scdhub.netlify.com/videos/2017/04/be-a-mentor/index.html/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/04/be-a-mentor/index.html/</guid>
+      <description>The value of one to one training cannot be overstated. Please describe the area of mentoring that you feel you would be most valuable to a young learner. Please update here on scdhub so that it reflects your skillset so that potential learners can connect with you directly.
+The SCD Hub is here as a network of people and organizations working collectively to provide structure and support for technical mentoring relationships.</description>
+    </item>
+    
+  </channel>
+</rss>

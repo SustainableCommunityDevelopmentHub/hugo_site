@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Denver on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/denver/</link>
+    <description>Recent content in Denver on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/denver/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Denver Homeless Outloud</title>
+      <link>https://scdhub.netlify.com/videos/2017/05/colorado-homeless-outloud/index.html/</link>
+      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/05/colorado-homeless-outloud/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=WYbLSxCcskE
+Shelter, homeless person&amp;rsquo;s advocacy and cultural awareness.
+Denver** Homeless Out Loud (DHOL) works with and for people who experience homelessness to help protect and advocate for dignity, rights and choices for people experiencing homelessness. We commit our efforts toward goals affirmed and raised by homeless people, within our organization and throughout the homeless community. We strive to add our strengths together to create ways of living in which everyone has a safe place they can call home.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+---
+layout: post
+title: Heavy Light - Fabric Formed Concrete Structures - Building Technology
+date: 2017-07-05
+cat: ["concrete","design education","lectures","Shelter"]
+tag: ["Architecture"]
+---
+
+https://www.youtube.com/watch?v=LwxT0KmBw_A
+
+There are many types of concrete, designed to suit a variety or purposes coupled with a range of compositions, finishes and performance characteristics.
+
+Read more : https://en.wikipedia.org/wiki/Types_o...
+
+May you find this video informative and be thrilled to subscribe for more. Thanks for watching!
+
+![](Screen-Shot-2017-07-05-at-7.50.56-AM-300x217.png)

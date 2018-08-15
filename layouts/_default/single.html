@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <div>
+    {{ .Params.description }}
+    {{ .Content }}
+    <br/>
+    {{ partial "cat-list.html" . }}
+  </div>
+
+  {{ if eq .Params.cat $.Params.cat }}
+  <h2>Other videos in the {{ $.Params.cat }} category</h2>
+  {{ end }}
+
+  {{ range where .Site.Pages ".Permalink" "!=" .Permalink }}
+    {{ if eq .Params.cat $.Params.cat }}
+      <li>
+        <a href="{{ .Permalink}}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  {{ end }}
+{{ end }}

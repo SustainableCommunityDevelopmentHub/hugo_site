@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/django/</link>
+    <description>Recent content in Django on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/django/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SCD Hub path toward bringing a helpful chatbot to life</title>
+      <link>https://scdhub.netlify.com/videos/2017/10/chatbot-tool/index.html/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/10/chatbot-tool/index.html/</guid>
+      <description>SCD Hub is currently testing a chat service running with Hubot integrated as a chatroom attendant. Participants in our community clinics are invited to use this private service, as we work to make it more secure and future ready.
+We would like you to consider how a good tool might be used to help organize SCD Hub Community Clinic participants. We envision ongoing support of teams connected to different community development efforts through automated checkins, scheduled delivery of printed and electronic training materials, &amp;lsquo;Clinic Companion&amp;rsquo; app to help keep projects and dialogues moving forward, while providing a central point where project documents and meeting notes can be reviewed, shared and maintained.</description>
+    </item>
+    
+  </channel>
+</rss>

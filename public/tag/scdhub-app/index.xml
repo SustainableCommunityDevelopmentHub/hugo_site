@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scdhub App on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/scdhub-app/</link>
+    <description>Recent content in Scdhub App on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/scdhub-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Get the SCD Hub App</title>
+      <link>https://scdhub.netlify.com/videos/2017/07/scd-hub-app/index.html/</link>
+      <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/07/scd-hub-app/index.html/</guid>
+      <description>https://play.google.com/store/apps/details?id=com.scdhub.scdhubcommunityapp1
+We are in beta and only available on Android.
+Look for the SCD Hub in the IOS app store by Aug 8 2017 or so. We seem to be currently in a two week &amp;lsquo;name validation&amp;rsquo; cycle. No bigdeal.
+The hopes we have for the app is initially to have our curated library available for video viewing, and personal learning materials management.
+Thank you for the support thus far. Greg</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/data/</link>
+    <description>Recent content in Data on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 02 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Qualifying a Project Consultant</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/qualifying-a-consultant/index.html/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/qualifying-a-consultant/index.html/</guid>
+      <description>I recently spoke with the woman responsible for the years of successful operations at Ares Thrift Store in Boulder. I asked her what the concept of &amp;lsquo;Sustainable Community Development&amp;rsquo; meant to her; if she had anything to suggest anything for the SCD Hub video library. She explained that one of the biggest challenges was to vet the abilities of people who she had hired in the past for web design, graphic, print media design, various other tech duties.</description>
+    </item>
+    
+  </channel>
+</rss>

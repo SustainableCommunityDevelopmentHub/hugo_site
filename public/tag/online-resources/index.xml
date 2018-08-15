@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Online Resources on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/online-resources/</link>
+    <description>Recent content in Online Resources on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/online-resources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sustainable Sanitation and Water Management toolbox</title>
+      <link>https://scdhub.netlify.com/videos/2017/12/sustainable-sanitation-and-water-management-toolbox/index.html/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/12/sustainable-sanitation-and-water-management-toolbox/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=wFMmXIwptDk
+This is the first part of two tutorials on the Sustainable Sanitation and Water Management toolbox. This tutorial explains you in 5 minutes what the SSWM toolbox is, whom it is for, and how you can use it yourself.
+https://www.youtube.com/watch?v=IIENOaxl8Fg
+This is the second part of the Sustainable Sanitation and Water Management Toolbox-Tutorial (SSWM Tutorial). It explains you in detail what is actually in the SSWM toolbox and how you navigate through the site and make the best out of the toolbox.</description>
+    </item>
+    
+  </channel>
+</rss>

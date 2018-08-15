@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homeless Services on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/homeless-services/</link>
+    <description>Recent content in Homeless Services on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/homeless-services/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Converting Buses into Mobile Showers for the Homeless | Engineering Is</title>
+      <link>https://scdhub.netlify.com/videos/2017/07/converting-buses-into-mobile-showers-for-the-homeless/index.html/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/07/converting-buses-into-mobile-showers-for-the-homeless/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=36yBA1uOnRE
+Lava Mae, a non-profit organization based in San Francisco converts old public transportation buses into mobile showers for the homeless.
+Their pilot program was launched in June of 2014
+http://lavamae.org/
+Check out the recent article for more info: http://ww2.kqed.org/quest/2015/12/23/converting-buses-to-showers-for-the-homeless/</description>
+    </item>
+    
+  </channel>
+</rss>

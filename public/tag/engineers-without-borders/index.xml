@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engineers Without Borders on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/engineers-without-borders/</link>
+    <description>Recent content in Engineers Without Borders on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Feb 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/engineers-without-borders/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Water is Life</title>
+      <link>https://scdhub.netlify.com/videos/2014/02/water-is-life/index.html/</link>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2014/02/water-is-life/index.html/</guid>
+      <description>http://www.youtube.com/watch?v=espjBa1QnJY
+A group of engineers from UMass assist villagers with their water issues.</description>
+    </item>
+    
+  </channel>
+</rss>

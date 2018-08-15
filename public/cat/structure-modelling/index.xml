@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Structure Modelling on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/structure-modelling/</link>
+    <description>Recent content in Structure Modelling on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/structure-modelling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interactive Structure Models</title>
+      <link>https://scdhub.netlify.com/videos/2017/05/interactive-structure-models/index.html/</link>
+      <pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/05/interactive-structure-models/index.html/</guid>
+      <description>See the Pen Interactive Building Integrity Reporting Map by Greg Willson (@biomassives) on CodePen.[/codepen_embed]
+Mobile technology has provided a platform to help visualize structural integrity of buildings..
+Crowdmap provides a simple free solution of hosted map reporting portal for people to make use of as needed. Visit https://crowdmap.com to get started.
+By making use of free interface code available at https://codepen.io
+specialized interfaces can be created to help address specific Sustainable Community Development issues.</description>
+    </item>
+    
+  </channel>
+</rss>

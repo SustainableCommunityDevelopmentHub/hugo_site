@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/design/</link>
+    <description>Recent content in Design on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>William McDonough at Bioneers 2000</title>
+      <link>https://scdhub.netlify.com/videos/2014/01/william-mcdonough-at-bioneers-2000-2/index.html/</link>
+      <pubDate>Wed, 29 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2014/01/william-mcdonough-at-bioneers-2000-2/index.html/</guid>
+      <description>http://www.youtube.com/watch?v=J8EMFaYvH_A
+William McDonough speaks at Bioneers in 2000.</description>
+    </item>
+    
+  </channel>
+</rss>

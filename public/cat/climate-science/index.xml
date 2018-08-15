@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Climate Science on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/climate-science/</link>
+    <description>Recent content in Climate Science on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Jan 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/climate-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Climate change the state of the science (data visualization)</title>
+      <link>https://scdhub.netlify.com/videos/2014/01/climate-change-the-state-of-the-science-data-visualization/index.html/</link>
+      <pubDate>Wed, 29 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2014/01/climate-change-the-state-of-the-science-data-visualization/index.html/</guid>
+      <description>http://www.youtube.com/watch?v=_EWOrZQ3L-c
+Published on 19 Nov 2013 Produced by the International Geosphere-Biosphere Programme and Globaia and funded by the UN Foundation.
+The data visualization summarises and visualizes several of the most significant statements in the Intergovernmental Panel on Climate Change&amp;rsquo;s (IPCC) recent Fifth Assessment Report, (Working Group I summary for policymakers, the Physical Science Basis). In 2014, IPCC will publish summaries concerning societal impacts, mitigation and adaptation.
+The statements and facts presented are derived from the IPCC summary for policymakers.</description>
+    </item>
+    
+  </channel>
+</rss>

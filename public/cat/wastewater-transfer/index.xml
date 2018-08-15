@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wastewater Transfer on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/wastewater-transfer/</link>
+    <description>Recent content in Wastewater Transfer on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/wastewater-transfer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Atlantis Water Supply Scheme – a CSIR-supported artificial groundwater recharge system</title>
+      <link>https://scdhub.netlify.com/videos/2018/02/the-atlantis-water-supply-scheme-a-csir-supported-artificial-groundwater-recharge-system/index.html/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2018/02/the-atlantis-water-supply-scheme-a-csir-supported-artificial-groundwater-recharge-system/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=h-amgAGAdaQ
+The town of Atlantis is located about 50km north of Cape Town on the dry west coast of South Africa. Since the 1970s, it has relied on an innovative process whereby storm water and treated domestic wastewater is transferred underground to be stored in an aquifer for future use. The CSIR provides technical and scientific support to this project, called the Atlantis Water Supply Scheme.</description>
+    </item>
+    
+  </channel>
+</rss>

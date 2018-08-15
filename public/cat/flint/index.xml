@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flint on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/flint/</link>
+    <description>Recent content in Flint on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/flint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lead Contamination Beyond Flint- Drinking Water and Childrens Health</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/lead-contamination-beyond-flint-drinking-water-and-childrens-health/index.html/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/lead-contamination-beyond-flint-drinking-water-and-childrens-health/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=Dsba3JetBrM Published on Apr 21, 2017 On the whole, American drinking water is safe. However, more than a year after toxic lead levels forced a federal state of emergency in Flint, MI, 63 percent of Americans report that they worry a great deal about polluted drinking water. This statistic comes from a new Gallup poll indicating that water pollution ranks the highest of six environmental concerns among respondents. While pipes in Flint are expected to be replaced with the help of a $97 million settlement, there are other cities with histories of unsafe lead levels - or other toxins - in drinking water.</description>
+    </item>
+    
+  </channel>
+</rss>

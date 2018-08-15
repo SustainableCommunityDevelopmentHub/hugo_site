@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Sources on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/data-sources/</link>
+    <description>Recent content in Data Sources on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Aug 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/data-sources/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Sources</title>
+      <link>https://scdhub.netlify.com/videos/2017/08/data-sources/index.html/</link>
+      <pubDate>Tue, 01 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/08/data-sources/index.html/</guid>
+      <description>Here are a few selected starting points for data analysis..
+National Center for Education Statistics (NCES) http://nces.ed.gov/
+National Center for Health Statistics http://www.cdc.gov/nchs/
+Open Data Inventory (ODIN) http://odin.opendatawatch.com/
+Open Data Network http://www.opendatanetwork.com/
+Orange - Open Source Data Visualization and Analysis for Novice and Experts http://orange.biolab.si/
+Statisphere http://www.statisphere.govt.nz/
+Truthy - Information Diffusion Research http://truthy.indiana.edu/
+United Kingdom National Accounts, The Blue Book, 2014 Edition http://www.ons.gov.uk/ons/rel/naa1-rd/united-kingdom-national-accounts/the-blue-book-2014-edition/index.html
+The DBpedia Data Set (3.9) http://wiki.dbpedia.org/Datasets</description>
+    </item>
+    
+  </channel>
+</rss>

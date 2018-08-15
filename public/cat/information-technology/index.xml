@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information Technology on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/information-technology/</link>
+    <description>Recent content in Information Technology on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/information-technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SCD Hub path toward bringing a helpful chatbot to life</title>
+      <link>https://scdhub.netlify.com/videos/2017/10/chatbot-tool/index.html/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/10/chatbot-tool/index.html/</guid>
+      <description>SCD Hub is currently testing a chat service running with Hubot integrated as a chatroom attendant. Participants in our community clinics are invited to use this private service, as we work to make it more secure and future ready.
+We would like you to consider how a good tool might be used to help organize SCD Hub Community Clinic participants. We envision ongoing support of teams connected to different community development efforts through automated checkins, scheduled delivery of printed and electronic training materials, &amp;lsquo;Clinic Companion&amp;rsquo; app to help keep projects and dialogues moving forward, while providing a central point where project documents and meeting notes can be reviewed, shared and maintained.</description>
+    </item>
+    
+    <item>
+      <title>Harnessing data to improve health</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/harvard-public-health-april-20-2017-harnessing-data-to-improve-health/index.html/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/harvard-public-health-april-20-2017-harnessing-data-to-improve-health/index.html/</guid>
+      <description>https://soundcloud.com/harvardpublichealth/april-20-2017-harnessing-data-to-improve-health?in=harvardpublichealth/sets/harvard-chan-this-week-in 
+We&amp;rsquo;re now in the midst of a golden era of data. and scientists are constantly finding news ways to harness this information with applications across health care, the environment, commerce, urban planning, finance, and more. In this week&amp;rsquo;s podcast we speak with Francesca Dominici, professor of biostatistics at Harvard T.H. Chan School of Public Health, and David C. Parkes, George F. Colony Professor and area dean for computer science at the Harvard John A.</description>
+    </item>
+    
+    <item>
+      <title>Android Studio 3.0 Canary 1</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/android-studio-3-0-canary-1/index.html/</link>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/android-studio-3-0-canary-1/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=rHiA66zUv8c&amp;amp;list=PLWz5rJ2EKKc_w6fodMGrA1_tsI3pqPbqa
+This video shows many of the important and useful features common in IDEs or Integrated Development Environment. IntelliJ IDE provides the core features of the Android Studio distribution.</description>
+    </item>
+    
+    <item>
+      <title>Interactive Structure Models</title>
+      <link>https://scdhub.netlify.com/videos/2017/05/interactive-structure-models/index.html/</link>
+      <pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/05/interactive-structure-models/index.html/</guid>
+      <description>See the Pen Interactive Building Integrity Reporting Map by Greg Willson (@biomassives) on CodePen.[/codepen_embed]
+Mobile technology has provided a platform to help visualize structural integrity of buildings..
+Crowdmap provides a simple free solution of hosted map reporting portal for people to make use of as needed. Visit https://crowdmap.com to get started.
+By making use of free interface code available at https://codepen.io
+specialized interfaces can be created to help address specific Sustainable Community Development issues.</description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://scdhub.netlify.com/videos/2017/04/video-home/index.html/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/04/video-home/index.html/</guid>
+      <description>This project started out as a collection of videos contributed by students of Bernard Amadei&amp;rsquo;s graduate engineering class at CU Boulder, Colorado USA. The video and document content herein has been collected for its relevance in supporting the maintenance and decision making process common to sustainable community development projects.
+We are now working to provide a service based on the video library which was created over a course of 7 years or so.</description>
+    </item>
+    
+  </channel>
+</rss>

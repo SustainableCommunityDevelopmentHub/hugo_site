@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Disasters on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/disasters/</link>
+    <description>Recent content in Disasters on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/disasters/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making sense of disaster situation reports</title>
+      <link>https://scdhub.netlify.com/videos/2017/09/making-sense-of-disaster-situation-reports/index.html/</link>
+      <pubDate>Thu, 28 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/09/making-sense-of-disaster-situation-reports/index.html/</guid>
+      <description>This is a good reference for what to look for in a good situation report.
+https://www.humanityroad.org/situation-reports/caribbean/hurricane-maria</description>
+    </item>
+    
+  </channel>
+</rss>

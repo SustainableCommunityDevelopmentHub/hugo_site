@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inuit on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/inuit/</link>
+    <description>Recent content in Inuit on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/inuit/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Music of the youth of the North</title>
+      <link>https://scdhub.netlify.com/videos/2017/07/music-of-the-youth-of-the-north/index.html/</link>
+      <pubDate>Mon, 10 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/07/music-of-the-youth-of-the-north/index.html/</guid>
+      <description>https://www.youtube.com/watch?v=wiof-lNGp7Y
+Rap video about living in Arctic Bay. &amp;ldquo;a lil&amp;rsquo; bout da tundra&amp;rdquo;</description>
+    </item>
+    
+  </channel>
+</rss>

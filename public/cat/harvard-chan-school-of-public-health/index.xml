@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harvard Chan School of Public Health on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/harvard-chan-school-of-public-health/</link>
+    <description>Recent content in Harvard Chan School of Public Health on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 10 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/harvard-chan-school-of-public-health/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Harnessing data to improve health</title>
+      <link>https://scdhub.netlify.com/videos/2017/06/harvard-public-health-april-20-2017-harnessing-data-to-improve-health/index.html/</link>
+      <pubDate>Sat, 10 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/06/harvard-public-health-april-20-2017-harnessing-data-to-improve-health/index.html/</guid>
+      <description>https://soundcloud.com/harvardpublichealth/april-20-2017-harnessing-data-to-improve-health?in=harvardpublichealth/sets/harvard-chan-this-week-in 
+We&amp;rsquo;re now in the midst of a golden era of data. and scientists are constantly finding news ways to harness this information with applications across health care, the environment, commerce, urban planning, finance, and more. In this week&amp;rsquo;s podcast we speak with Francesca Dominici, professor of biostatistics at Harvard T.H. Chan School of Public Health, and David C. Parkes, George F. Colony Professor and area dean for computer science at the Harvard John A.</description>
+    </item>
+    
+  </channel>
+</rss>

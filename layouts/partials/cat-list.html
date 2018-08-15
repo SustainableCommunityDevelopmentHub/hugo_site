@@ -1,0 +1,20 @@
+
+<ul id="categories">
+<li><strong>Category:</strong></li>
+<ul id="categories">
+  {{ range .Params.cat }}
+    <li><a href="{{ "/cat/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+</ul>
+</ul>
+
+
+<ul id="tags">
+<li><strong>Tags:</strong></li>
+<ul id="tags_inner">
+  {{ range .Params.tag }}
+    <li><a href="{{ "/tag/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+  {{ end }}
+</ul>
+</ul>
+

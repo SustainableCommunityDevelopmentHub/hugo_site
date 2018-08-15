@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Low Income Countries on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/tag/low-income-countries/</link>
+    <description>Recent content in Low Income Countries on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/tag/low-income-countries/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Classification Tool for Selecting Sanitation Service Options in Lower-Income Communities</title>
+      <link>https://scdhub.netlify.com/videos/2017/10/a-classification-tool-for-selecting-sanitation-service-options-in-lower-income-communities/index.html/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/10/a-classification-tool-for-selecting-sanitation-service-options-in-lower-income-communities/index.html/</guid>
+      <description>[mdocs_post_page new=true]</description>
+    </item>
+    
+    <item>
+      <title>Requirements Analysis for Sustainable Sanitation Systems In Low-Income Countries</title>
+      <link>https://scdhub.netlify.com/videos/2017/10/requirements-analysis-for-sustainable-sanitation-systems-in-low-income-countries/index.html/</link>
+      <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/2017/10/requirements-analysis-for-sustainable-sanitation-systems-in-low-income-countries/index.html/</guid>
+      <description>[mdocs_post_page new=true]</description>
+    </item>
+    
+  </channel>
+</rss>

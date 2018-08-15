@@ -1,0 +1,163 @@
+baseURL = "https://scdhub.netlify.com/"
+languageCode = "en-us"
+title = "Sustainable Community Development Hub"
+theme = "casper"
+
+[taxonomies]
+  categories = "cat"
+  tags = "tag"
+
+LanguageCode= "en-EN"
+Title= "Sustainable Community Development Hub"
+paginate = 12 
+DisqusShortname = "scdhub"
+Copyright = "All rights reserved - 2018"
+canonifyurls = true
+
+[menu]
+[[menu.main]]
+  name = "About Us"
+  url = "#about"
+  weight = 2
+
+[[menu.main]]
+  name = "Mission and Vision"
+  url = "/mission"
+  weight = 21
+  parent= "About Us"
+
+[[menu.main]]
+  name = "Services"
+  url = "/services"
+  weight = 22
+  parent= "Services"
+
+[[menu.main]]
+  name = "Membership"
+  url = "/members"
+  weight = 23
+  parent= "Services"
+
+[[menu.main]]
+  name = "Sponsor"
+  url = "/get-involved"
+  weight = 24
+  parent= "About Us"
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 6
+  parent= "About Us"
+
+[[menu.main]]
+  name = "Drinking Water"
+  url = "/water/drinking-water/"
+  weight = 2
+
+[[menu.main]]
+  name = "Sources"
+  url = "/water/drinking-water/sources"
+  weight = 3
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Procurement"
+  url = "/water/drinking-water/procurement"
+  weight = 4
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Storage"
+  url = "/water/drinking-water/storage"
+  weight = 5
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Treatment"
+  url = "/water/drinking-water/treatment"
+  weight = 6
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Distribution"
+  url = "/water/drinking-water/distribution"
+  weight = 7
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Wastewater and Sewage"
+  url = "/water/sewage-wastewater/"
+  weight = 8
+
+[[menu.main]]
+  name = "Collection"
+  url = "/water/sewage-wastewater/collection"
+  weight = 9
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
+  name = "Transfer"
+  url = "/water/sewage-wastewater/transfer"
+  weight = 10
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
+  name = "Treatment"
+  url = "/water/sewage-wastewater/treatment"
+  weight = 11
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
+  name = "Disposal"
+  url = "/water/sewage-wastewater/disposal"
+  weight = 12
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
+  name = "Community Clinics"
+  url = "/clinics"
+  weight = 5
+
+[[menu.main]]
+  name = "Latest Videos"
+  url = "#posts"
+  weight = 1
+  parent = "Contact"
+
+[params]
+  description = "SCD Hub"
+  metadescription = ""
+  cover = "images/n0.jpg"
+  author = "Greg Willson"
+  authorlocation = "Nederland, Colorado, USA"
+  authorwebsite = "http://scdhub.org/greg"
+  authorbio= "About SCD Hub"
+  logo = "images/scdhub_box1.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/scdhub"
+  githubName = "sustainablecommunitydevelopmenthub"
+  twitterName = "scdhub"
+  facebookName = "SCD Hub"
+  # codepenName = ""
+  # linkedinName = ""
+  # stackoverflowId = ""
+  # keybaseName = ""
+  # flickrName = ""
+  instagramName = "ecocitylearningportal"
+  # email = ""
+  pinterestName = "scd_hub"
+  # googlePlusName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
+
+  [params.social]
+    twitter = "scdhub"
+
+

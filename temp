@@ -1,0 +1,15 @@
+
+<strong>Tags:</strong>
+  {{ with .Params.tag }}
+    {{ range $ind,$val := . }}
+      {{$brand := $val | urlize }}
+      {{- with $.Site.GetPage "taxonomyTerm" "tag"}}
+
+ <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> </li>
+        
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      {{ end -}}
+    {{ end }}
+  {{ end }}
+</ul>
+

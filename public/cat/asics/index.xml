@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Asics on Sustainable Community Development Hub</title>
+    <link>https://scdhub.netlify.com/cat/asics/</link>
+    <description>Recent content in Asics on Sustainable Community Development Hub</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Aug 2017 07:41:38 -0600</lastBuildDate>
+    
+	<atom:link href="https://scdhub.netlify.com/cat/asics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Asics Serrano</title>
+      <link>https://scdhub.netlify.com/videos/asics-serrano/</link>
+      <pubDate>Sat, 05 Aug 2017 07:41:38 -0600</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/asics-serrano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asics Gel Venture 5</title>
+      <link>https://scdhub.netlify.com/videos/asics-gel-venture-5/</link>
+      <pubDate>Sat, 05 Aug 2017 07:41:10 -0600</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/asics-gel-venture-5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asics Gel Kayano 24</title>
+      <link>https://scdhub.netlify.com/videos/asics-gel-kayano-24/</link>
+      <pubDate>Sat, 05 Aug 2017 07:30:21 -0600</pubDate>
+      
+      <guid>https://scdhub.netlify.com/videos/asics-gel-kayano-24/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
