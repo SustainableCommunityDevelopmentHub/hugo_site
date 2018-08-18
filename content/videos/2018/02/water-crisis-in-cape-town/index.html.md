@@ -2,8 +2,8 @@
 layout: post
 title: Water crisis in Cape Town
 date: 2018-02-19
-cat: ["#watercrisis","Cape Town","Cities","Reservoir","Water Sources"]
-tag: ["#dayzero"]
+cat: ["watercrisis","Cape Town","Cities","Reservoir","Water Sources"]
+tag: ["hashtag_dayzero"]
 ---
 
 Helen Zille speaks on Cape Town water crisis
