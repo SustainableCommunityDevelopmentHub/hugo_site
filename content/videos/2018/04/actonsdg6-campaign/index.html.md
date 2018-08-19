@@ -3,7 +3,7 @@ layout: post
 title: #ActOnSDG6 Campaign
 date: 2018-04-13
 cat: ["Drinking Water","SDG6","SDGs"]
-tag: ["#ActOnSDG6"]
+tag: ["hashtag_ActOnSDG6"]
 ---
 
 https://www.youtube.com/watch?v=vsIBUShEJ6Y
