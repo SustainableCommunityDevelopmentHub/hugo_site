@@ -6,3 +6,8 @@ command = "hugo --minify"
 HUGO_VERSION = "0.47"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+# A basic redirects rule
+[[redirects]]
+  from = "/water"
+  to = "/cat/water/:splat"
