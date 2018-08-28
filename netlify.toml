@@ -9,5 +9,5 @@ HUGO_ENABLEGITINFO = "true"
 
 # A basic redirects rule
 [[redirects]]
-  from = "/water"
-  to = "/cat/water/:splat"
+  from = "/cat/water"
+  to = "/water/:splat"
