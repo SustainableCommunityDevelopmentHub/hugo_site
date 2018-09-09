@@ -1,10 +1,13 @@
-# Manage HUGO taxonomies like a boss
+# Manage video link library with HUGO - using 'taxonomies like a boss' and 'AMP'
 
-Live view: [http://hugo-taxonomies.netlify.com/](http://hugo-taxonomies.netlify.com/)
+
+Original Live view: [http://hugo-taxonomies.netlify.com/](http://hugo-taxonomies.netlify.com/)
+
+# Taxonomies
 
 Taxonomies are one of the most useful features in HUGO. Here you'll find a very detailed explanation on how to use taxonomies in a HUGO site. **No hackish code or intricate tricks**. There is documentation on this topic, but you'll have to search in 3 different places and some examples are missing. So it can be very confusing at times, at least it was for me.
 
-After reading this, you will be able to:
+AMP-Taxonomy now uses 'video' category to deliver post page types with taxonomy and category front matter
 
 - Create your own taxonomies
 - Add custom metadata to your taxonomies
