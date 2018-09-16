@@ -711,7 +711,7 @@ body.nav-opened .nav {
 }
 
 .nav ul {
-    padding: 90px 9% 5%;
+    padding: 10px 9% 5%;
     list-style: none;
     counter-reset: item;
 }
