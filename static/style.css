@@ -6,8 +6,8 @@
   box-sizing: border-box;
 }
 
-ul.sub-menu {
-   margin: 10px 0;
+.nav ul {
+    padding: 10px 9% 5%;
 } 
 
 #main-menu li {
