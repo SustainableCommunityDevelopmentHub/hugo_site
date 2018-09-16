@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+ul .sub-menu {
+   margin: 10px 0;
+} 
+
+
 #main-menu li {
   display: inline-block;
 }
