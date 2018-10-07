@@ -1,7 +1,7 @@
 baseURL = "https://scdhub.netlify.com/"
 languageCode = "en-us"
 title = "Sustainable Community Development Hub"
-theme = "casper"
+theme = "amp"
 
 [taxonomies]
   categories = "cat"
@@ -30,13 +30,13 @@ canonifyurls = true
   name = "Services"
   url = "/services"
   weight = 22
-  parent= "Services"
+  parent= "About Us"
 
 [[menu.main]]
   name = "Membership"
   url = "/members"
   weight = 23
-  parent= "Services"
+  parent= "About Us"
 
 [[menu.main]]
   name = "Sponsor"
@@ -52,103 +52,112 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Drinking Water"
-  url = "/water/drinking-water/"
+  url = "/tag/drinking-water/"
   weight = 2
 
 [[menu.main]]
   name = "Sources"
-  url = "/water/drinking-water/sources"
+  url = "/tag/drinking-water/"
   weight = 3
   parent = "Drinking Water"
 
 [[menu.main]]
   name = "Procurement"
-  url = "/water/drinking-water/procurement"
+  url = "/tag/drinking-water/procurement"
   weight = 4
   parent = "Drinking Water"
 
 [[menu.main]]
   name = "Storage"
-  url = "/water/drinking-water/storage"
+  url = "/tag/drinking-water/storage"
   weight = 5
   parent = "Drinking Water"
 
 [[menu.main]]
   name = "Treatment"
-  url = "/water/drinking-water/treatment"
+  url = "/tag/water-treatment/"
   weight = 6
   parent = "Drinking Water"
 
 [[menu.main]]
   name = "Distribution"
-  url = "/water/drinking-water/distribution"
+  url = "/tag/drinking-water/distribution"
   weight = 7
   parent = "Drinking Water"
 
 [[menu.main]]
   name = "Wastewater and Sewage"
-  url = "/water/sewage-wastewater/"
+  url = "/cat/wastewater/"
   weight = 8
 
 [[menu.main]]
+  name = "No Collection"
+  url = "/cat/no-collection/"
+  weight = 01
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
   name = "Collection"
-  url = "/water/sewage-wastewater/collection"
-  weight = 9
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
-  name = "Transfer"
-  url = "/water/sewage-wastewater/transfer"
-  weight = 10
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
-  name = "Treatment"
-  url = "/water/sewage-wastewater/treatment"
+  url = "/cat/water-collection/"
   weight = 11
   parent = "Wastewater and Sewage"
 
 [[menu.main]]
-  name = "Disposal"
-  url = "/water/sewage-wastewater/disposal"
+  name = "Transfer"
+  url = "/cat/transfer"
   weight = 12
   parent = "Wastewater and Sewage"
 
 [[menu.main]]
+  name = "Treatment"
+  url = "/cat/treatment"
+  weight = 13
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
+  name = "Disposal"
+  url = "/cat/disposal"
+  weight = 14
+  parent = "Wastewater and Sewage"
+
+[[menu.main]]
   name = "Community Clinics"
-  url = "/clinics"
-  weight = 5
+  url = "/videos/2017/07/start-a-clinic/index.html/"
+  weight = 15
 
 [[menu.main]]
   name = "Latest Videos"
   url = "#posts"
-  weight = 1
+  weight = 16
   parent = "Contact"
 
 [params]
+    amp = true
+    # define which amp-elements you are using globally, these elements will be included in every page
+    ampElements = ["amp-accordion","amp-ad","amp-analytics","amp-carousel","amp-iframe","amp-app-banner","amp-dynamic-css-classes","amp-form","amp-fx-flying-carpet","amp-image-lightbox","amp-lightbox","amp-sidebar","amp-social-share","amp-sticky-ad","amp-user-notification"]
   description = "SCD Hub"
-  metadescription = ""
+  metadescription = "Library of Sustainable Community Development solutions and approaches"
   cover = "images/n0.jpg"
   author = "Greg Willson"
   authorlocation = "Nederland, Colorado, USA"
   authorwebsite = "http://scdhub.org/greg"
   authorbio= "About SCD Hub"
-  logo = "images/scdhub_box1.png"
+  logo = "images/logo.svg"
   # googleAnalyticsUserID = "UA-79101-12"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/scdhub"
+  # RSSLink = "http://feeds.feedburner.com/scdhub"
   githubName = "sustainablecommunitydevelopmenthub"
   twitterName = "scdhub"
   facebookName = "SCD Hub"
   # codepenName = ""
-  # linkedinName = ""
+  linkedinName = "acmeideal@gmail.com"
   # stackoverflowId = ""
   # keybaseName = ""
-  # flickrName = ""
+  flickrName = "fanjajamii"
   instagramName = "ecocitylearningportal"
-  # email = ""
+  email = "greg@scdhub.org"
   pinterestName = "scd_hub"
-  # googlePlusName = ""
+  googlePlusName = "acmeideal@gmail.com"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
   

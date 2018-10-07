@@ -3,7 +3,7 @@ layout: post
 title: City Repair Portland
 date: 2017-09-28
 cat: ["Health","Inspiration","Policy","Portand Oregon","Projects"]
-tag: ["Ciry Repair"]
+tag: ["City Repair"]
 ---
 
 https://www.youtube.com/watch?time_continue=7&v=uxDIgm14DLc

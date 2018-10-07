@@ -1,0 +1,55 @@
+{{ partial "structure/header.html" . }}
+
+{{if .Params.image}}
+    <header class="main-header post-head">
+    <amp-image
+       src="{{.Params.image}}"
+    >
+    <nav class="main-nav overlay clearfix">
+{{else}}
+    <header class="main-header post-head no-cover">
+    <nav class="main-nav clearfix">
+{{end}}
+{{ partial "navbar.html" . }}
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+  <article class="post type-{{ .Type }}">
+
+    <header class="post-header">
+        <h1 class="post-title">{{.Title | title}}</h1>
+        <small>{{.Description}}</small>
+
+        <section class="post-meta">
+            {{ partial "post_meta" .}}
+        </section>
+    </header>
+
+    <section class="post-content">
+      {{ .Content }}
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    {{if .Site.Params.logo}}
+    <figure class="author-image">
+        <a class="img" href="{{.Site.BaseURL | relURL}}"></a>
+    </figure>
+    {{end}}
+
+    {{ partial "author.html" . }}
+    {{ partial "social/share.html" . }}
+    {{/*}}
+    {{ partial "social/disqus.html" . }}
+    {{*/}}
+  </footer>
+</article>
+
+</main>
+{{ partial "structure/footer.html" . }}

@@ -2,8 +2,8 @@
 layout: post
 title: Start a Clinic
 date: 2017-07-27
-cat: ["nairobi","nederland-co","scdhub clinic"]
-tag: ["boulder"]
+cat: ["scdhub clinic","Sustainablity Clinic"]
+tag: ["start a clinic"]
 ---
 
 SCD Clinics are to help with community awareness and project stakeolder education challenges commonly encountered in sustainable community development work.
@@ -18,7 +18,7 @@ An active SCD Design clinic assisting [Ned Compost](http://NedCompost.org) in Ne
 
 You can get started in creating a SCD Hub clinic with the support of this network by posting a comment below on this page.
 
-We have prepared a checklist to help you to evaluate your community project's context, wich we will send to you along with one on one support.
+We have prepared a checklist to help you to evaluate your community project's context, wich we will send to you along with being avaiable through the SCDHub Clinic process for one on one support.
 
 Thank you.
 

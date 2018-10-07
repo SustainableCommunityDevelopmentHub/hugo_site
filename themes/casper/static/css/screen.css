@@ -658,7 +658,7 @@ body.nav-opened .nav {
 
 .nav-title {
     position: relative;
-    top: 45px;
+    top: 15px;
     left: 30px;
     font-size: 16px;
     font-weight: 100;
@@ -668,8 +668,8 @@ body.nav-opened .nav {
 
 .nav-close {
     position: absolute;
-    top: 38px;
-    right: 25px;
+    top: 8px;
+    right: 122px;
     width: 20px;
     height: 20px;
     padding: 0;
@@ -1815,7 +1815,7 @@ html {
     }
 
     .nav ul {
-        padding: 60px 9% 5%;
+        padding: 15px 9% 5%;
     }
 
     .inner,

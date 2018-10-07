@@ -2,7 +2,7 @@
 layout: post
 title: Walking in Sabinas Shoes - World Vision
 date: 2017-12-29
-cat: ["kenbya","lack of water impacts education","No Distribution Systems"]
+cat: ["kenya","lack of water impacts education","No Distribution Systems"]
 tag: ["Bucket"]
 ---
 
@@ -18,7 +18,6 @@ Subscribe to World Vision USA: [http://bit.ly/1VOtih9](https://www.youtube.com/r
 
 Sponsor a child today: [http://bit.ly/1Mn85cv](https://www.youtube.com/redirect?q=http%3A%2F%2Fbit.ly%2F1Mn85cv&event=video_description&v=-bEtqZoD4V4&redir_token=1SYDZpvtrQ-QyeadZhAF7nzD6158MTUxNDY2MjEzMEAxNTE0NTc1NzMw)
 
-[eliteaccordion][elitetoggle title="Title"]
 <div class="container">
 <div class="well">
 
@@ -28,4 +27,3 @@ this is the story of Sabina Sabina is much like me we are both mothers who work 
 
 </div>
 </div>
-[/elitetoggle][/eliteaccordion]
