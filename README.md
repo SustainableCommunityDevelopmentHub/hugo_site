@@ -1,6 +1,9 @@
 # Manage video link library with HUGO - using 'taxonomies like a boss' and 'AMP'
 
+AMP - Hugo with taxonomy based submenus
 
+
+ref: taxonomy example
 Original Live view: [http://hugo-taxonomies.netlify.com/](http://hugo-taxonomies.netlify.com/)
 
 # Taxonomies
