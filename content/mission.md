@@ -7,12 +7,11 @@ cat: ["board of directors"]
 tag: ["501c3"]
 +++
 The SCD Hub board was formed to support our mission "to serve as a hub for sustainable community development in order to provide trustworthy development & training tools to facilitate project planning, design & execution".   We are currently working to complete the development our free resource library with educational water resources Engineering video
-<BR><BR>
+
 ![Bernard Amadei](Screen-Shot-2017-06-07-at-4.31.27-PM-259x300.png)
 
 ## Bernard Amadei
 Co-Founder
-//
 
 Bernard has a special ability to see bridge building potential in places where many do not. His work creates lasting friendships that span worlds, war region boundaries, and cultures with engineering for the most basic of human needs.
 
