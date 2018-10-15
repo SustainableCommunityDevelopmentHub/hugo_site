@@ -3,8 +3,8 @@ layout: post
 title: SCD Hub Organizational Mission
 description: this is details details details
 date: 2017-04-24
-cat: ["board of directors"]
-tag: ["501c3"]
+cat: "board of directors"
+tag: "501c3"
 +++
 The SCD Hub board was formed to support our mission "to serve as a hub for sustainable community development in order to provide trustworthy development & training tools to facilitate project planning, design & execution".   We are currently working to complete the development our free resource library with educational water resources Engineering video
 
