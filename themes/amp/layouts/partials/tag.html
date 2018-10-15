@@ -1,4 +1,4 @@
-{{ range .Params.tags }}
-  <a class="tag tag--primary tag--small" href="{{ $.Site.LanguagePrefix }}/tags/{{ . | urlize }}/">{{ . }}</a>
+{{ range .Params.tag }}
+  <a class="tag tag--primary tag--small" href="{{ $.Site.LanguagePrefix }}/tag/{{ . | urlize }}/">{{ . }}</a>
 {{ end }}
 ~         

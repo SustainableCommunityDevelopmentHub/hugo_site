@@ -1,3 +1,0 @@
-[submodule "themes/amp"] 
-  path = themes/amp 
-  url = git://github.com/wildhaber/gohugo-amp

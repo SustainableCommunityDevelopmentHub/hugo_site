@@ -3,13 +3,13 @@
         <h1 class="mb1">{{ .Title }}</h1>
         <div class="www-index-header-action mx-auto">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
         <div class="www-index-header-action mx-auto">
-            {{ range .Params.categories }}
-                <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ range .Params.cat }}
+                <a href="{{ "/cat/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
             {{ end }}
         </div>
         <div class="www-index-header-action mx-auto">
-            {{ range .Params.tags }}
-                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
+            {{ range .Params.tag }}
+                <a href="{{ "/tag/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>
             {{ end }}
         </div>
 
@@ -21,13 +21,12 @@
         <main class="flex pl2">
 
 
-
             <aside class="www-components-sec-nav col-3 xs-hide sm-hide relative">
                 <ul class="www-component-anchors list-reset m0 p0 px1 caps">
-
-                    <li class="clearfix mb3"><a href="#introduction" class="www-component-anchor text-decoration-none left" option="introduction">drinking water sources a</a></li>
-                    <li class="clearfix mb3"><a href="#head" class="www-component-anchor text-decoration-none left" option="head">drinking water sources b</a></li>
-                    <li class="clearfix mb3"><a href="#body" class="www-component-anchor text-decoration-none left" option="body">drinking water sources c</a></li>
+                    <li class="clearfix mb3"><a href="#introduction" class="www-component-anchor text-decoration-none left" option="introduction">Clinic Topics: </a></li>
+                    <li class="clearfix mb3"><a href="clinic/solar-dc-microgrid/index.html/" class="www-component-anchor text-decoration-none left" option="head">Solar DC Microgrid</a></li>
+                    <li class="clearfix mb3"><a href="#body" class="www-component-anchor text-decoration-none left" option="body">Foodshed Capacity Building</a></li>
+                    <li class="clearfix mb3"><a href="#head" class="www-component-anchor text-decoration-none left" option="head">Hemp-Cob Thermal Systems</a></li>
                 </ul>
             </aside>
 

@@ -62,6 +62,12 @@ canonifyurls = true
   parent = "Drinking Water"
 
 [[menu.main]]
+  name = "Rainwater Catchment"
+  url = "/tag/rooftop-water-harvesting/"
+  weight = 4
+  parent = "Sources"
+
+[[menu.main]]
   name = "Procurement"
   url = "/tag/drinking-water/procurement"
   weight = 4
@@ -149,7 +155,7 @@ canonifyurls = true
   githubName = "sustainablecommunitydevelopmenthub"
   twitterName = "scdhub"
   facebookName = "SCD Hub"
-  # codepenName = ""
+  # codepenName = "biomassives"
   linkedinName = "acmeideal@gmail.com"
   # stackoverflowId = ""
   # keybaseName = ""
