@@ -16,7 +16,7 @@ new green economy service providers
 
 ecocity businesses network
 
-or - intern, thankS!
+thank you
 
 We aim to help network good support materials for workshops related to community self reliance, artistic expression, team building, 
 

@@ -1,11 +1,11 @@
 baseURL = "https://scdhub.netlify.com/"
 languageCode = "en-us"
 title = "Sustainable Community Development Hub"
-theme = "amp"
+theme = "hugo_theme_solit"
 
 [taxonomies]
-  categories = "cat"
-  tags = "tag"
+  cat = "cat"
+  tag = "tag"
 
 LanguageCode= "en-EN"
 Title= "Sustainable Community Development Hub"
@@ -27,27 +27,27 @@ canonifyurls = true
   parent= "About Us"
 
 [[menu.main]]
-  name = "Services"
-  url = "/services"
+  name = "Non-profit Board"
+  url = "/board"
   weight = 22
+  parent= "About Us"
+
+[[menu.main]]
+  name = "Services to other orgs "
+  url = "/services#orgs"
+  weight = 23
   parent= "About Us"
 
 [[menu.main]]
   name = "Membership"
   url = "/members"
-  weight = 23
-  parent= "About Us"
-
-[[menu.main]]
-  name = "Sponsor"
-  url = "/get-involved"
   weight = 24
   parent= "About Us"
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+  name = "Get Involved"
+  url = "/get-involved"
+  weight = 25
   parent= "About Us"
 
 [[menu.main]]
@@ -57,7 +57,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Sources"
-  url = "/tag/drinking-water/"
+  url = "/cat/water-sources/"
   weight = 3
   parent = "Drinking Water"
 
@@ -69,13 +69,13 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Procurement"
-  url = "/tag/drinking-water/procurement"
+  url = "/cat/procurement"
   weight = 4
   parent = "Drinking Water"
 
 [[menu.main]]
   name = "Storage"
-  url = "/tag/drinking-water/storage"
+  url = "/cat/water-storage/"
   weight = 5
   parent = "Drinking Water"
 
@@ -87,7 +87,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Distribution"
-  url = "/tag/drinking-water/distribution"
+  url = "/cat/simple-water-distribution/"
   weight = 7
   parent = "Drinking Water"
 
@@ -127,15 +127,33 @@ canonifyurls = true
   parent = "Wastewater and Sewage"
 
 [[menu.main]]
-  name = "Community Clinics"
-  url = "/videos/2017/07/start-a-clinic/index.html/"
-  weight = 15
+  name = "Curate"
+  url = "clinic/curate"
+  weight = 24
 
 [[menu.main]]
-  name = "Latest Videos"
-  url = "#posts"
-  weight = 16
-  parent = "Contact"
+  name = "for a SCD clinic"
+  url = "/videos/2017/07/start-a-clinic/index.html/"
+  weight = 25
+  parent = "Curate"
+
+[[menu.main]]
+  name = "Now"
+  url = "/videos/2017/07/start-a-clinic/index.html/#now"
+  weight = 25
+  parent = "for a SCD clinic"
+
+[[menu.main]]
+  name = "by Tag"
+  url = "/tag"
+  weight = 28
+  parent = "Curate"
+
+[[menu.main]]
+  name = "by Category"
+  url = "/cat"
+  weight = 29
+  parent = "Curate"
 
 [params]
     amp = true
@@ -148,7 +166,7 @@ canonifyurls = true
   authorlocation = "Nederland, Colorado, USA"
   authorwebsite = "http://scdhub.org/greg"
   authorbio= "About SCD Hub"
-  logo = "images/logo.svg"
+  logo = "images/logo0.svg"
   # googleAnalyticsUserID = "UA-79101-12"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   # RSSLink = "http://feeds.feedburner.com/scdhub"
