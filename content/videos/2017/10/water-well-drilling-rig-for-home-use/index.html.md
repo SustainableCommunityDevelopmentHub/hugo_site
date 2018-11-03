@@ -2,7 +2,7 @@
 layout: post
 title: Water well drilling rig for home use
 date: 2017-10-13
-cat: ["s"]
+cat: ["drinking water","drinking water sources"]
 tag: ["drilled well"]
 ---
 

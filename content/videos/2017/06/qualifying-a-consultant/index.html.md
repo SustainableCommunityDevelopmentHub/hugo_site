@@ -2,8 +2,8 @@
 layout: post
 title: Qualifying a Project Consultant
 date: 2017-06-02
-cat: ["s","Social Enterprise","Sustainable Economics"]
-tag: ["data"]
+cat: ["Social Enterprise","Sustainable Economics"]
+tag: ["data","business management"]
 ---
 
 I recently spoke with the woman responsible for the years of successful operations at [Ares Thrift Store](https://www.facebook.com/pg/ARES.Thrift.Boulder) in Boulder.  I asked her what the concept of 'Sustainable Community Development' meant to her; if she had anything to suggest anything for the SCD Hub video library. She explained that one of the biggest challenges was to vet the abilities of people who she had hired in the past for web design, graphic, print media design, various other tech duties. She cited cash and business hour losses, and suggested that if we wanted to pursue 'Sustainable Community Development', we must develop a culture where people were more willing to be honest about their experience in said expertise.

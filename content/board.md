@@ -1,10 +1,12 @@
 +++
 layout = "post"
-title = "SCD Hub Organizational Mission"
+title = "SCD Hub Board of Directors"
 description = "this is details details details"
 date = "2017-04-24"
 +++
-The SCD Hub board was formed to support our mission "to serve as a hub for sustainable community development in order to provide trustworthy development & training tools to facilitate project planning, design & execution".   We are currently working to complete the development our free resource library with educational water resources Engineering video
+We are  requesting nominations for 2019 active board members. 
+
+April 24 2017 - The SCD Hub board areed to work toward this mission: "to serve as a hub for sustainable community development in order to provide trustworthy development & training tools to facilitate project planning, design & execution".  
 
 ![Bernard Amadei](Screen-Shot-2017-06-07-at-4.31.27-PM-259x300.png)
 

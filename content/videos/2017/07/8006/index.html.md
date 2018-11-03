@@ -2,8 +2,8 @@
 layout: post
 title: Music
 date: 2017-07-27
-cat: ["s","songs"]
-tag: ["Cultural Bridges"]
+cat: ["songs"]
+tag: ["Cultural Bridges","Amharic","Artists"]
 ---
 
 https://www.youtube.com/watch?v=wxV-n9iSkEs

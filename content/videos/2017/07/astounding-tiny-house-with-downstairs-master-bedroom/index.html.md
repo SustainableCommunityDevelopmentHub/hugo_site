@@ -2,8 +2,8 @@
 layout: post
 title: Astounding Tiny House With Downstairs Master Bedroom
 date: 2017-07-24
-cat: ["s","Shelter","tiny houses","Tiny Houses"]
-tag: ["2017"]
+cat: ["Shelter","tiny houses","Tiny Houses"]
+tag: ["2017","design","architecture"]
 ---
 
 https://www.youtube.com/watch?v=RYDIi9d9_N0

@@ -1,7 +1,8 @@
 +++
-title="Drinking Water Procurement"
-description="bla bla bla 21 2 34 "
+title="Drinking Water Procurement Handpump"
+parent="procurement"
 subcat= ["bucket","handpump","rope and bucket w/ windlass","motorized pump","standpump"]
 +++
 
 ## Drinking Water Procurement Methods
+~       

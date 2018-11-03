@@ -2,7 +2,7 @@
 layout: post
 title: Small motorized pumps
 date: 2017-10-14
-cat: ["Motorized pump","resourced waste","small pumps"]
+cat: ["Motorized pump","resourced waste","small pumps","procurement"]
 tag: ["DIY"]
 ---
 

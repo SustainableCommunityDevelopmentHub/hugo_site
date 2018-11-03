@@ -2,8 +2,8 @@
 layout: post
 title: Videos
 date: 2017-04-04
-cat: ["Engineering","Information Technology","s"]
-tag: ["boulder"]
+cat: ["About","Information Technology"]
+tag: ["boulder","Bernard Amadei"]
 ---
 
 This project started out as a collection of videos contributed by students of Bernard Amadei's graduate engineering class at CU Boulder, Colorado USA.  The video and document content herein has been collected for its relevance in supporting the maintenance and decision making process common to sustainable community development projects.

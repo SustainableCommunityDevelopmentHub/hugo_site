@@ -1,7 +1,7 @@
 baseURL = "https://scdhub.netlify.com/"
 languageCode = "en-us"
 title = "Sustainable Community Development Hub"
-theme = "hugo_theme_solit"
+theme = "amp"
 
 [taxonomies]
   cat = "cat"
@@ -17,7 +17,7 @@ canonifyurls = true
 [menu]
 [[menu.main]]
   name = "About Us"
-  url = "#about"
+  url = "/"
   weight = 2
 
 [[menu.main]]
@@ -33,8 +33,8 @@ canonifyurls = true
   parent= "About Us"
 
 [[menu.main]]
-  name = "Services to other orgs "
-  url = "/services#orgs"
+  name = "Partnership opportunities "
+  url = "/partner"
   weight = 23
   parent= "About Us"
 

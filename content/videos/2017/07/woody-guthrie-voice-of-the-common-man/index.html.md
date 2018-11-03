@@ -2,7 +2,7 @@
 layout: post
 title: Woody Guthrie- Voice of the Common Man
 date: 2017-07-12
-cat: ["Historic Icons","Human Rights","s"]
+cat: ["Historic Icons","Human Rights","songs"]
 tag: ["bob dylan"]
 ---
 

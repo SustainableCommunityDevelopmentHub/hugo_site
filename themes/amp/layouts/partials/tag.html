@@ -1,4 +1,51 @@
-{{ range .Params.tag }}
-  <a class="tag tag--primary tag--small" href="{{ $.Site.LanguagePrefix }}/tag/{{ . | urlize }}/">{{ . }}</a>
+   <amp-selector layout="container">
+        <main class="flex pl2">
+            <aside class="www-components-sec-nav col-3 xs-hide sm-hide relative">
+{{ if .Params.subcat }}
+              <ul class="www-component-anchors list-reset m0 p0 px1 caps">
+{{ range .Params.subcat }}
+  <li class="clearfix mb3"><a href="/cat/{{ . | urlize }}" class="www-component-anchor text-decoration-none left" option="body">{{ . }}</a></li>
 {{ end }}
-~         
+	      </ul>
+{{else}}
+  <! if there are no subcategories listed, show tags and categories of this post as links >
+              <ul class="www-component-anchors list-reset m0 p0 px1 caps">
+{{ range .Params.tag }}
+  <li class="clearfix mb3"><a href="/tag/{{ . | urlize }}" class="www-component-anchor text-decoration-none left" option="body">{{ . }}</a></li>
+{{ end }}
+ 
+{{ range .Params.cat }}
+  <li class="clearfix mb3"><a href="/cat/{{ . | urlize }}" class="www-component-anchor text-decoration-none left" option="body">{{ . }}</a></li>
+{{ end }}
+                </ul>
+{{ end }}
+            </aside>
+            <aside class="col-1 xs-hide"></aside>
+
+            <article class="www-components flex-auto col-10">
+                <section class="www-component-desc">
+                {{ .Content | replaceRE "eliteaccordion" "" | replaceRE "elitetoggle" "" | replaceRE "title=&ldquo;Generated closed captioned text&rdquo;" "" | safeHTML }}
+                </section>
+            </article>
+
+   
+                        {{if gt (len .Summary) 0}}
+                        <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
+                            <h3 class="mb1">{{ .Title }}<i class=""></i></h3>
+                            {{if gt (len .Summary) 400}}
+                                <p class="mb1">{{slicestr .Summary 3 400 }}</p>
+                            {{else}}
+                                <p class="mb1">{{ .Summary }}</p>
+                            {{end}}
+                            <div class="abe-sample-card-actions">
+                            <a class="ampstart-btn ampstart-btn-secondary caps text-decoration-none inline-block" href="{{ .Permalink }}">Read More…</a></div>
+
+{{ range .Params.tag }}
+  <div class="abe-sample-card-actions">
+  <a class="ampstart-btn caps text-decoration-none inline-block" href="/tag/{{ . | urlize }}" option="body">{{ . }}</a></div>
+{{ end }}
+            <aside class="col-1 xs-hide">
+            </aside>
+        </main>
+    </amp-selector>
+{{end}}

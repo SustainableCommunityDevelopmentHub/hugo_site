@@ -2,7 +2,7 @@
 layout: post
 title: Community Rebuilds With Strawbale Houses!
 date: 2017-06-29
-cat: ["Human Rights","Organizations","s","Shelter","Strawbale Construction"]
+cat: ["Human Rights","Organizations","Shelter","Strawbale Construction"]
 tag: ["Education"]
 ---
 
@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=9TPNFeFFJHM
 Community Rebuilds
 Published on Oct 23, 2015
 
-A discussion with Community Rebuilds' interns about females on the jobsite of construction. 
+A discussion with Community Rebuilds' interns about gender roles on the modern construction jobsite. 
 
 For more information about our internship on natural building or their program:
 

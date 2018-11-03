@@ -2,7 +2,7 @@
 layout: post
 title: Instances when wastewater collection services are disrupted
 date: 2018-01-15
-cat: ["No Collection","s","wastewater","water"]
+cat: ["No Collection","wastewater","water"]
 tag: ["2017"]
 ---
 

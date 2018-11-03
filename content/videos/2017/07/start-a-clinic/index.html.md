@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Start a Clinic
+title: Curate for an SCD Clinic
 date: 2017-07-27
-cat: ["scdhub clinic","Sustainablity Clinic"]
+cat: ["scd clinic","Sustainablity Clinic"]
 tag: ["start a clinic"]
 ---
 
@@ -14,7 +14,9 @@ An active SCD Design clinic assisting [Ned Compost](http://NedCompost.org) in Ne
 
 &nbsp;
 
-**Start a SCD Clinic**
+**Curating for an SCD Clinic**
+
+The foundation of a sustainable project is good understanding of context - cultural, environmental, political, etc.  SCD Clinics goal is to help develop historical context for projects.
 
 You can get started in creating a SCD Hub clinic with the support of this network by posting a comment below on this page.
 

@@ -2,7 +2,7 @@
 layout: post
 title: Waste stream automation S.Korea
 date: 2018-01-15
-cat: ["Recycling","s","Waste Management"]
+cat: ["Recycling","Waste Management"]
 tag: ["pollution"]
 ---
 
