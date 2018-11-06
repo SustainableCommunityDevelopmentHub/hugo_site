@@ -4,6 +4,4 @@ subcat=["no storage water systems","barrel storage","tank storage","reservoir","
 parent="Drinking Water"
 +++
 
-## Drinking Water Storage Methods
-~                                                                                                                   
-~       
+## art

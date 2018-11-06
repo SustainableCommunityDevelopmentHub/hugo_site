@@ -1,7 +1,7 @@
 +++
 title="Wastewater Treatment"
 parent="Wastewater and Sewage"
-subcat=["systems w/o treatment","chlorination","slow sand filter","boiling","ultraviolet light"]
+notsubcat=["systems w/o treatment","chlorination","slow sand filter","boiling","ultraviolet light"]
 description="test test test test 123"
 +++
 

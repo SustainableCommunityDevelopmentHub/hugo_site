@@ -2,7 +2,7 @@
 layout: post
 title: Collection system flow monitoring
 date: 2017-12-28
-cat: ["combined sewer system","flow monitoring","I &amp; I","Inflow &amp; Infiltration Investigation"]
+cat: ["wastewater collection","combined sewer system","flow monitoring","Inflow and Infiltration Investigation"]
 tag: ["Collection"]
 ---
 

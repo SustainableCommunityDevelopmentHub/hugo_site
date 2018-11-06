@@ -4,14 +4,13 @@
         <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Params.description }}</span>
         </header>
 {{ partial "tag.html" . }}
-        <div class="abe-examples flex flex-wrap">
+
+</aside>
+           <aside class="www-components col-3 relative">
+
         {{- range .Data.Pages }}
         {{ .Render "li" }}
         {{- end }}
-        </div>
-                </section>
 
-            </article>
-        </main>
-    </amp-selector>
+    </main>
 {{ partial "footer.html" . }}

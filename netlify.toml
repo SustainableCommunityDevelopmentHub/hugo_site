@@ -3,7 +3,7 @@ pubish = "public"
 command = "hugo --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.49.2"
+HUGO_VERSION = "0.50.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 

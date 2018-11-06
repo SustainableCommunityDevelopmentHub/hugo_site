@@ -1,4 +1,8 @@
 {{ partial "header.html" . }}
+    <header class="www-header">
+        <h1 class="mb4 px2 col-12 sm-col-8 mx-auto">{{ .Title }}</h1>
+        <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Params.description }}</span>
+        </header>
 {{if .Params.cover}}
   <header class="main-header tag-head list-cover">
 {{else if .Site.Params.cover}}

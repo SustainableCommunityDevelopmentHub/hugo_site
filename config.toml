@@ -17,12 +17,18 @@ canonifyurls = true
 [menu]
 [[menu.main]]
   name = "About Us"
-  url = "/"
+  url = "/about"
   weight = 2
 
 [[menu.main]]
-  name = "Mission and Vision"
-  url = "/mission"
+  name = "Mission"
+  url = "/about/#mission"
+  weight = 21
+  parent= "About Us"
+
+[[menu.main]]
+  name = "Vision"
+  url = "/about/#vision"
   weight = 21
   parent= "About Us"
 
@@ -33,13 +39,13 @@ canonifyurls = true
   parent= "About Us"
 
 [[menu.main]]
-  name = "Partnership opportunities "
-  url = "/partner"
+  name = "Partner with us"
+  url = "/about/#partner"
   weight = 23
   parent= "About Us"
 
 [[menu.main]]
-  name = "Membership"
+  name = "Member Supported"
   url = "/members"
   weight = 24
   parent= "About Us"
@@ -80,8 +86,8 @@ canonifyurls = true
   parent = "Drinking Water"
 
 [[menu.main]]
-  name = "Treatment"
-  url = "/tag/water-treatment/"
+  name = "Water Treatment"
+  url = "/cat/water-treatment/"
   weight = 6
   parent = "Drinking Water"
 
@@ -97,14 +103,8 @@ canonifyurls = true
   weight = 8
 
 [[menu.main]]
-  name = "No Collection"
-  url = "/cat/no-collection/"
-  weight = 01
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
   name = "Collection"
-  url = "/cat/water-collection/"
+  url = "/cat/wastewater-collection/"
   weight = 11
   parent = "Wastewater and Sewage"
 
@@ -154,6 +154,11 @@ canonifyurls = true
   url = "/cat"
   weight = 29
   parent = "Curate"
+
+[[menu.main]]
+  name = "Donate"
+  url = "donate"
+  weight = 31
 
 [params]
     amp = true
