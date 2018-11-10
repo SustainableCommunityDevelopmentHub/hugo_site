@@ -3,7 +3,7 @@ layout: post
 title: Practical Action, Peru, hydro power in Andean villages - Ashden Award winner
 date: 2014-01-29
 cat: ["micro-hydro"]
-tag: ["Micro-hydro"]
+tag: ["Andes","Ashden Award"]
 ---
 
 https://www.youtube.com/watch?v=xepODtFXjk4
