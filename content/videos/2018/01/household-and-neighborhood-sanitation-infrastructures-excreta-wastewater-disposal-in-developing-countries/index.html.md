@@ -2,7 +2,7 @@
 layout: post
 title: Household and neighborhood Sanitation Infrastructures- Excreta, wastewater disposal in developing countries
 date: 2018-01-06
-cat: ["Disposal","on-side dry systems","Pit privy","Pour flush toilet","Ventilated improved pit latrine"]
+cat: ["Disposal","on-side dry systems","Pit privy","Pour flush toilet","Ventilated improved pit latrine","vault-cartage","bucket procurement"]
 tag: ["developing countries"]
 ---
 

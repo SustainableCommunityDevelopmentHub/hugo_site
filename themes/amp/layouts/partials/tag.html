@@ -10,119 +10,82 @@
 {{ end }}     </ul>
 
 
-{{else}} {{if (eq .Title "Wastewater Collection") or (eq .Title "How plunger pump works - Animation") or (eq .Title "No Collection")}} 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/no-collection" class="www-component-anchor text-decoration-none left" option="body">no Collection</a></li>
-  <li class="clearfix mb3"><a href="/cat/nightsoil-bucket" class="www-component-anchor text-decoration-none left" option="body">Nightsoil Bucket</a></li>
-  <li class="clearfix mb3"><a href="/cat/vault-cartage" class="www-component-anchor text-decoration-none left" option="body">Vault /Cartage</a></li>
-  <li class="clearfix mb3"><a href="/cat/septic-tank" class="www-component-anchor text-decoration-none left" option="body">Septic /Tank</a></li>
-</ul>
-{{end}}
+{{else}} 
 
-{{if eq .Title "Transfer"}} 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">Wastewater & Sewerage {{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/no-transfer" class="www-component-anchor text-decoration-none left" option="body">No Transfer</a></li>
-  <li class="clearfix mb3"><a href="/cat/small-bore-settled-storage" class="www-component-anchor text-decoration-none left" option="body">small bore / settled storage</a></li>
-  <li class="clearfix mb3"><a href="/cat/conventional-sewerage" class="www-component-anchor text-decoration-none left" option="body">conventional sewerage</a></li>
-  <li class="clearfix mb3"><a href="/cat/drainage-field" class="www-component-anchor text-decoration-none left" option="body">drainage field</a></li>
-</ul>
-{{end}}
+{{if eq .Title "Wastewater Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "No Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "Nightsoil Bucket" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "Vault Cartage" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "Septic/Tank" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 
+{{if eq .Title "Wastewater Transfer" }}{{ partial "subcat/transfer.html"}}{{end}}
+{{if eq .Title "No Transfer" }}{{ partial "subcat/transfer.html"}}{{end}}
+{{if eq .Title "Conventional Sewerage" }}{{ partial "subcat/transfer.html"}}{{end}}
+{{if eq .Title "Drainage Field" }}{{ partial "subcat/transfer.html"}}{{end}}
 
-{{if eq .Title "Simple Water Distribution"}} 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/household-distribution-systems" class="www-component-anchor text-decoration-none left" option="body">Household distribution systems</a></li>
-  <li class="clearfix mb3"><a href="/cat/distribution-system-connections" class="www-component-anchor text-decoration-none left" option="body">Distribution system connections</a></li>
-  <li class="clearfix mb3"><a href="/cat/piped-water-gravity" class="www-component-anchor text-decoration-none left" option="body">piped water - gravity</a></li>
-  <li class="clearfix mb3"><a href="/cat/piped-water-pumped" class="www-component-anchor text-decoration-none left" option="body">piped water - pumped</a></li>
-{{end}}
+{{if eq .Title "Simple Water Distribution"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
+{{if eq .Title "Household Distribution Systems"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
+{{if eq .Title "Distribution System Connections"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
+{{if eq .Title "Piped Water Gravity"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
+{{if eq .Title "Piped Water - Pumped"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
 
- {{if eq .Title "Wastewater"}} 
+{{if eq .Title "Wastewater"}}{{partial "subcat/wastewater.html"}}{{end}} 
 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/no-transfer" class="www-component-anchor text-decoration-none left" option="body">No transfer</a></li>
-  <li class="clearfix mb3"><a href="/cat/small-bore-settled-storage" class="www-component-anchor text-decoration-none left" option="body">Small bore / settled storage</a></li>
-  <li class="clearfix mb3"><a href="/cat/conventional-sewerage" class="www-component-anchor text-decoration-none left" option="body">conventional sewerage</a></li>
-  <li class="clearfix mb3"><a href="/cat/drainage-field" class="www-component-anchor text-decoration-none left" option="body">drainage field</a></li>
-{{ end }}     </ul>
+{{if eq .Title "Water Storage"}}{{partial "subcat/water-storage.html"}}{{end}}
+{{if eq .Title "No Storage Water Systems"}}{{partial "subcat/water-storage.html"}}{{end}}
+{{if eq .Title "Barrel Storage"}}{{partial "subcat/water-storage.html"}}{{end}}
+{{if eq .Title "Tank Storage"}}{{partial "subcat/water-storage.html"}}{{end}}
+{{if eq .Title "Reservoir"}}{{partial "subcat/water-storage.html"}}{{end}}
+{{if eq .Title "Cistern"}}{{partial "subcat/water-storage.html"}}{{end}}
 
-{{if eq .Title "Water Storage"}} 
+{{if eq .Title "Procurement"}} {{partial "subcat/procurement.html"}}{{end}}
+{{if eq .Title "Bucket Procurement"}} {{partial "subcat/procurement.html"}}{{end}}
+{{if eq .Title "Handpump"}} {{partial "subcat/procurement.html"}}{{end}}
+{{if eq .Title "Handpump Deep Well"}} {{partial "subcat/procurement.html"}}{{end}}
+{{if eq .Title "Rope and Bucket With Windlass"}} {{partial "subcat/procurement.html"}}{{end}}
+{{if eq .Title "Motorized Pump"}} {{partial "subcat/procurement.html"}}{{end}}
+{{if eq .Title "Standpump"}} {{partial "subcat/procurement.html"}}{{end}}
 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
+{{if eq .Title "Water Sources"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Rooftop Water Harvesting"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Ground Level Catchment"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Subsurface Dam"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Surface Water Abstraction"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Spring Water Captation"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Hand Dug Well"}} {{partial "subcat/water-sources.html"}}{{end}}
+{{if eq .Title "Drilled Well"}} {{partial "subcat/water-sources.html"}}{{end}}
 
-  <li class="clearfix mb3"><a href="/cat/no-storage-water-systems" class="www-component-anchor text-decoration-none left" option="body">no storage water systems</a></li>
-  <li class="clearfix mb3"><a href="/cat/barrel-storage" class="www-component-anchor text-decoration-none left" option="body">barrel storage</a></li>
-  <li class="clearfix mb3"><a href="/cat/tank-storage" class="www-component-anchor text-decoration-none left" option="body">tank storage</a></li>
-  <li class="clearfix mb3"><a href="/cat/reservoir" class="www-component-anchor text-decoration-none left" option="body">reservoir</a></li>
-  <li class="clearfix mb3"><a href="/cat/cistern" class="www-component-anchor text-decoration-none left" option="body">cistern</a></li>
-</ul>
-{{end}}
-{{if eq .Title "Procurement"}} 
+{{if eq .Title "Treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "No Treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Oxidation Ditch"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Constructed Wetlands"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Soil Aquifer Treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Rotating Biological Contractor"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Trickling Filters"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Activated Sludge Process"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Stabilization Ponds"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "UV Sterilization"}}{{ partial "subcat/treatment.html"}}{{end}}
 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/bucket-procurement" class="www-component-anchor text-decoration-none left" option="body">bucket</a></li>
-  <li class="clearfix mb3"><a href="/cat/handpump" class="www-component-anchor text-decoration-none left" option="body">handpump</a></li>
-  <li class="clearfix mb3"><a href="/cat/handpump-deep-well" class="www-component-anchor text-decoration-none left" option="body">handpump - deep well</a></li>
-  <li class="clearfix mb3"><a href="/cat/rope-and-bucket-with-windlass" class="www-component-anchor text-decoration-none left" option="body">rope and bucket /w windlass</a></li>
-  <li class="clearfix mb3"><a href="/cat/motorized-pump" class="www-component-anchor text-decoration-none left" option="body">motorized pump</a></li>
-  <li class="clearfix mb3"><a href="/cat/standpump" class="www-component-anchor text-decoration-none left" option="body">standpump</a></li>
-</ul>
-{{end}}
-{{if eq .Title "Water Sources"}} 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/rooftop-water-harvesting" class="www-component-anchor text-decoration-none left" option="body">Rooftop Water Harvesting</a></li>
-  <li class="clearfix mb3"><a href="/cat/ground-level-catchment" class="www-component-anchor text-decoration-none left" option="body">Ground Level Catchment</a></li>
-  <li class="clearfix mb3"><a href="/cat/subsurface-dam" class="www-component-anchor text-decoration-none left" option="body">Subsurface Dam</a></li>
-  <li class="clearfix mb3"><a href="/cat/surface-water-abstraction" class="www-component-anchor text-decoration-none left" option="body">Surface Water Abstraction</a></li>
-  <li class="clearfix mb3"><a href="/cat/spring-water-captation" class="www-component-anchor text-decoration-none left" option="body">Spring Water Captation</a></li>
-  <li class="clearfix mb3"><a href="/cat/hand-dug-well" class="www-component-anchor text-decoration-none left" option="body">Hand Dug Well</a></li>
-  <li class="clearfix mb3"><a href="/cat/drilled-well" class="www-component-anchor text-decoration-none left" option="body">Drilled Well</a></li>
-</ul>
-{{end}}
-{{if eq .Title "Water Treatment"}} 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/no-treatment-water-systems" class="www-component-anchor text-decoration-none left" option="body">no treatment water systems</a></li>
-  <li class="clearfix mb3"><a href="/cat/chlorination" class="www-component-anchor text-decoration-none left" option="body">Chlorination</a></li>
-  <li class="clearfix mb3"><a href="/cat/slow-sand-filter" class="www-component-anchor text-decoration-none left" option="body">Slow sand filter</a></li>
-  <li class="clearfix mb3"><a href="/cat/boiling" class="www-component-anchor text-decoration-none left" option="body">boiling</a></li>
-  <li class="clearfix mb3"><a href="/cat/ultraviolet-light" class="www-component-anchor text-decoration-none left" option="body">Ultraviolet light</a></li>
-</ul>
-{{end}}
-{{if eq .Title "Treatment"}} 
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }}" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">Wastewater {{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/no-treatment" class="www-component-anchor text-decoration-none left" option="body">No Treatment</a></li>
-  <li class="clearfix mb3"><a href="/cat/constructed-wetlands" class="www-component-anchor text-decoration-none left" option="body">Constructed Wetlands</a></li>
-  <li class="clearfix mb3"><a href="/cat/soil-aquifer-transfer" class="www-component-anchor text-decoration-none left" option="body">Soil Aquifer Treatment</a></li>
-  <li class="clearfix mb3"><a href="/cat/oxidation-ditch" class="www-component-anchor text-decoration-none left" option="body">Oxidation ditch</a></li>
-  <li class="clearfix mb3"><a href="/cat/roltating-biological-contractor" class="www-component-anchor text-decoration-none left" option="body">rotating biological contractor</a></li>
-  <li class="clearfix mb3"><a href="/cat/trickling-filters" class="www-component-anchor text-decoration-none left" option="body">trickling filters</a></li>
-  <li class="clearfix mb3"><a href="/cat/activated-sludge-process" class="www-component-anchor text-decoration-none left" option="body">Activated Sludge Process</a></li>
-  <li class="clearfix mb3"><a href="/cat/stabilization-ponds" class="www-component-anchor text-decoration-none left" option="body">Stabilization Ponds</a></li>
-  <li class="clearfix mb3"><a href="/cat/uv-sterilization" class="www-component-anchor text-decoration-none left" option="body">UV Sterilization</a></li>
-</ul>
-{{end}}
+{{if eq .Title "Water Treatment"}}{{ partial "subcat/water-treatment.html"}}{{end}}
+{{if eq .Title "No Treatment Water Systems"}}{{ partial "subcat/water-treatment.html"}}{{end}}
+{{if eq .Title "Chlorination"}}{{ partial "subcat/water-treatment.html"}}{{end}}
+{{if eq .Title "Slow Sand Filter"}}{{ partial "subcat/water-treatment.html"}}{{end}}
+{{if eq .Title "Boiling"}}{{ partial "subcat/water-treatment.html"}}{{end}}
+{{if eq .Title "Ultraviolet Light"}}{{ partial "subcat/water-treatment.html"}} {{end}}
+{{if eq .Title "Reverse Osmosis"}}{{ partial "subcat/water-treatment.html"}} {{end}}
+{{if eq .Title "Distillation"}}{{ partial "subcat/water-treatment.html"}} {{end}}
 
- {{if eq .Title "Disposal"}}
-<ul class="www-component-anchors list-reset m0 p0 px1 caps">
-  <li class="clearfix mb3" style="background-image: linear-gradient(30deg,#4a8b12 0,#07126e);color:#fff;border:10px;justify:center;width:100%;"><a href="/cat/{{ .Title }} methods" class="www-component-anchor text-decoration-none left" style="margin:5px;" option="body">{{ .Title }} methods</a></li>
-  <li class="clearfix mb3"><a href="/cat/sludge-burial" class="www-component-anchor text-decoration-none left" option="body">burial</a></li>
-  <li class="clearfix mb3"><a href="/cat/waste-composting" class="www-component-anchor text-decoration-none left" option="body">composting</a></li>
-  <li class="clearfix mb3"><a href="/cat/pit-privy" class="www-component-anchor text-decoration-none left" option="body">pit privy</a></li>
-  <li class="clearfix mb3"><a href="/cat/ventilated-improved-pit-latrine" class="www-component-anchor text-decoration-none left" option="body">ventilated improved pit latrine</a></li>
-  <li class="clearfix mb3"><a href="/cat/aqua-privy" class="www-component-anchor text-decoration-none left" option="body">aqua privy</a></li>
-  <li class="clearfix mb3"><a href="/cat/pour-flush-toilet" class="www-component-anchor text-decoration-none left" option="body">pour flush toilet</a></li>
-  <li class="clearfix mb3"><a href="/cat/cistern-flush-toilet" class="www-component-anchor text-decoration-none left" option="body">cistern flush toilet</a></li>
-  <li class="clearfix mb3"><a href="/cat/drainage-field" class="www-component-anchor text-decoration-none left" option="body">drainage field</a></li>
-</ul>
+ {{if eq .Title "Disposal"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Sludge Burial"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Waste Composting"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Waste Composting"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Pit Privy"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Ventilated Improved Pit Latrine"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Aqua Privy"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Pour Flush Toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Cistern Flush Toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Drainage Field"}}{{ partial "subcat/disposal.html"}}{{end}}
+
             </aside>
             <aside class="col-1 xs-hide"></aside>
 {{ if .Params.tag}}{{if .Params.cat }}
@@ -142,7 +105,6 @@
                 </ul>
 {{ end }}
             </aside>
-{{ end }}
 {{ end }}
             </aside>
             <aside class="col-1 xs-hide"></aside>

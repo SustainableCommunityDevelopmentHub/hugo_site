@@ -11,11 +11,11 @@
                          
 {{ range .Params.tag }}
   <div class="abe-sample-card-actions">
-  <a class="ampstart-btn caps text-decoration-none inline-block" href="/tag/{{ . | urlize }}" option="body">{{ . }}</a></div>
+  <a class="ampstart-btn tag-btn caps text-decoration-none inline-block" href="/tag/{{ . | urlize }}" option="body">{{ . }}</a></div>
 {{ end }}
 {{ range .Params.cat }}
   <div class="abe-sample-card-actions">
-  <a class="ampstart-btn caps text-decoration-none inline-block" href="/cat/{{ . | urlize }}" option="body">{{ . }}</a></div>
+  <a class="ampstart-btn cat-btn caps text-decoration-none inline-block" href="/cat/{{ . | urlize }}" option="body">{{ . }}</a></div>
 {{ end }}
 
 

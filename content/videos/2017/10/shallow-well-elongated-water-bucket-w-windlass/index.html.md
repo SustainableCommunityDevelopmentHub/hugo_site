@@ -2,7 +2,7 @@
 layout: post
 title: shallow well with traditional bucket w/ windlass, elongated water carrier
 date: 2017-10-19
-cat: ["Rope and bucket w/ windlass","rope and pulley","windlass"]
+cat: ["Rope and bucket with windlass","rope and pulley","windlass"]
 tag: ["elongated water bucket"]
 ---
 

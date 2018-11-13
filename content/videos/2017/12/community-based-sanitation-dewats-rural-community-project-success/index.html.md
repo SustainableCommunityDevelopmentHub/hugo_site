@@ -2,8 +2,8 @@
 layout: post
 title: Community Based Sanitation DEWATS Rural Community Project Success
 date: 2017-12-21
-cat: ["Projects","wastewater","rotating biological contactor","Sanitation","stabilization ponds","trickling filters"]
-tag: ["constructed wetlands"]
+cat: ["wastewater","constructed wetlands","rotating biological contactor","Sanitation","stabilization ponds","trickling filters"]
+tag: ["Film","constructed wetlands", "post-disaster sanitation"]
 ---
 
 https://www.youtube.com/watch?v=n9EzBNuR0cM&feature=youtu.be

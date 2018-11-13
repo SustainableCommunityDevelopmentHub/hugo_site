@@ -2,7 +2,7 @@
 layout: post
 title: Health effects of untreated drinking water
 date: 2017-11-23
-cat: ["untreated source water","water borne disease"]
+cat: ["untreated source water","water borne disease","no treatment water systems"]
 tag: ["no treatment water systems"]
 ---
 

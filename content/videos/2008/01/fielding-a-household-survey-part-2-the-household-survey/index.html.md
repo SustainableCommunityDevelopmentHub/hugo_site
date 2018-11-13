@@ -2,7 +2,8 @@
 layout: post
 title: Fielding a household survey - Part 2- The household survey
 date: 2008-01-29
-tag: ["Water"]
+tag: ["Water","Farm Survey"]
+geoloc: ["Punjab, India"]
 ---
 
 http://www.youtube.com/watch?v=6H6YBkqB4Ic  

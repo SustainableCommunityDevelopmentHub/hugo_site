@@ -110,7 +110,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Transfer"
-  url = "/cat/transfer"
+  url = "/cat/wastewater-transfer"
   weight = 12
   parent = "Wastewater and Sewage"
 

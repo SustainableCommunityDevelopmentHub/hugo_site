@@ -2,6 +2,7 @@
 layout: post
 title: Constructed wetlands for wastewater treatment
 date: 2008-01-29
+cat: ["Constructed Wetlands"]
 tag: ["Water"]
 ---
 

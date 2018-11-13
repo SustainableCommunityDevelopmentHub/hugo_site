@@ -2,6 +2,7 @@
 layout: post
 title: Rain Water Hog install NJ Water Harvesting Rain Barrel
 date: 2008-01-29
+cat: ["Cistern"]
 tag: ["Water"]
 ---
 

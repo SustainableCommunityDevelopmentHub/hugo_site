@@ -2,7 +2,7 @@
 layout: post
 title: How an Aquifer works
 date: 2018-02-16
-cat: ["soil aquifer treatment"]
+cat: ["drilled well"]
 tag: ["aquifer"]
 ---
 

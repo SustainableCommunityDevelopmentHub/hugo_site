@@ -2,8 +2,8 @@
 layout: post
 title: Water Springs
 date: 2017-10-13
-cat: ["water springs"]
-tag: ["ground level catchment"]
+cat: ["Ground level catchment"]
+tag: ["water springs"]
 ---
 
 How Things Work : How Do Water Springs Work?
