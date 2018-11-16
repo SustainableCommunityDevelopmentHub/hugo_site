@@ -1,4 +1,4 @@
-baseURL = "https://scdhub.netlify.com/"
+baseURL = "https://scdhub.org/"
 languageCode = "en-us"
 title = "Sustainable Community Development Hub"
 theme = "amp"
@@ -11,7 +11,7 @@ LanguageCode= "en-EN"
 Title= "Sustainable Community Development Hub"
 paginate = 12 
 DisqusShortname = "scdhub"
-Copyright = "All rights reserved - 2018"
+Copyright = "All rights reserved SCD Hub and respective copyright holders - 2018,2017,2016"
 canonifyurls = true
 
 [menu]
@@ -33,7 +33,7 @@ canonifyurls = true
   parent= "About Us"
 
 [[menu.main]]
-  name = "Non-profit Board"
+  name = "Board"
   url = "/board"
   weight = 22
   parent= "About Us"

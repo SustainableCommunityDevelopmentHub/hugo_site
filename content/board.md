@@ -4,34 +4,39 @@ title = "SCD Hub Organizational Mission"
 description = "this is details details details"
 date = "2017-04-24"
 +++
-The SCD Hub board supports the mission: "to serve as a hub for sustainable community development in order to provide trustworthy development & training tools to facilitate project planning, design & execution".   
 
-<amp-card style="width:45%">
-![Bernard Amadei](Screen-Shot-2017-06-07-at-4.31.27-PM-259x300.png)
+# Board of Directors
+* [Advisors to the Board](#advisors)
 
-## Bernard Amadei
-Co-Founder
+<BR><BR>
 
-Bernard has a special ability to see bridge building potential in places where many do not.  His work creates lasting friendships that span social hierarchies, war region boundaries, and cultures by creating opportunties for experienced professionals to direct their problem solving skills toward the most basic of human needs in collaboration with their neighbors.
-
-amadei@colorado.edu
-</amp-card>
 <amp-card style="width:45%">
 ![](Screen-Shot-2017-06-07-at-4.31.47-PM-300x294.png)
 
 ## Greg Willson
-Co-Founder
+> Director, Researcher, Co-Founder
 
-SCD Clinic Facilitator, Content Editor, Web & App Service 
+> SCD Clinic Facilitator, Content Editor, Web & App Service 
 
 > Greg enjoys working on a 100 year old cabin in the Rocky Mountains, collaborating with Boulder, Denver, and Nairobi region organizations with zero waste systems, local food systems, sustainable design planning and open source technologies.  "SCD Hub is for removing barriers to society's most needed social and civic innovations." -g
 
-greg@scdhub.org
+> greg@scdhub.org
+</amp-card>
+
+<amp-card style="width:45%">
+<! ![Bernard Amadei](Screen-Shot-2017-06-07-at-4.31.27-PM-259x300.png) >
+
+## Bernard Amadei
+> Long Term Planning, Co-Founder
+
+> Bernard has a special ability to see bridge building potential in places where many do not.  His work creates lasting friendships that span social hierarchies, war region boundaries, and cultures by creating opportunties for experienced professionals to direct their problem solving skills toward the most basic of human needs in collaboration with their neighbors.
+
+> amadei@colorado.edu
 </amp-card>
 
 ## Curt Saxton
 
-> Video Library Researcher, Ecocity Austin
+> Researcher, Ecocity Austin
 
 > Curt is involved with sustainable urban planning and design issues relating to his city of Austin and enjoys researching sustainable technologies, and providing research support for projects related to SCD Hub and the pilot green city research and advocacy with in developing a new voice known as Ecocity Austin.
 
@@ -74,9 +79,13 @@ greg@scdhub.org
 
 > Judy has worked as a high school math teacher, and accountant throughout her career. She has helped SCD Hub with her discerning eye on priorizing basic cash flow and the bottom line, amid social ventures and non-profit work.
 
+<BR><BR>
+<BR><BR>
+<BR><BR>
+<BR><BR>
+# Advisors to the Board <a id="advisors"></a>
 
-# ADVISORS TO THE BOARD
-
+<BR>
 ## Katherine O'Flaherty
 
 > Kate leads <a href=https://solutionsvoyage.org>Solutions Voyage</a>, an educational organization dedicated to teaching practical sustainable community development skills. Kate is accomplished in art and web design, and was integral in helping to develop both UMC's recycling program at CU Boulder, and Ned Compost's compost processing community dynamic.
