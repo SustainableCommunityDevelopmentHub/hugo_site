@@ -57,108 +57,119 @@ canonifyurls = true
   parent= "About Us"
 
 [[menu.main]]
-  name = "Drinking Water"
-  url = "/tag/drinking-water/"
-  weight = 2
-
-[[menu.main]]
-  name = "Sources"
-  url = "/cat/water-sources/"
-  weight = 3
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Rainwater Catchment"
-  url = "/tag/rooftop-water-harvesting/"
-  weight = 4
-  parent = "Sources"
-
-[[menu.main]]
-  name = "Procurement"
-  url = "/cat/procurement"
-  weight = 4
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Storage"
-  url = "/cat/water-storage/"
-  weight = 5
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Water Treatment"
-  url = "/cat/water-treatment/"
-  weight = 6
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Distribution"
-  url = "/cat/simple-water-distribution/"
-  weight = 7
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Wastewater and Sewage"
-  url = "/cat/wastewater/"
-  weight = 8
-
-[[menu.main]]
-  name = "Collection"
-  url = "/cat/wastewater-collection/"
-  weight = 11
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
-  name = "Transfer"
-  url = "/cat/wastewater-transfer"
-  weight = 12
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
-  name = "Treatment"
-  url = "/cat/treatment"
-  weight = 13
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
-  name = "Disposal"
-  url = "/cat/disposal"
-  weight = 14
-  parent = "Wastewater and Sewage"
-
-[[menu.main]]
-  name = "Curate"
-  url = "clinic/curate"
-  weight = 24
-
-[[menu.main]]
-  name = "for a SCD clinic"
-  url = "/videos/2017/07/start-a-clinic/index.html/"
-  weight = 25
-  parent = "Curate"
-
-[[menu.main]]
-  name = "Now"
-  url = "/videos/2017/07/start-a-clinic/index.html/#now"
-  weight = 25
-  parent = "for a SCD clinic"
-
-[[menu.main]]
-  name = "by Tag"
-  url = "/tag"
-  weight = 28
-  parent = "Curate"
-
-[[menu.main]]
-  name = "by Category"
-  url = "/cat"
-  weight = 29
-  parent = "Curate"
-
-[[menu.main]]
   name = "Donate"
   url = "donate"
   weight = 31
+  parent= "About Us"
+
+[[menu.main]]
+  name = "Water"
+  url = "/cat/water"
+  weight = 33
+
+[[menu.main]]
+  name = "Drinking Water Sources"
+  url = "/cat/water-sources/"
+  weight = 3
+  parent = "Water"
+
+[[menu.main]]
+  name = "Rainwater Catchment of Drinking Water"
+  url = "/tag/rooftop-water-harvesting/"
+  weight = 4
+  parent = "Drinking Water Sources"
+
+[[menu.main]]
+  name = "Drinking Water Procurement"
+  url = "/cat/procurement"
+  weight = 4
+  parent = "Water"
+
+[[menu.main]]
+  name = "Drinking Water Storage"
+  url = "/cat/water-storage/"
+  weight = 5
+  parent = "Water"
+
+[[menu.main]]
+  name = "Drinking Water Treatment"
+  url = "/cat/water-treatment/"
+  weight = 6
+  parent = "Water"
+
+[[menu.main]]
+  name = "Drinking Water Distribution"
+  url = "/cat/simple-water-distribution/"
+  weight = 7
+  parent = "Water"
+
+[[menu.main]]
+  name = "Wastewater and Sewage Collection"
+  url = "/cat/wastewater-collection/"
+  weight = 11
+  parent = "Water"
+
+[[menu.main]]
+  name = "Wastewater and Sewage Transfer"
+  url = "/cat/wastewater-transfer"
+  weight = 12
+  parent = "Water"
+
+[[menu.main]]
+  name = "Wastewater and Sewage Treatment"
+  url = "/cat/treatment"
+  weight = 13
+  parent = "Water"
+
+[[menu.main]]
+  name = "Wastewater and Sewage Disposal"
+  url = "/cat/disposal"
+  weight = 14
+  parent = "Water"
+
+[[menu.main]]
+  name = "Renewables"
+  url = "cat/renewables"
+  weight = 15
+
+[[menu.main]]
+  name = "Shelter"
+  url = "cat/shelter"
+  weight = 16
+
+[[menu.main]]
+  name = "Food"
+  url = "cat/food-supply"
+  weight = 17
+
+[[menu.main]]
+  name = "SCD Clinics"
+  url = "/videos/2017/07/start-a-clinic/index.html/"
+  weight = 35
+
+[[menu.main]]
+  name = "Propose a clinic"
+  url = "/videos/2017/07/start-a-clinic/index.html/#now"
+  weight = 25
+  parent = "SCD Clinics"
+
+[[menu.main]]
+  name = "Topics"
+  url = "clinic/curate"
+  weight = 24
+  parent = "SCD Clinics"
+
+[[menu.main]]
+  name = "- by Tag"
+  url = "/tag"
+  weight = 28
+  parent = "SCD Clinics"
+
+[[menu.main]]
+  name = "- by Category"
+  url = "/cat"
+  weight = 29
+  parent = "SCD Clinics"
 
 [params]
     amp = true
@@ -167,6 +178,7 @@ canonifyurls = true
   description = "SCD Hub"
   metadescription = "Library of Sustainable Community Development solutions and approaches"
   cover = "images/n0.jpg"
+  catcover = "images/n0.jpg"
   author = "Greg Willson"
   authorlocation = "Nederland, Colorado, USA"
   authorwebsite = "http://scdhub.org/greg"
@@ -197,5 +209,3 @@ canonifyurls = true
 
   [params.social]
     twitter = "scdhub"
-
-
