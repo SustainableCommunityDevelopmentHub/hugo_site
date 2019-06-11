@@ -14,25 +14,13 @@ date = "2017-04-24"
 ![](Screen-Shot-2017-06-07-at-4.31.47-PM-300x294.png)
 
 ## Greg Willson
-> Director, Researcher, Co-Founder
+> Operational Director
 
-> SCD Clinic Facilitator, Content Editor, Web & App Service 
-
-> Greg enjoys working on a 100 year old cabin in the Rocky Mountains, collaborating with Boulder, Denver, and Nairobi region organizations with zero waste systems, local food systems, sustainable design planning and open source technologies.  "SCD Hub is for removing barriers to society's most needed social and civic innovations." -g
+> Greg enjoys digging for good examples of clear context and ourcomes in community projects, facilitating partnerships and new hands on learning opportunties in engineering and civic engagement as related to Sustainable Community Development. SCD Hub is for removing barriers to society's most needed social and civic innovations.
 
 > greg@scdhub.org
 </amp-card>
 
-<amp-card style="width:45%">
-<! ![Bernard Amadei](Screen-Shot-2017-06-07-at-4.31.27-PM-259x300.png) >
-
-## Bernard Amadei
-> Long Term Planning, Co-Founder
-
-> Bernard has a special ability to see bridge building potential in places where many do not.  His work creates lasting friendships that span social hierarchies, war region boundaries, and cultures by creating opportunties for experienced professionals to direct their problem solving skills toward the most basic of human needs in collaboration with their neighbors.
-
-> amadei@colorado.edu
-</amp-card>
 
 ## Curt Saxton
 
@@ -44,13 +32,7 @@ date = "2017-04-24"
 
 ![](Selección_134.png)
 
-## Jennifer Marie Shriver
 
-> Voting Member, Board of Directors
-
-> Jennifer has been instrumental in providing key support for many Boulder initiatives that support climate and community health, from 'Roofs to Roads' asphault roof tile recycling program leadership, to supporting and naming Nederland Compost and Resource Recovery, etc.  Jennifer's editorial writing has been a consistent voice in the Boulder community supporting a better understanding of how each of us collectively have a big impact on the climate. Jennifer sees bicycle transportation as key to sustainable, resilient, environmentally-friendly communities.  Contact her at [Jennifer@communitycycles.org](mailto:jennifer@communitycycles.org)
-
-> jshriver@scdhub.org
 
 ![](Selección_131-289x300.png)
 
