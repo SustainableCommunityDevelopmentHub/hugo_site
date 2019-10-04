@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Farmed Norwegian Salmon World’s Most Toxic Food
+Category: Food, Fisheries, Aquaculture, Food Health Warnings, Farmed Salmon
 date: 2019-10-04
 ---
 Farmed Norwegian Salmon World’s Most Toxic Food
