@@ -129,17 +129,17 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Renewables"
-  url = "cat/renewables"
+  url = "/cat/renewables"
   weight = 15
 
 [[menu.main]]
   name = "Shelter"
-  url = "cat/shelter"
+  url = "/cat/shelter"
   weight = 16
 
 [[menu.main]]
   name = "Food"
-  url = "cat/food-supply"
+  url = "/cat/food"
   weight = 17
 
 [[menu.main]]
@@ -155,7 +155,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Topics"
-  url = "clinic/curate"
+  url = "/clinic/curate"
   weight = 24
   parent = "SCD Clinics"
 
