@@ -31,7 +31,9 @@ date = "2017-04-24"
 > curt@scdhub.org
 
 ![](Selección_134.png)
+## Scott Beaupied
 
+Scott has been instrumental in helping to develop secure systems for scdhub replated human rights and educational projects. He lives in Atlanta with his son and enjoys gardening, fire juggling, and sailing. His skills in web deployment, web security and app security have been invaluable for our organization.
 
 
 ![](Selección_131-289x300.png)
