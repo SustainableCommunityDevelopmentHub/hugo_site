@@ -23,3 +23,8 @@ We aim to develop more of the s
 
 
  We are updating our donate page. April 26 2020
+ 
+ You can send a tax deducatable donation to:
+  Sustainable Community Development Hub
+  P O Box 911
+  Nederland, CO 80466
