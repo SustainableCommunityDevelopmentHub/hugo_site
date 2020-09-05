@@ -1,14 +1,15 @@
-+++
+ii+++
 type="post"
 date="2018-09-23"
-title="SCD Hub Clinic Curation"
+updated="2020-09-05"
+title="SCD Hub Clinics"
 description="SCD Hub Clinics provide supportive information and organizational support foir small community projects that promote peace and cultural bridge building. SCD Hub is in a position to thost workshops aimed at accomplishing goals of partner organizations's core missions "
 +++
 This workshops are typically done in cooperation with partner groups and organizations.
 
-# Clinic Format
+# How SCD Clinics are structured 
 
-We approach clinics with careful planning and research such that we can cooperate on a hands on learning model. 
+Understanding the an engineering solution's context helps us to better understand the its applicability to our own needs.  SCD Clinics are approached with a research The goal is to have a discussion about how to cooperate on a hands on learning model. 
 
 ## Designing Simple
 
@@ -20,5 +21,14 @@ A useful comunity development clinic allows for some objectivity while opening u
 
 The goal is to continue to refine our library such that it remains useful and topical for current SCD Design concerns and well informed planning discussions. 
 
+# Discussing context
 
+Working agreements: A Sustainable Community Development suggests that we each are seeking land uses that will allow for future human habitation.  
 
+By accepting working agreements in a discussion, SCD Clinic participants can a
+
+  Topics
+  
+  - Climate effects on water resources
+
+  - Local river and lake water quality issues
