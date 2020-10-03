@@ -3,9 +3,11 @@ type="post"
 date="2018-09-23"
 updated="2020-09-05"
 title="SCD Hub Clinics"
-description="SCD Hub Clinics provide supportive information and organizational support foir small community projects that promote peace and cultural bridge building. SCD Hub is in a position to thost workshops aimed at accomplishing goals of partner organizations's core missions "
+description="SCD Clinics provide supportive information and organizational support for small community projects. The steps are to define a problem, invite community members and ask for their perspective on said issue, complile research, then call meeting to establish new ways work together to build lasting methaphorical bridges of understanding and peacemaking by bringing better understanding to complex problems."
 +++
-This workshops are typically done in cooperation with partner groups and organizations.
+SCD Clinics provide supportive information and organizational support for small community projects. The steps are to define a problem, invite community members and ask for their perspective on said issue, complile research, then call meeting to establish new ways work together to build lasting methaphorical bridges of understanding and peacemaking by bringing better understanding to complex problems.
+
+Sustainable Community Development Clinics tyically start very informally, and follow a timeline that particiants agree upon in advance.  They can be online or in-person, ( or a combination of both).  The Umati Portal - https://portal.etiny.xyz is developing resources to support this process.  
 
 # How SCD Clinics are structured 
 
