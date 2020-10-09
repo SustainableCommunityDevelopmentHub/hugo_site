@@ -13,8 +13,8 @@ date = "2017-04-24"
 <amp-card style="width:45%">
 ![](Screen-Shot-2017-06-07-at-4.31.47-PM-300x294.png)
 
-## Greg Willson
-> SCD Clinic Facilitator, IT Trainer
+## Greg (Maina Ǥœg Waidaka Mupy) Willson
+> SCD Clinics' coordinator, researcher, IT Trainer
 
 > Greg enjoys digging for good projects, metaphors ( as with society ), are layered in this way.  Examples of clear context are never the 'magical solution'.   Research outcomes in community.  Facilitate partnerships and support the growth of new hands willing to create learning opportunties.  Peace Engineering, civic engagement, and IT go hand in hand when I look for a definition of 'Sustainable Community Development'.  I am happy to be part of modern society as we face these monumental complex and layered problems.   I will continue to look for (online and in person) and test solutions that seem applicable. Context is always changing in modern society, but basic needs always remain. water, human to environment interaction, human to human interaction. 
 
@@ -31,16 +31,28 @@ date = "2017-04-24"
 > curt@scdhub.org
 
 ![](Selección_134.png)
+
+## Lisa Adeva Samoye
+
+> Researcher, Nederland Colorado
+
+> Lisa Adeva has helped SCD Hub to retain it's compass as the org has established itself.  Her business (EARTBODY) incorporates IDA ROLF's philosophy of continuity in that we are the sum total of the experiences we have had, and that their resolution is what brings peace, understanding, reverence for cultural diversity, and opportunity in our lives. 
+
+> lisamoyadeva@gmail.com
+
+![](Selección_134.png)
 ## Scott Beaupied
 
-Scott has been instrumental in helping to develop secure systems for scdhub replated human rights and educational projects. He lives in Atlanta with his son and enjoys gardening, fire juggling, and sailing. His skills in web deployment, web security and app security have been invaluable for our organization.
+> Researcher, Atlanta Georgia
+
+> Scott has been instrumental in helping to develop secure systems for scdhub replated human rights and educational projects. He lives in Atlanta with his son and enjoys gardening, creative art and technology projects that intersect with youth education, sailing...   Scott's passion for inquiry has been a help to SCD Hub since the very beginning.
 
 
 ![](Selección_131-289x300.png)
 
 ## Raul Aguilar
 
-> Board of Directors, Human Shelter Design Optimization Researcher,
+> Human Shelter Design Optimization Researcher,
 
 > Raul continues to work toward new ecological shelter designs and supporting sustainable building skills training for vulnerable populations in southern Colorado and New Mexico
 
@@ -63,7 +75,6 @@ Scott has been instrumental in helping to develop secure systems for scdhub repl
 
 > Judy has worked as a high school math teacher, and accountant throughout her career. She has helped SCD Hub with her discerning eye on priorizing basic cash flow and the bottom line, amid social ventures and non-profit work.
 
-<BR><BR>
 <BR><BR>
 <BR><BR>
 <BR><BR>
