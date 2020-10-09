@@ -14,11 +14,11 @@ date = "2017-04-24"
 ![](Screen-Shot-2017-06-07-at-4.31.47-PM-300x294.png)
 
 ## Greg Willson
-> Operational Director
+> SCD Clinic Facilitator, IT Trainer
 
-> Greg enjoys digging for good examples of clear context and ourcomes in community projects, facilitating partnerships and new hands on learning opportunties in engineering and civic engagement as related to Sustainable Community Development. SCD Hub is for removing barriers to society's most needed social and civic innovations.
+> Greg enjoys digging for good projects, metaphors ( as with society ), are layered in this way.  Examples of clear context are never the 'magical solution'.   Research outcomes in community.  Facilitate partnerships and support the growth of new hands willing to create learning opportunties.  Peace Engineering, civic engagement, and IT go hand in hand when I look for a definition of 'Sustainable Community Development'.  I am happy to be part of modern society as we face these monumental complex and layered problems.   I will continue to look for (online and in person) and test solutions that seem applicable. Context is always changing in modern society, but basic needs always remain. water, human to environment interaction, human to human interaction. 
 
-> greg@scdhub.org
+> ecocommunity@protonmail.com
 </amp-card>
 
 
@@ -48,13 +48,13 @@ Scott has been instrumental in helping to develop secure systems for scdhub repl
 
 ![](Selección_123.png)
 
-## Devon Miller
+## Samuel Ngoda
 
 > Board of Directors, Voting Member, Community Building Strategist
 
-> devon@scdhub.org
+> Nairobi, Kenya
 
-> Devon is a teacher of community skills through self defense training in Northern California, where he is a pastor, father, MMJ educator and jui jitsu instructor.
+> Samuel is an entreprenuel, IT and community minded individual with great planning and organizing skills.
 
 ## Judith Willson
 
@@ -67,9 +67,10 @@ Scott has been instrumental in helping to develop secure systems for scdhub repl
 <BR><BR>
 <BR><BR>
 <BR><BR>
-# Advisors to the Board <a id="advisors"></a>
+# Advisors <a id="advisors"></a>
 
 <BR>
-## Katherine O'Flaherty
+## Claudia Mbinda Mwende
 
-> Kate leads <a href=https://solutionsvoyage.org>Solutions Voyage</a>, an educational organization dedicated to teaching practical sustainable community development skills. Kate is accomplished in art and web design, and was integral in helping to develop both UMC's recycling program at CU Boulder, and Ned Compost's compost processing community dynamic.
+> Claudia leads <a href=https://mamawatoto.now.sh>Mamawatoto Eco School</a>, an educational organization dedicated to teaching practical sustainable community development skills. Claudia has accomplished many recycling and poverty alleviation goals in her home country in of Kenya, both in the urban Dandora region of Nairobi, and Machakos.  Her current work in Njiru establishes better visibility for sustainability projects in that region of Nairobi.  Grassroots empowerment and education of the most vulnerable in society is the focus.
+
