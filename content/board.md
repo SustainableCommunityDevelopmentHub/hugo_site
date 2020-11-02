@@ -14,7 +14,7 @@ date = "2020-10-27"
 ![](Screen-Shot-2017-06-07-at-4.31.47-PM-300x294.png)
 
 
-## Gregory Maina Mupy Willson
+## Greg Willson
 > SCD Hub director, Nederland, Colorado
 
 > Greg enjoys digging for good projects, metaphors ( as with society ), are layered in this way.  Examples of clear context are never the 'magical solution'.   Research outcomes in community.  Facilitate partnerships and support the growth of new hands willing to create learning opportunties.  Peace Engineering, civic engagement, and IT go hand in hand when I look for a definition of 'Sustainable Community Development'.  I am happy to be part of modern society as we face these monumental complex and layered problems.   I will continue to look for (online and in person) and test solutions that seem applicable. Context is always changing in modern society, but basic needs always remain. water, human to environment interaction, human to human interaction. 
