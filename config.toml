@@ -16,160 +16,203 @@ canonifyurls = true
 
 [menu]
 [[menu.main]]
-  name = "About Us"
-  url = "/about"
+  name = "SCD Hub"
+  url = "/about-scdhub"
   weight = 2
 
 [[menu.main]]
   name = "Mission"
   url = "/about/#mission"
   weight = 21
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
   name = "Vision"
   url = "/about/#vision"
   weight = 21
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Board"
+  name = "Board & Advisors"
   url = "/board"
   weight = 22
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Partner with us"
+  name = "Partner with SCD Hub"
   url = "/about/#partner"
   weight = 23
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Member Supported"
+  name = "Non-profit Status"
+  url = "/about/#501c3"
+  weight = 23
+  parent= "SCD Hub"
+
+[[menu.main]]
+  name = "Become a member"
   url = "/members"
   weight = 24
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
   name = "Get Involved"
   url = "/get-involved"
   weight = 25
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
   name = "Donate"
   url = "donate"
   weight = 31
-  parent= "About Us"
+  parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Water"
+  name = "Drinking Water"
   url = "/cat/water"
   weight = 33
 
 [[menu.main]]
-  name = "Drinking Water Sources"
+  name = "Wastewater"
+  url = "/cat/WWS"
+  weight = 33
+
+[[menu.main]]
+  name = "Solid Waste"
+  url = "/cat/msw"
+  weight = 33
+
+[[menu.main]]
+  name = "Storage"
+  url = "/cat/msw-storage"
+  weight = 13
+  parent = "Solid Waste"
+
+[[menu.main]]
+  name = "Transfer"
+  url = "/cat/msw-transfer"
+  weight = 14
+  parent = "Solid Waste"
+
+[[menu.main]]
+  name = "Disposal"
+  url = "/cat/msw-disposal"
+  weight = 15
+  parent = "Solid Waste"
+
+[[menu.main]]
+  name = "Recovery"
+  url = "/cat/msw-recovery"
+  weight = 15
+  parent = "Solid Waste"
+
+[[menu.main]]
+  name = "Source"
   url = "/cat/water-sources/"
   weight = 3
-  parent = "Water"
+  parent = "Drinking Water"
 
 [[menu.main]]
-  name = "Rainwater Catchment of Drinking Water"
+  name = "Rainwater Catchment"
   url = "/tag/rooftop-water-harvesting/"
   weight = 4
-  parent = "Drinking Water Sources"
+  parent = "Source"
 
 [[menu.main]]
-  name = "Drinking Water Procurement"
+  name = "Procurement"
   url = "/cat/procurement"
   weight = 4
-  parent = "Water"
+  parent = "Drinking Water"
 
 [[menu.main]]
-  name = "Drinking Water Storage"
+  name = "Storage"
   url = "/cat/water-storage/"
   weight = 5
-  parent = "Water"
+  parent = "Drinking Water"
 
 [[menu.main]]
-  name = "Drinking Water Treatment"
+  name = "Treatment"
   url = "/cat/water-treatment/"
   weight = 6
-  parent = "Water"
+  parent = "Drinking Water"
 
 [[menu.main]]
-  name = "Drinking Water Distribution"
+  name = "Distribution"
   url = "/cat/simple-water-distribution/"
   weight = 7
-  parent = "Water"
+  parent = "Drinking Water"
 
 [[menu.main]]
-  name = "Wastewater and Sewage Collection"
+  name = "Collection"
   url = "/cat/wastewater-collection/"
   weight = 11
-  parent = "Water"
+  parent = "Wastewater"
 
 [[menu.main]]
-  name = "Wastewater and Sewage Transfer"
+  name = "Transfer"
   url = "/cat/wastewater-transfer"
   weight = 12
-  parent = "Water"
+  parent = "Wastewater"
 
 [[menu.main]]
-  name = "Wastewater and Sewage Treatment"
+  name = "Treatment"
   url = "/cat/treatment"
   weight = 13
-  parent = "Water"
+  parent = "Wastewater"
 
 [[menu.main]]
-  name = "Wastewater and Sewage Disposal"
+  name = "Disposal"
   url = "/cat/disposal"
   weight = 14
-  parent = "Water"
+  parent = "Wastewater"
+
+[[menu.main]]
+  name = "Clinic Topics"
+  url = "/videos/2017/07/start-a-clinic/index.html/"
+  weight = 35
 
 [[menu.main]]
   name = "Renewables"
   url = "/cat/renewables"
   weight = 15
+  parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Shelter"
   url = "/cat/shelter"
   weight = 16
+  parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Food"
   url = "/cat/food"
   weight = 17
-
-[[menu.main]]
-  name = "SCD Clinics"
-  url = "/videos/2017/07/start-a-clinic/index.html/"
-  weight = 35
+  parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Propose a clinic"
   url = "/videos/2017/07/start-a-clinic/index.html/#now"
   weight = 25
-  parent = "SCD Clinics"
+  parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Topics"
   url = "/clinic/curate"
   weight = 24
-  parent = "SCD Clinics"
+  parent = "Clinic Topics"
 
 [[menu.main]]
   name = "- by Tag"
   url = "/tag"
   weight = 28
-  parent = "SCD Clinics"
+  parent = "Clinic Topics"
 
 [[menu.main]]
   name = "- by Category"
   url = "/cat"
   weight = 29
-  parent = "SCD Clinics"
+  parent = "Clinic Topics"
 
 [params]
     amp = true
