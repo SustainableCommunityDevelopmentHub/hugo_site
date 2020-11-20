@@ -75,7 +75,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Wastewater"
-  url = "/cat/WWS"
+  url = "/cat/wasewater-and-sewerage"
   weight = 33
 
 [[menu.main]]
@@ -85,7 +85,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Storage"
-  url = "/cat/msw-storage"
+  url = "/cat/municipal-solid-waste-storage"
   weight = 13
   parent = "Solid Waste"
 
@@ -112,12 +112,6 @@ canonifyurls = true
   url = "/cat/water-sources/"
   weight = 3
   parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Rainwater Catchment"
-  url = "/tag/rooftop-water-harvesting/"
-  weight = 4
-  parent = "Source"
 
 [[menu.main]]
   name = "Procurement"
