@@ -105,8 +105,13 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Wastewater"
+<<<<<<< HEAD
   url = "/cat/WWS"
   weight = 34
+=======
+  url = "/cat/wasewater-and-sewerage"
+  weight = 33
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
 
 [[menu.main]]
   name = "Solid Waste"
@@ -114,9 +119,15 @@ canonifyurls = true
   weight = 35
 
 [[menu.main]]
+<<<<<<< HEAD
   name = "Solid Waste Storage"
   url = "/cat/msw-storage"
   weight = 36
+=======
+  name = "Storage"
+  url = "/cat/municipal-solid-waste-storage"
+  weight = 13
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
   parent = "Solid Waste"
 
 [[menu.main]]
@@ -138,7 +149,41 @@ canonifyurls = true
   parent = "Solid Waste"
 
 [[menu.main]]
+<<<<<<< HEAD
   name = "Wastewater Collection"
+=======
+  name = "Source"
+  url = "/cat/water-sources/"
+  weight = 3
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Procurement"
+  url = "/cat/procurement"
+  weight = 4
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Storage"
+  url = "/cat/water-storage/"
+  weight = 5
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Treatment"
+  url = "/cat/water-treatment/"
+  weight = 6
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Distribution"
+  url = "/cat/simple-water-distribution/"
+  weight = 7
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Collection"
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
   url = "/cat/wastewater-collection/"
   weight = 40
   parent = "Wastewater"
