@@ -104,9 +104,30 @@ canonifyurls = true
   parent = "Drinking Water"
 
 [[menu.main]]
+  name = "Wastewater"
+<<<<<<< HEAD
+  url = "/cat/WWS"
+  weight = 34
+=======
+  url = "/cat/wasewater-and-sewerage"
+  weight = 33
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
+
+[[menu.main]]
+  name = "Solid Waste"
+  url = "/cat/msw"
+  weight = 35
+
+[[menu.main]]
+<<<<<<< HEAD
   name = "Solid Waste Storage"
   url = "/cat/msw-storage"
   weight = 36
+=======
+  name = "Storage"
+  url = "/cat/municipal-solid-waste-storage"
+  weight = 13
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
   parent = "Solid Waste"
 
 [[menu.main]]
@@ -128,7 +149,41 @@ canonifyurls = true
   parent = "Solid Waste"
 
 [[menu.main]]
+<<<<<<< HEAD
   name = "Wastewater Collection"
+=======
+  name = "Source"
+  url = "/cat/water-sources/"
+  weight = 3
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Procurement"
+  url = "/cat/procurement"
+  weight = 4
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Storage"
+  url = "/cat/water-storage/"
+  weight = 5
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Treatment"
+  url = "/cat/water-treatment/"
+  weight = 6
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Distribution"
+  url = "/cat/simple-water-distribution/"
+  weight = 7
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Collection"
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
   url = "/cat/wastewater-collection/"
   weight = 40
   parent = "Wastewater"
@@ -157,12 +212,6 @@ canonifyurls = true
   weight = 50
 
 [[menu.main]]
-  name = "Water Systems"
-  url = "/cat/water-systems-evaluation"
-  weight = 51
-  parent = "Clinic Topics"
-
-[[menu.main]]
   name = "Renewables"
   url = "/cat/renewables"
   weight = 51
@@ -178,6 +227,30 @@ canonifyurls = true
   name = "Food"
   url = "/cat/food"
   weight = 53
+  parent = "Clinic Topics"
+
+[[menu.main]]
+  name = "Propose a clinic"
+  url = "/videos/2017/07/start-a-clinic/index.html/#now"
+  weight = 54
+  parent = "Clinic Topics"
+
+[[menu.main]]
+  name = "Topics"
+  url = "/clinic/curate"
+  weight = 55
+  parent = "Clinic Topics"
+
+[[menu.main]]
+  name = "- by Tag"
+  url = "/tag"
+  weight = 56
+  parent = "Clinic Topics"
+
+[[menu.main]]
+  name = "- by Category"
+  url = "/cat"
+  weight = 57
   parent = "Clinic Topics"
 
 [params]
