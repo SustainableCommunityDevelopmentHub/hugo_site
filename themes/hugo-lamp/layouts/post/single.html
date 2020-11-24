@@ -1,0 +1,27 @@
+{{ define "main" }}
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">{{ .Title }}</h1>
+      <p class="entry-meta"><span class="entry-time">{{ .Date.Format "Jan 2, 2006" }}</span> {{ .ReadingTime }} min read</p>
+    </header>
+    {{ partial "adsense.html" . }}
+    <article class="post-content">{{ .Content }}</article>
+    <footer class="post-footer">
+      {{ if isset .Params "tags" }}
+      <ul class="post-tags">
+        {{ range $tag := .Params.tags }}
+          <li class="post-tag"><a href="/tags/{{ $tag | urlize }}"><span class="tag">{{ $tag | title }}</span></a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      <div class="sharing">
+        <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u={{ .Permalink }}" title="Share on Facebook">
+          <svg class="icon icon-facebook" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+        </a>
+        <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text={{ .Title }}&amp;url={{ .Permalink }}" title="Share on Twitter">
+          <svg class="icon icon-twitter" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+        </a>
+      </div>
+    </footer>
+  </section>
+{{ end }}

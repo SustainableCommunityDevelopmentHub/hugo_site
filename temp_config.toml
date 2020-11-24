@@ -1,0 +1,30 @@
+
+[[menu.main]]
+  name = "Source"
+  url = "/cat/water-sources/"
+  weight = 3
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Procurement"
+  url = "/cat/procurement"
+  weight = 4
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Storage"
+  url = "/cat/water-storage/"
+  weight = 7
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Treatment"
+  url = "/cat/water-treatment/"
+  weight = 8
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Distribution"
+  url = "/cat/simple-water-distribution/"
+  weight = 9
+  parent = "Drinking Water"

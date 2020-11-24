@@ -1,0 +1,38 @@
+.icon {
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+}
+
+// Sharing on social networks
+.share {
+  font-weight: normal;
+  margin-left: 0.2rem;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: $white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+
+  &-twitter {
+    background-color: $color-twitter;
+
+    &-icon {
+      margin: 5px 0 0 1px;
+    }
+  }
+
+  &-facebook {
+    background-color: $color-facebook;
+  }
+}
