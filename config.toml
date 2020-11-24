@@ -9,9 +9,9 @@ theme = "amp"
 
 LanguageCode= "en-EN"
 Title= "Sustainable Community Development Hub"
-paginate = 12 
+paginate = 12
 DisqusShortname = "scdhub"
-Copyright = "All rights reserved SCD Hub and respective copyright holders - 2019,2018,2017,2016"
+Copyright = "Rights respected for copyright holders."
 canonifyurls = true
 
 [menu]
@@ -51,7 +51,7 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Become a member"
+  name = "Sponsor a milestone"
   url = "/members"
   weight = 24
   parent= "SCD Hub"
@@ -63,51 +63,95 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Donate"
+  name = "Donations help"
   url = "donate"
-  weight = 31
+  weight = 26
   parent= "SCD Hub"
 
 [[menu.main]]
   name = "Drinking Water"
   url = "/cat/water"
-  weight = 33
+  weight = 27
+
+[[menu.main]]
+  name = "Water Sources"
+  url = "/cat/water-sources/"
+  weight = 28
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Procurement"
+  url = "/cat/procurement"
+  weight = 29
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Storage"
+  url = "/cat/water-storage/"
+  weight = 30
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Treatment"
+  url = "/cat/water-treatment/"
+  weight = 31
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Distribution"
+  url = "/cat/simple-water-distribution/"
+  weight = 32
+  parent = "Drinking Water"
 
 [[menu.main]]
   name = "Wastewater"
+<<<<<<< HEAD
+  url = "/cat/WWS"
+  weight = 34
+=======
   url = "/cat/wasewater-and-sewerage"
   weight = 33
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
 
 [[menu.main]]
   name = "Solid Waste"
   url = "/cat/msw"
-  weight = 33
+  weight = 35
 
 [[menu.main]]
+<<<<<<< HEAD
+  name = "Solid Waste Storage"
+  url = "/cat/msw-storage"
+  weight = 36
+=======
   name = "Storage"
   url = "/cat/municipal-solid-waste-storage"
   weight = 13
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
   parent = "Solid Waste"
 
 [[menu.main]]
-  name = "Transfer"
+  name = "Solid Waste Transfer"
   url = "/cat/msw-transfer"
-  weight = 14
+  weight = 37
   parent = "Solid Waste"
 
 [[menu.main]]
-  name = "Disposal"
+  name = "Solid Waste Disposal"
   url = "/cat/msw-disposal"
-  weight = 15
+  weight = 38
   parent = "Solid Waste"
 
 [[menu.main]]
-  name = "Recovery"
+  name = "Solid Waste Recovery"
   url = "/cat/msw-recovery"
-  weight = 15
+  weight = 39
   parent = "Solid Waste"
 
 [[menu.main]]
+<<<<<<< HEAD
+  name = "Wastewater Collection"
+=======
   name = "Source"
   url = "/cat/water-sources/"
   weight = 3
@@ -139,73 +183,74 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Collection"
+>>>>>>> fa88e2679e19df0b080562c339ea2f9995e7cc63
   url = "/cat/wastewater-collection/"
-  weight = 11
+  weight = 40
   parent = "Wastewater"
 
 [[menu.main]]
-  name = "Transfer"
+  name = "Wastewater Transfer"
   url = "/cat/wastewater-transfer"
-  weight = 12
+  weight = 41
   parent = "Wastewater"
 
 [[menu.main]]
-  name = "Treatment"
+  name = "Wastewater Treatment"
   url = "/cat/treatment"
-  weight = 13
+  weight = 42
   parent = "Wastewater"
 
 [[menu.main]]
-  name = "Disposal"
+  name = "Wastewater Disposal"
   url = "/cat/disposal"
-  weight = 14
+  weight = 43
   parent = "Wastewater"
 
 [[menu.main]]
   name = "Clinic Topics"
   url = "/videos/2017/07/start-a-clinic/index.html/"
-  weight = 35
+  weight = 50
 
 [[menu.main]]
   name = "Renewables"
   url = "/cat/renewables"
-  weight = 15
+  weight = 51
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Shelter"
   url = "/cat/shelter"
-  weight = 16
+  weight = 52
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Food"
   url = "/cat/food"
-  weight = 17
+  weight = 53
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Propose a clinic"
   url = "/videos/2017/07/start-a-clinic/index.html/#now"
-  weight = 25
+  weight = 54
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Topics"
   url = "/clinic/curate"
-  weight = 24
+  weight = 55
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "- by Tag"
   url = "/tag"
-  weight = 28
+  weight = 56
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "- by Category"
   url = "/cat"
-  weight = 29
+  weight = 57
   parent = "Clinic Topics"
 
 [params]
@@ -238,7 +283,7 @@ canonifyurls = true
   googlePlusName = "acmeideal@gmail.com"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
-  
+
   # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
   # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
   # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
