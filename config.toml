@@ -64,7 +64,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Donations help"
-  url = "donate"
+  url = "/donate"
   weight = 26
   parent= "SCD Hub"
 
