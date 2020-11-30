@@ -21,14 +21,8 @@ canonifyurls = true
   weight = 2
 
 [[menu.main]]
-  name = "Mission"
+  name = "Mission & Vision"
   url = "/about/#mission"
-  weight = 21
-  parent= "SCD Hub"
-
-[[menu.main]]
-  name = "Vision"
-  url = "/about/#vision"
   weight = 21
   parent= "SCD Hub"
 
@@ -39,7 +33,7 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Partner with SCD Hub"
+  name = "Partnering "
   url = "/about/#partner"
   weight = 23
   parent= "SCD Hub"
@@ -51,7 +45,7 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Sponsor a milestone"
+  name = "Membership"
   url = "/members"
   weight = 24
   parent= "SCD Hub"
@@ -63,7 +57,7 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Donations help"
+  name = "Fundraising"
   url = "/donate"
   weight = 26
   parent= "SCD Hub"
