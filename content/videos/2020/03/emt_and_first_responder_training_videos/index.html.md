@@ -8,16 +8,13 @@ date: 2019-10-04
 ##EMT and First Responder Training Videos useful for regular citizens to know when facing overloaded medical system
 
 
-
-{{< youtube RYYf8cLUV5E >}}
-
-is is the official recommendation for existing EMT workers. 
+This is is the official recommendation for existing EMT workers. 
 https://www.cdc.gov/.../2019-ncov/hcp/guidance-for-ems.html 
 
 I'm been looking around for useful training info for people who may be required to perform first aid in the 
 event that the medical system is overloaded with Covid19 cases.
 
-1) First aid trining primary survey
+1) First aid training primary survey
 {{< youtube ea1RJUOiNfQ >}}
 
 2) CPR video 
