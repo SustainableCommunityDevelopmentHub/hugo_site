@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Municipal Solid Waste Storage
+clinic: ["Water"]
 cat: ["Municipal Solid Waste Storage"]
-tag: ["ECHO WATER", "Water", "test", "MSW", "MSW Storage"]
+tag: ["ECHO WATER", "Water", "MSW", "Municipal Solid Waste"]
 date: 2020-12-01
 ---
 
