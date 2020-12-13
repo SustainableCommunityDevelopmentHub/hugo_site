@@ -1,4 +1,4 @@
-# Manage video link library with HUGO - using 'taxonomies like a boss' and 'AMP'
+# Manage video link library with HUGO - 'AMP'
 
 AMP - Hugo with taxonomy based submenus
 
