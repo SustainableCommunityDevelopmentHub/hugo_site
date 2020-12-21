@@ -6,6 +6,7 @@ theme = "amp"
 [taxonomies]
   cat = "cat"
   tag = "tag"
+  clinic = "clinic"
 
 LanguageCode= "en-EN"
 Title= "Sustainable Community Development Hub"
@@ -99,25 +100,25 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Solid Waste Storage"
-  url = "/cat/msw-storage"
+  url = "/cat/municipal-solid-waste-storage/"
   weight = 36
   parent = "Solid Waste"
 
 [[menu.main]]
   name = "Solid Waste Transfer"
-  url = "/cat/msw-transfer"
+  url = "/cat/municipal-solid-waste-transfer/"
   weight = 37
   parent = "Solid Waste"
 
 [[menu.main]]
   name = "Solid Waste Disposal"
-  url = "/cat/msw-disposal"
+  url = "/cat/municipal-solid-waste-disposal/"
   weight = 38
   parent = "Solid Waste"
 
 [[menu.main]]
   name = "Solid Waste Recovery"
-  url = "/cat/msw-recovery"
+  url = "/cat/municipal-solid-waste-recovery/"
   weight = 39
   parent = "Solid Waste"
 
@@ -172,6 +173,12 @@ canonifyurls = true
   name = "Food"
   url = "/cat/food"
   weight = 53
+  parent = "Clinic Topics"
+
+[[menu.main]]
+  name = "IT"
+  url = "/clinic/information-technology"
+  weight = 45
   parent = "Clinic Topics"
 
 [params]

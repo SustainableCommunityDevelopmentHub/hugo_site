@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Drinking Water System Evaluation</title>
+<!link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/materia/bootstrap.min.css">
+<style>
+body { background-color: #fafafa; }
+.container { margin: 150px auto; }
+      div[data-acc-content] { display: none;  }
+      div[data-acc-step]:not(.open) { background: #f2f2f2;  }
+      div[data-acc-step]:not(.open) h5 { color: #777;  }
+      div[data-acc-step]:not(.open) .badge-primary { background: #ccc;  }
+    </style>
+</head>
+
+<body>
+  <div id="jquery-script-menu">
+<div class="jquery-script-center">
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+  <div class="container">
+    <h1>Drinking Water Supply</h1>
+    <form id="form">
+
+            <div class="list-group">
+
+              <div class="list-group-item py-3" data-acc-step>
+                <h5 class="mb-0" data-acc-title>Source</h5>
+                <div data-acc-content>
+                  
+                    <div class="form-group">
+                      <label>Name:</label>
+                      <input type="text" name="name" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                      <label>Select One:</label>
+
+                      <select name="drinking-water-source" id="drinking-water-source">
+                        <option value="">--Please choose an option--</option>
+                        <option value="rooftop-water-harvesting">Rooftop water harvesting</option>
+                        <option value="ground-level-catchment">Ground level catchment</option>
+                        <option value="subsurface-dam">Subsurface Dam</option>
+                        <option value="spring-water-captation">Spring Water Captation</option>
+                        <option value="hand-dug-well">Hand Dug Well</option>
+                        <option value="drilled-well">Drilled Well</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list-group-item py-3" data-acc-step>
+                <h5 class="mb-0" data-acc-title>Procurement</h5>
+                <div data-acc-content>
+                  <div class="my-3">
+                    <div class="form-group">
+                      <label>How water is accessed:</label>
+                      <select name="drinking-water-procurement" id="drinking-water-procurement">
+                        <option value="">--Please choose an option--</option>
+                        <option value="bucket">Bucket</option>
+                        <option value="handpump">Handpump</option>
+                        <option value="handpump-deep-well">Handpump to deep well</option>
+                        <option value="rop-bucket-windlass">Rope & Bucket to Windlass</option>
+                        <option value="motorized-pump">Motorized Pump</option>
+                        <option value="standpost">Standpost</option>
+                      </select>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list-group-item py-3" data-acc-step>
+                <h5 class="mb-0" data-acc-title>Storage</h5>
+                <div data-acc-content>
+                  <div class="my-3">
+                    <div class="form-group">
+                      <label>How your water will be stored:</label>
+                      <select name="drinking-water-storage" id="drinking-water-storage">
+                        <option value="">--Please choose an option--</option>
+                        <option value="no-storage">No Storage</option>
+                        <option value="barrel">Barrel</option>
+                        <option value="tank">Tank</option>
+                        <option value="reservoir">Reservoir</option>
+                        <option value="cistern">Cistern</option>
+                      </select>
+
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list-group-item py-4" data-acc-step>
+                <h5 class="mb-0" data-acc-title>Treatment</h5>
+                <div data-acc-content>
+                  <div class="my-4">
+                    <div class="form-group">
+                      <label>*:</label>
+                      <select name="drinking-water-treatment" id="drinking-water-storage">
+                        <option value="">--Please choose an option--</option>
+                        <option value="no-treatment">No Treatment</option>
+                        <option value="chlorination">Chlorination</option>
+                        <option value="slow-sand-filter">Slow Sand Filter</option>
+                        <option value="boiling">Boiling</option>
+                        <option value="ultraviolet-light">Ultraviolet Light</option>
+                      </select>
+                    </div>
+                    <div class="form-group form-row">
+                      <div class="col-sm-4">
+                        <label>Comment:</label>
+                        <textarea name="cvv" class="form-control" cols=40 rows=3></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="list-group-item py-5" data-acc-step>
+                <h5 class="mb-0" data-acc-title>Distribution</h5>
+                <div data-acc-content>
+                  <div class="my-5">
+                    <div class="form-group">
+                      <label>Consumer:</label>
+                      <select name="drinking-water-distribution" id="drinking-water-storage">
+                        <option value="">--Please choose an option--</option>
+                        <option value="no-distribution">No Distribution</option>
+                        <option value="household-water-connections">Household Water Connections</option>
+                        <option value="piped-water-gravity">Piped water (gravity)</option>
+                        <option value="piped-water-pumped">Piped water (pumped)</option>
+                      </select>
+                      <input type="text" name="card" class="form-control">
+                    </div>
+                    <div class="form-group form-row">
+                      <div class="col-sm-4">
+                        <label>Expiry:</label>
+                        <input type="text" name="expiry" class="form-control">
+                      </div>
+                      <div class="col-sm-4">
+                        <label>CVV:</label>
+                        <input type="text" name="cvv" class="form-control">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+          </form>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="dist/jquery.accordion-wizard.min.js"></script>
+<script>
+  var options = {
+        mode: 'wizard',
+        autoButtonsNextClass: 'btn btn-primary float-right',
+        autoButtonsPrevClass: 'btn btn-light',
+        stepNumberClass: 'badge badge-pill badge-primary mr-1',
+        onSubmit: function() {
+          alert('Form submitted!');
+          return true;
+        }
+      }
+
+      $( function() {
+
+        $( "#form" ).accWizard(options);
+
+      });
+    </script>
+</body>
+</html>

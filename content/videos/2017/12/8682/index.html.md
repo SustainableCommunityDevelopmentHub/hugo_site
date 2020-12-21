@@ -2,7 +2,7 @@
 layout: post
 title: Tiny House Plumbing and Cabinets
 date: 2017-12-12
-cat: ["Household Distribution Systems","household plumbing","tiny house"]
+cat: ["Household Distribution Systems","household plumbing","distribution system connections","tiny house"]
 tag: ["Connections"]
 ---
 

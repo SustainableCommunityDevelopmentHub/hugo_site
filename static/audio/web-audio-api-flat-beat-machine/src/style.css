@@ -1,0 +1,220 @@
+body {
+    background-color: #216777;
+    font-family: Helvetica;
+}
+.beatmaker {
+    width: 989px;
+    height: 419px;
+    position: absolute;
+    background: url('https://dl.dropbox.com/s/nx2tnqwbrpxsmcv/back.png');
+    top:50%;
+    left:50%;
+    margin-left: -494px;
+    margin-top: -209px;
+}
+.bars {
+    width: 519px;
+    height: 277px;
+    float: left;
+    margin:76px 0px 0px 65px;
+}
+.boxs {
+    width: 332px;
+    height: 127px;
+    background-color: #216777;
+    float: left;
+    margin: 76px 0px 0px 8px;
+}
+.bpm {
+    width: 332px;
+    height: 30px;
+    float: left;
+    background-color: #216777;
+    margin: 7px 0px 0px 8px;
+}
+.speaker {
+    background: url('https://dl.dropbox.com/s/t8l4sem16qsjz8f/speaker.png');
+    width: 350px;
+    height: 120px;
+    float: left;
+    margin: -2px 0px 0px -2px;
+
+}
+#sounds { 
+
+    display: none; 
+
+}
+
+#drumkit {
+    background-color: #333;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin-top:50px;
+}
+
+#drumkit > ul {
+    padding: 0px;
+    display: inline-block;
+    vertical-align: top;
+    list-style-type: none;
+}
+
+#beat {
+    width: 560px;
+    margin-left: -39px;
+    margin-top: 10px;
+}
+
+#beat > li {
+    padding-bottom: 0px;
+    list-style-type: none;
+
+}
+
+#beat ul {
+    padding: 0px;
+    margin-right: 10px;
+    position:realtive;
+    
+}
+
+#tracker {
+    margin-bottom: 9px;
+}
+
+#boxs {
+    width: 150px;
+    color: #FFF;
+    background: rgb(36, 36, 36);
+    height:340px;
+}
+
+#temposlider {
+    margin-top: 0.5em;
+    width:131px;
+    border:none;
+}
+ul.soundrow {
+    margin-top: -10px;
+}
+ul.soundrow li {
+    display: inline-block;
+    height: 15px;
+}
+
+ul.soundrow li {
+    width: 150px;
+    padding-bottom: 0.1em;
+    background-color: #4D4D4D;
+    border:3px #CCC;
+    margin-right: 20px;
+    height: 30px;
+    text-align: center;
+}
+.header {
+background:none;
+}
+#reset_style {
+background:none;
+}
+ul.soundrow li.block {
+    width: 60px;
+    height: 60px;
+    border: 3px #555;
+    background-color: #206676;;
+    padding: 0px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+ul.soundrow li.active {
+    border: 3px #990;
+    background-color: #CC0;
+}
+#tracker li.active {
+    border: 3px #FFA000;
+}
+#tracker li {
+    height:15px;
+}
+#tracker .block {
+    margin-right: 1px;
+    background-color: #487782;
+}
+#soundstart {
+    margin-top:10px;
+    margin-left:10px;
+    cursor: pointer;
+}
+#clearall {
+    margin-top:10px;
+    margin-left:10px;
+    cursor:pointer;
+}
+#tempo_label {
+    font-family:Arial;
+    font-size:14px;
+    margin-left:16px;
+}
+#temposlider {
+    height: 100%;
+    float: left;
+    margin-top: 0px;
+    width: 207px;
+    background: #216777;
+    margin-left: 11px;
+}
+#temposlider a {
+    top:0px;
+    height: 30px;
+    border-radius: 0px;
+    background: #055468;
+    border: none;
+}
+#container {
+    width:800px;
+}
+#keyboard  {   
+    width: 770px;
+    display: block;
+    margin: 0 auto;
+}
+#box_sound_bass_hit .block {
+    margin-right: 5px;
+}
+.ef {
+background:rgba(215, 219, 221, 0.47) !important;
+}
+.pause {
+    padding-top: 22px;
+    padding-left: 33px;
+    cursor: pointer;
+}
+.play {
+    padding-top: 22px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+.stop {
+    padding-top: 22px;
+    cursor: pointer;
+}
+.bpm_value {
+    float: right;
+    width: 100px;
+    background-color: #387786;
+    height: 88%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.5;
+    padding-top: 4px;
+}
+abbr {
+    border-bottom: none !important;
+}
+.tracker_line {
+  margin-bottom:-20px;
+}

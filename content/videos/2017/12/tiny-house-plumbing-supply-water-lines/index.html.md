@@ -19,5 +19,3 @@ Published on Apr 13, 2016
 Mrs Epic's super detailed article: 
 Tiny House Plumbing - Supply Water Lines
 
-http://goo.gl/Kr43Vw
-
