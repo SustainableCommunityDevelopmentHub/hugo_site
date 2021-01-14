@@ -1,0 +1,47 @@
+label {
+  cursor: pointer;
+}
+
+.labeltext {
+  position:relative;
+  top: 120px;
+}
+
+.sw { left: 120px; }
+
+.button input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    height: 128px;
+    width: 128px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    border: 6px solid #FFF;
+}
+
+input[type="radio"]:checked + label {
+    border: 6px solid #000;
+}
+
+input#drinkingwater[type="radio"] + label {
+    background-image: url("https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/water_drink.png");
+}
+input#solidwaste[type="radio"] + label {
+    background-image: url("https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/trash_full.png");        
+    position:relative;
+    left: 12px;
+}
+input#wastewater[type="radio"] + label {
+    background-image: url("https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/nounproject.com_louis-prado_Outfall_25099.png");
+}
+input#drinkingwater[type="radio"] + label .labeltext {
+	  left: 7px;
+}
+input#solidwaste[type="radio"] + label .labeltext {
+	  left: 22px;
+}
+input#wastewater[type="radio"] + label .labeltext {
+	  left: 8px;
+}
