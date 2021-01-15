@@ -6,8 +6,8 @@ $(document).ready(function() {
 
  $("input[name='drinkingwater']").on("click", function() {
     $(".DrinkingwaterServiceOptions").toggleClass('show');
-    $(".WastewaterServiceOptions").toggleClass('show');
-    $(".SolidwasteServiceOptions").toggleClass('show');
+    $(".WastewaterServiceOptions").toggleClass('hide');
+    $(".SolidwasteServiceOptions").toggleClass('hide');
  });
 
  $("input[name='wastewater']").on("click", function() {
