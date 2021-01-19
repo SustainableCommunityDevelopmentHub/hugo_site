@@ -1,0 +1,1 @@
+mongo "mongodb+srv://cluster0.rs73k.mongodb.net/<dbname>" --username <username>
