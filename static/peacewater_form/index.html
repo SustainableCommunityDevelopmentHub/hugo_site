@@ -199,16 +199,16 @@
     
     $( document ).ready(function() {
        console.log( "ready!" );
-      $(".DrinkingwaterServiceOptions").style.display = 'none';
-      $(".MunicipalsolidwasteServiceOptions").style.display = 'none';
-      $(".WastewaterServiceOptions.style").display = 'none';
+      
+      $('.DrinkingwaterServiceOptions').hide();
+      $('.MunicipalsolidwasteServiceOptions').hide();
+      $('.WastewaterServiceOptions.style').hide();
     });
    
     $("#btnSubmit").click(function (event) {
  
         //stop submit the form, we will post it manually.
         event.preventDefault();
- 
  
        // Create an FormData object 
        var data = $("#form").serialize();
