@@ -72,14 +72,14 @@
 
     </div>
     
-    <div class="row DrinkingwaterServiceOptions hide">   
+    <div class="row" name="DrinkingwaterServiceOptions"
     <div class="col-md">
     
           Drinking water service options
          
     </div>
     </div>
-      <div class="row WastewaterServiceOptions hide">   
+      <div class="row" name="WastewaterServiceOptions">   
     <div class="col-md">
     
           Waste water service options
@@ -87,7 +87,7 @@
     </div>
     </div>
     
-    <div class="row SolidwasteServiceOptions hide">   
+    <div class="row" name="SolidwasteServiceOptions">   
     <div class="col-md">
     
           Drinking water service options
@@ -200,9 +200,9 @@
     $( document ).ready(function() {
        console.log( "ready!" );
       
-      $('.DrinkingwaterServiceOptions').hide();
-      $('.MunicipalsolidwasteServiceOptions').hide();
-      $('.WastewaterServiceOptions.style').hide();
+      $('#DrinkingwaterServiceOptions').hide();
+      $('#MunicipalsolidwasteServiceOptions').hide();
+      $('#WastewaterServiceOptions.style').hide();
     });
    
     $("#btnSubmit").click(function (event) {
