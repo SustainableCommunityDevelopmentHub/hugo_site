@@ -15,11 +15,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/tmp
-  label: Tmp
-  create: all
-  match: "**/*"
-- type: directory
   path: content/tags
   label: Tags
   create: all
@@ -31,7 +26,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/cat
-  label: Cat
+  label: Category
   create: all
   match: "**/*"
 upload_dir: static/uploads
