@@ -1,5 +1,6 @@
 +++
-title= "ARt"
-feature = true
 color = "blue"
+feature = true
+title = "Art"
+
 +++

@@ -1,12 +1,16 @@
 ---
 layout: post
 title: Backflow protection in Drinking water distributibn
-cat: ["Municipal Solid Waste Recovery"]
-tag: ["ECHO WATER", "Water supply", "drinking water", "backflow prevention"]
+cat:
+- Drinking Water Supply
+tag:
+- ECHO WATER
+- Water supply
+- drinking water
+- backflow prevention
 date: 2021-02-22
+
 ---
-
-
 Decision by City of Sarnia Ontario protects drinking water 
 =============================================
 
@@ -22,4 +26,3 @@ That is what this program is targating..
 
 https://www.youtube.com/watch?v=zztyd2Xb6i8
 Sarnia document states. "cross-connection control, "Back Pressure", "Back Siphonage"  or Backflow Prevention, help to ensure our drinking water is protected."
- 
