@@ -7,7 +7,10 @@ date: 2020-12-01
 ---
 
 
-Municipal Solid Waste Storage Decision Portal 
+Municipal Solid Waste Storage 
 =============================================
 
-This is a test page as we begin to develop a system for managing web content for use in web content curation groups.
+
+
+Options for municipal solid waste storage:
+
