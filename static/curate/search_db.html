@@ -25,6 +25,9 @@
 <area shape="rect" coords="898,15,1089,109" href="start.html" />
 </map>
     
+    
+
+    
       <!-- partial:index.partial.html -->
     <div class="form-group pull-right">
     <input type="text" class="search form-control" placeholder="What you looking for?">
@@ -119,7 +122,19 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script><script  src="./script.js"></script>
-
+<script>
+    $(document).ready(function () {
+    $.getJSON('https:\/\/scdhub-g1eny-ecwo.vercel.app\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+  
+  
 </body>
 </html>
 
