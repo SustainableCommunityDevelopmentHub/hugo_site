@@ -11,31 +11,6 @@
     "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/waste-to-energy-gassification/"
   },
   {
-    "categories": [
-      "Eng"
-    ],
-    "description": "<p>Bring a smooth experience to the development of Chrome Extension.</p>",
-    "tags": [
-      "Chrome Extension",
-      "ClojureScript",
-      "Figwheel Main"
-    ],
-    "title": "Build a Chrome Extension with Figwheel Main",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/build-a-chrome-extension-with-figwheel-main/"
-  },
-  {
-    "categories": [
-      "给自己的总结"
-    ],
-    "description": "<p>2020 in a review.</p>",
-    "tags": [
-      "生活",
-      "年度"
-    ],
-    "title": "2020年的总结",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/2020%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/"
-  },
-  {
     "categories": null,
     "description": "Municipal Solid Waste Disposal Decision Portal Today, the disposal of wastes by land filling or land spreading is the ultimate fate of all solid wastes, whether they are residential wastes collected and transported directly to a landfill site, residual materials from materials recovery facilities (MRFs), residue from the combustion of solid waste, compost, or other substances from various solid waste processing facilities. A modern sanitary landfill is not a dump; it is an engineered facility used for disposing of solid wastes on land without creating nuisances or hazards to public health or safety, such as the problems of insects and the contamination of ground water.",
     "tags": null,
@@ -71,54 +46,6 @@
     "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2020/12/municipal_solid_waste_transfer/"
   },
   {
-    "categories": [
-      "Case Studies"
-    ],
-    "description": "<p>The Worse is Better.</p>",
-    "tags": [
-      "Case Study",
-      "Kenya"
-    ],
-    "title": "编程的正确性",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%AD%A3%E7%A1%AE%E6%80%A7/"
-  },
-  {
-    "categories": [
-      "禅修"
-    ],
-    "description": "<p>这个曾经启发了我很多的博客，因为前几天发现它的网站 down 掉了，所以在此保存一份副本，侵删。</p>",
-    "tags": [
-      "感悟"
-    ],
-    "title": "如何冥想？2500年的智慧-荒岛十日记（转载）",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/%E8%BD%AC%E8%BD%BD-%E5%A6%82%E4%BD%95%E5%86%A5%E6%83%B3-2500%E5%B9%B4%E7%9A%84%E6%99%BA%E6%85%A7-%E8%8D%92%E5%B2%9B%E5%8D%81%E6%97%A5%E8%AE%B0/"
-  },
-  {
-    "categories": [
-      "给自己的总结"
-    ],
-    "description": "<p>2019 in a review.</p>",
-    "tags": [
-      "生活",
-      "年度"
-    ],
-    "title": "2019年的总结",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/2019%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/"
-  },
-  {
-    "categories": [
-      "开源",
-      "软件计划"
-    ],
-    "description": "<p>写一些我想说的和未来对 Petal3 的计划。</p>",
-    "tags": [
-      "技术",
-      "豆瓣FM"
-    ],
-    "title": "写在 Petal3 之前",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/%E5%86%99%E5%9C%A8-petal3-%E4%B9%8B%E5%89%8D/"
-  },
-  {
     "categories": null,
     "description": "##EMT and First Responder Training Videos useful for regular citizens to know when facing overloaded medical system\nThis is is the official recommendation for existing EMT workers. https://www.cdc.gov/.../2019-ncov/hcp/guidance-for-ems.html\nI&rsquo;m been looking around for useful training info for people who may be required to perform first aid in the event that the medical system is overloaded with Covid19 cases.\n1) First aid training primary survey   2) CPR video   2b) Performing CPR on a child   3) trauma assessment/ management   4) CPR basics   5) first aid for choking   6) understanding shock   7) Cerfified nurses assistant exam training video   8) workinng with people who have dimentia   9) instruction on 10 suture techniques   10) CPAP and BIPAP ventilators explained   ",
     "tags": null,
@@ -138,37 +65,6 @@
     "tags": null,
     "title": "Food Health Standards",
     "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2019/10/09/food-health-standards/"
-  },
-  {
-    "categories": [
-      "给自己的总结"
-    ],
-    "description": "<p>我的 2018 年的总结。</p>",
-    "tags": [
-      "生活",
-      "年度"
-    ],
-    "title": "2018年的总结",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/2018%E5%B9%B4%E7%9A%84%E6%80%BB%E7%BB%93/"
-  },
-  {
-    "categories": [
-      "禅修"
-    ],
-    "description": "<p>记录一下我的丹东禅修之后的收获的东西，第二部分。</p>",
-    "tags": [
-      "生活",
-      "感悟"
-    ],
-    "title": "禅修二",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/%E7%A6%85%E4%BF%AE-%E8%87%B4%E8%89%AF%E7%9F%A5/"
-  },
-  {
-    "categories": null,
-    "description": "",
-    "tags": null,
-    "title": "",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2018/05/9420/"
   },
   {
     "categories": null,
@@ -206,37 +102,11 @@
     "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2018/05/selection_730/"
   },
   {
-    "categories": [
-      "禅修"
-    ],
-    "description": "<p>记录一下我的丹东禅修之后的收获的东西，第一部分。</p>",
-    "tags": [
-      "生活",
-      "感悟"
-    ],
-    "title": "禅修一",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/posts/%E7%A6%85%E4%BF%AE-%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80/"
-  },
-  {
     "categories": null,
     "description": "&nbsp;\nhttps://www.youtube.com/watch?v=QVTz1ks-5sE",
     "tags": null,
     "title": "Craft projects with kids",
     "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2018/04/craft-projects-with-kids/"
-  },
-  {
-    "categories": null,
-    "description": "",
-    "tags": null,
-    "title": "",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2018/04/9327/"
-  },
-  {
-    "categories": null,
-    "description": "",
-    "tags": null,
-    "title": "",
-    "url": "https://scdhub-g1eny-ecwo.vercel.app/videos/2018/04/9329/"
   },
   {
     "categories": null,
