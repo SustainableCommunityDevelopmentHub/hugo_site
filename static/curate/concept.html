@@ -90,6 +90,114 @@
             <img src="https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/municipal_solid_waste.jpg">
     </ul>
     
+         
+         
+         
+    <form onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }" id="form">
+
+    <div class="row">
+    <div class="col-sm">
+      <label>Project Name</label>
+      <br>
+      <input id="project_name" size=55>
+      <br><br>
+
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-sm">
+      <label>Description</label>
+      <BR>
+        <textarea cols=50 rows=3 name=project_description></textarea>
+      <BR>
+    </div>
+    </div>
+
+
+
+    <div class="row">
+      <BR>
+      <h2>Water system type</h2>
+    </div>
+
+    <div class="row">
+    <div class="button col-sm">
+      <input type="radio" name="watersystem" value="drinkingwater" id="drinkingwater">
+      <label for="drinkingwater">
+        <div class="labeltext">Drinking water</div>
+      </label>
+
+    </div>
+
+    <div class="button col-sm">
+      <input type="radio" name="watersystem" value="solidwaste" id="solidwaste">
+      <label for="solidwaste">
+        <div class="labeltext">Solid waste</div>
+      </label>
+
+    </div>
+
+    <div class="button col-sm">  
+      <input type="radio" name="watersystem" value="wastewater" id="wastewater">
+      <label for="wastewater">
+        <div class="labeltext">Wastewater</div>
+      </label>
+       
+         
+         
+         
+         
+<style> 
+         label {
+  cursor: pointer;
+}
+
+.labeltext {
+  position:relative;
+  top: 120px;
+}
+
+.sw { left: 120px; }
+
+.button input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    height: 128px;
+    width: 128px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    border: 6px solid #FFF;
+}
+
+input[type="radio"]:checked + label {
+    border: 6px solid #000;
+}
+
+input#drinkingwater[type="radio"] + label {
+    background-image: url("https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/water_drink.png");
+}
+input#solidwaste[type="radio"] + label {
+    background-image: url("https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/trash_full.png");        
+    position:relative;
+    left: 12px;
+}
+input#wastewater[type="radio"] + label {
+    background-image: url("https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/images/nounproject.com_louis-prado_Outfall_25099.png");
+}
+input#drinkingwater[type="radio"] + label .labeltext {
+	  left: 7px;
+}
+input#solidwaste[type="radio"] + label .labeltext {
+	  left: 22px;
+}
+input#wastewater[type="radio"] + label .labeltext {
+	  left: 8px;
+}
+</style>
+         
     <h2>Topics actively being researched:</h2>
     
     <ul>
