@@ -12,20 +12,16 @@ Sustainable Community Development Clinics typically start very informally, and f
 
 ## SCD Clinics in IT
 
-Unders 
-# thoughts on best practives for SCD Hub clinics
+- A useful comunity development clinic allows for some objectivity while opening up dialogues and bridges of understanding between groups.
 
-A useful comunity development clinic allows for some objectivity while opening up dialogues and bridges of understanding between groups.
+- Training the tech literacy support people. 
 
-Working agreements: A Sustainable Community Development suggests that we each are seeking land uses that will allow for future human habitation.
-
-By accepting working agreements in a discussion, SCD Clinic participants can a
+- SCD Clinics enable participants to learn through process.
 
 Topics
 
 * Climate effects on water resources
 * Local river and lake water quality issues
-* First step measures discussion on burn mitigation for areas rural east africa, US, and globally.
 * Sonoma California wine grape worker and youth exposures.
-* Young artists tribute 'the black river' with a film in Nairobi 2021
-* Workshops have gone well demonstrating cloud deployment, web publishing, and monitoring via heroku, github, netlify
+* Young artists tribute 'The Black River' with a film in Nairobi 2021
+* Workshops have gone well by assisting people to access and begin using solid web developer tools via free level of service plans on Netlify and/or Vercel, Heroku and Github
