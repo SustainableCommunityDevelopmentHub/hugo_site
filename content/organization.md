@@ -13,4 +13,4 @@ SCD Hub's current efforts are in directed at technical mentorship relasionship w
 
 ## TT Clinic
 The following links are useful for SCD Hub's tech clinic.
-<a href="https://vercel.com">[3]</a>,<a href="https://netlify.com">[1]</a>, <a href="https://github.com">[2]</a>,<a href="https://gitlab.com">[3]</a>.
+<a href="https://vercel.com">[0]</a>,<a href="https://netlify.com">[1]</a>, <a href="https://github.com">[2]</a>,<a href="https://gitlab.com">[3]</a>.
