@@ -10,4 +10,7 @@ Sustainable Community Development Hub is a registered 501c3 not for profit found
 
 ## 2021 March
 SCD Hub's current efforts are in directed at technical mentorship relasionship with UNM Peace engineering, and developing an effective solutions database system to serve global sanitation, solid waste, drinking water, and wastewater systems reference. This fits perfectly with SCD Hub's organizational goals.
- <a href="https://netlify.com">[2]</a>, <a href="https://github.com">[2]</a>,<a href="https://gitlab.com">[2]</a>,<a href="https://gitlab.com">[2]</a>
+
+## TT Clinic
+The following links are useful for SCD Hub's tech clinic.
+<a href="https://vercel.com">[3]</a>,<a href="https://netlify.com">[1]</a>, <a href="https://github.com">[2]</a>,<a href="https://gitlab.com">[3]</a>.
