@@ -26,7 +26,10 @@ The goal is to continue to refine our library such that it remains useful and to
 
 # Discussing context
 
-Working agreements: A Sustainable Community Development suggests that we each are seeking land uses that will allow for future human habitation.
+Working agreements: A Sustainable Community Development 
+  we each have a unique perspective, and that listening to one another and feeling heard are the two most important takeaways from any meeting.
+  
+  We acknowldge how the earth's climate threatens future human habitation.
 
 By accepting working agreements in a discussion, SCD Clinic participants can a
 
