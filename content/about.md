@@ -12,7 +12,7 @@ SCD Hub serves a curated collection of tagged and sub-categorized video and lier
 
 
 <BR><BR>
-Hence our database project [documentation site](http://sharaj2.sg-host.com)
+Hence  [Peacewater Docs](http://sharaj2.sg-host.com) This site provides the Peacewater/SCD Hub community with a forum. We will be seeking moderator assistance soon, so if you know someone.. :) thank you so much for the consideration..
 
 . If you wish to suggest a learning resource ( video, document, web url ), please share it in the comments. Thank you -[greg](mailto:acmeideal@gmail.com "email greg")
 
