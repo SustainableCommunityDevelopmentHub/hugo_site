@@ -8,6 +8,8 @@ updated = 2020-09-05T00:00:00Z
 +++
 SCD Clinics provide supportive information and organizational support for small community projects. The steps are to define a problem, invite community members and ask for their perspective on said issue, compile research, then call meeting to establish new ways work together to build lasting metaphorical bridges of understanding and peacemaking by bringing better understanding to complex problems.
 
+[Peacewater solutions library portal](https://scdhub.org/curate) is provided for projects related to drinking water, waste water, and solid waste.
+
 Sustainable Community Development Clinics typically start very informally, and follow a timeline that participants agree upon in advance.  They can be online or in-person, ( or a combination of both).  The Umati Portal - https://portal.etiny.xyz is developing resources to support this process.
 
 ## SCD Clinics in IT
