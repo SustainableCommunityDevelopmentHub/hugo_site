@@ -4,8 +4,8 @@ description = "SCD Clinics provide supportive information and organizational sup
 title = "SCD Hub Clinics"
 type = "post"
 updated = 2020-09-05T00:00:00Z
-
 +++
+
 SCD Clinics provide supportive information and organizational support for small community projects. The steps are to define a problem, invite community members and ask for their perspective on said issue, compile research, then call meeting to establish new ways work together to build lasting metaphorical bridges of understanding and peacemaking by bringing better understanding to complex problems.
 
 Sustainable Community Development Clinics typically start very informally, and follow a timeline that participants agree upon in advance.  They can be online or in-person, ( or a combination of both).  The Umati Portal - https://portal.etiny.xyz is developing resources to support this process.
