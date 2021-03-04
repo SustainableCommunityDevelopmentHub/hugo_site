@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Ten Things We Wish Wed Known Before We Went Off Grid
+title: How to make activated charchoal and biochar
 date: 2018-05-06
-cat: ["Microgrids","Natural Building","off grid","retrospective","Shelter","Sustainable Agriculture"]
-tag: ["family farm"]
+cat: ["water treatment"]
+tag: ["activated carbon"]
 ---
 
 
