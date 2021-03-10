@@ -153,7 +153,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Water Systems"
-  url = "/cat/water-systems-evaluation"
+  url = "/peacewater_clinic/"
   weight = 51
   parent = "Clinic Topics"
 
