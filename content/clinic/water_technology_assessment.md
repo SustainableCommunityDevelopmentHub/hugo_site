@@ -3,7 +3,7 @@ date = 2021-02-22T07:00:00Z
 description = "SCD Clinics provide supportive information and organizational support for small community projects. The steps are to define a problem, invite community members and ask for their perspective on said issue, complile research, then call meeting to establish new ways work together to build lasting methaphorical bridges of understanding and peacemaking by bringing better understanding to complex problems."
 title = "SCD Hub Clinics"
 type = "post"
-cat = "water-systems-evaluation"
+cat = "water system evaluationRUBY_VERSION"
 tag = "waste-system, technology-evaluation"
 updated = 2020-09-05T00:00:00Z
 +++
