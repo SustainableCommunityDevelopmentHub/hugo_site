@@ -28,3 +28,5 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+pages:
+- content/boiling-water-option.md
