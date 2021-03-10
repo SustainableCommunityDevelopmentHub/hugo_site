@@ -4,7 +4,7 @@ description = "SCD Clinics provide supportive information and organizational sup
 title = "SCD Hub Clinics"
 type = "post"
 cat = "water-systems-evaluation"
-tag = "waste system technology evaluation"
+tag = "waste-system, technology-evaluation"
 updated = 2020-09-05T00:00:00Z
 +++
 
