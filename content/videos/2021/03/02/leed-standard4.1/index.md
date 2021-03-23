@@ -44,7 +44,7 @@ LEED V 4.1 Standard. what did they add/change?
 
 https://build.usgbc.org/bdc41scorecard
 
-file:///tmp/mozilla_greg0/LEED_v4.1_BD_C_Guide.pdf
+https://www.usgbc.org/leed/v41
 
 https://www.usgbc.org/sites/default/files/CreditMappingBDC.pdf
    - node that is a very 'meta' document that has many important standards to take note of.
