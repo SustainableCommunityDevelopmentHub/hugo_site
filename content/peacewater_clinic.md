@@ -11,10 +11,10 @@ SCD Hub's mission
 to serve as a hub for sustainable community development
 to provide
 
-+
 
 trustworthy development tools
 trustworthy training tools
+<BR><BR>
 
 that facilitate 
 project planning 

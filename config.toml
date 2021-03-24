@@ -152,14 +152,14 @@ canonifyurls = true
   weight = 50
 
 [[menu.main]]
-  name = "Water Systems"
-  url = "/peacewater_clinic/"
+  name = "Peacewaters"
+  url = "/clinic/peacewaters_clinic"
   weight = 51
   parent = "Clinic Topics"
 
 [[menu.main]]
   name = "Renewables"
-  url = "/cat/renewables"
+  url = "/clinic/renewables"
   weight = 51
   parent = "Clinic Topics"
 
@@ -170,7 +170,7 @@ canonifyurls = true
   parent = "Clinic Topics"
 
 [[menu.main]]
-  name = "Food"
+  name = "Food Security"
   url = "/cat/food"
   weight = 53
   parent = "Clinic Topics"
