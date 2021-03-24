@@ -89,11 +89,12 @@
  {{if eq .Title "Cistern Flush Toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Drainage Field"}}{{ partial "subcat/disposal.html"}}{{end}}
 
-
+ {{if eq .Title "Municipal Solid Waste Storage"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
  {{if eq .Title "No Storage"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
  {{if eq .Title "Household Bin"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
  {{if eq .Title "Communal Bin"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
 
+ {{if eq .Title "Municipal Solid Waste Transfer"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
  {{if eq .Title "No Transfer"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
  {{if eq .Title "Human Power"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
  {{if eq .Title "Animal Power"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
@@ -108,6 +109,7 @@
  {{if eq .Title "Sanitary Landfilling"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "Incineration"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
 
+ {{if eq .Title "Municipal Solid Waste Recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "No Recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "Composting"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "Refuse Derived Fuel"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
