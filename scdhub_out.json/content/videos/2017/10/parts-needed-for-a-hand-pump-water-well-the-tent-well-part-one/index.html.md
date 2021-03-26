@@ -1,0 +1,16 @@
+{
+   "cat": [
+      "Handpump",
+      "parts inventory"
+   ],
+   "date": "2017-10-13",
+   "layout": "post",
+   "tag": [
+      "hand pump water well"
+   ],
+   "title": "Parts Needed For A Hand Pump Water Well. The Tent Well. Part One."
+}
+
+https://www.youtube.com/watch?v=rOHRDorGbUE
+
+I am going to install the hand water pump well at the tent finally. This video shows in simple terms exactly every part needed to install your own hand pump well. Installation practices may be different throughout the world and the material your parts are made of may vary as well but no matter what, you need a sand point, pipe, and the pump. Here it is in the simplest terms.
