@@ -20,7 +20,7 @@ What is a cross connection?
 
 A cross-connection is “any actual or potential connection between a potable water system and any source of pollution or contamination” (CSA, 2011).
 
-That is what this program is targeting.. 
+That is what this program is targating.. 
 "..plan includes creating a Backflow Prevention Program and passing a Backflow Prevention By-Law to enforce the program"
 
 

@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
     <header class="www-header">
-        <h1 class="mb4 px2 col-12 sm-col-8 mx-auto">{{ .Title }}</h1>
+        <h1 class="mb4 px2 col-12 sm-col-8 caps mx-auto">{{ .Title }}</h1>
         <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Params.description }}</span>
         </header>
 {{ partial "tag.html" . }}
@@ -8,9 +8,11 @@
 </aside>
            <aside class="www-components col-3 relative">
 
-        {{- range .Data.Pages }}
+        {{- range ( first 50 .Data.Pages ) }}
         {{ .Render "li" }}
         {{- end }}
 
     </main>
+
+
 {{ partial "footer.html" . }}

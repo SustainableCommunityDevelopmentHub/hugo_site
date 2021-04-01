@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Things to consider when buying land
+title: LEED Design standards - what did they add /change?
 cat:
 - Shelter
 tag:
