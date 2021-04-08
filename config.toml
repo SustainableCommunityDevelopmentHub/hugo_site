@@ -152,15 +152,21 @@ canonifyurls = true
   weight = 50
 
 [[menu.main]]
-  name = "Peacewaters"
+  name = "Peacewater link"
   url = "/clinic/peacewaters_clinic"
   weight = 51
   parent = "Clinic Topics"
 
 [[menu.main]]
-  name = "Renewables"
+  name = "Energy"
   url = "/clinic/renewables"
   weight = 52
+  parent = "Clinic Topics"
+
+[[menu.main]]
+  name = "Telecommunications"
+  url = "/clinic/renewables"
+  weight = 35
   parent = "Clinic Topics"
 
 [[menu.main]]

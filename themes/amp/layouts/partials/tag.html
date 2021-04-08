@@ -16,13 +16,19 @@
 {{if eq .Title "wastewater collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "No Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "Nightsoil Bucket" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "nightsoil bucket" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "Vault Cartage" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "vault-cartage" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "Septic/Tank" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
+{{if eq .Title "septic tank" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 
 {{if eq .Title "Wastewater Transfer" }}{{ partial "subcat/transfer.html"}}{{end}}
 {{if eq .Title "No Transfer" }}{{ partial "subcat/transfer.html"}}{{end}}
 {{if eq .Title "Conventional Sewerage" }}{{ partial "subcat/transfer.html"}}{{end}}
+{{if eq .Title "conventional sewerage" }}{{ partial "subcat/transfer.html"}}{{end}}
 {{if eq .Title "Drainage Field" }}{{ partial "subcat/transfer.html"}}{{end}}
+{{if eq .Title "drainage field transfer"}}{{ partial "subcat/transfer.html"}}{{end}}
+{{if eq .Title "small bore settled storage"}}{{ partial "subcat/transfer.html"}}{{end}}
 
 {{if eq .Title "Simple Water Distribution"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
 {{if eq .Title "Household Distribution Systems"}}{{partial "subcat/simple-water-distribution.html"}}{{end}} 
@@ -70,18 +76,22 @@
 {{if eq .Title "wastewater treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "No Treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "no treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "no treatment water systems"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "Oxidation Ditch"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "oxidation ditch"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "Constructed Wetlands"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "Constructed wetlands"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "Soil Aquifer Treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "soil aquifer treatment"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "Rotating Biological Contractor"}}{{ partial "subcat/treatment.html"}}{{end}}
-{{if eq .Title "rotating biological contctor"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "rotating biological contactor"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "Trickling Filters"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "trickling filters"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "activated sludge process"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "Stabilization Ponds"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "stabilization ponds"}}{{ partial "subcat/treatment.html"}}{{end}}
 {{if eq .Title "UV Sterilization"}}{{ partial "subcat/treatment.html"}}{{end}}
+{{if eq .Title "UV sterilization"}}{{ partial "subcat/treatment.html"}}{{end}}
 
 {{if eq .Title "Water Treatment"}}{{ partial "subcat/water-treatment.html"}}{{end}}
 {{if eq .Title "water treatment"}}{{ partial "subcat/water-treatment.html"}}{{end}}
@@ -91,26 +101,35 @@
 {{if eq .Title "Slow Sand Filter"}}{{ partial "subcat/water-treatment.html"}}{{end}}
 {{if eq .Title "slow sand filter"}}{{ partial "subcat/water-treatment.html"}}{{end}}
 {{if eq .Title "Boiling"}}{{ partial "subcat/water-treatment.html"}}{{end}}
+{{if eq .Title "boiling water"}}{{ partial "subcat/water-treatment.html"}}{{end}}
 {{if eq .Title "Ultraviolet Light"}}{{ partial "subcat/water-treatment.html"}} {{end}}
 {{if eq .Title "Reverse Osmosis"}}{{ partial "subcat/water-treatment.html"}} {{end}}
 {{if eq .Title "Distillation"}}{{ partial "subcat/water-treatment.html"}} {{end}}
 
  {{if eq .Title "Disposal"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Sludge Burial"}}{{ partial "subcat/disposal.html"}}{{end}}
- {{if eq .Title "Waste Composting"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "solid waste burial"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "waste composting"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "Waste composting"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Pit Privy"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Pit privy"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Ventilated Improved Pit Latrine"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Ventilated improved pit latrine"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Aqua Privy"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "aqua privy"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Pour Flush Toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Pour flush toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "pour flush toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Cistern Flush Toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "cistern flush toilet"}}{{ partial "subcat/disposal.html"}}{{end}}
  {{if eq .Title "Drainage Field"}}{{ partial "subcat/disposal.html"}}{{end}}
+ {{if eq .Title "drainage field"}}{{ partial "subcat/disposal.html"}}{{end}}
 
  {{if eq .Title "MSW"}}{{ partial "subcat/municipal-waste.html"}}{{end}}
  {{if eq .Title "Municipal Solid Waste Storage"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
  {{if eq .Title "municipal solid waste storage no storage systems"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
+ {{if eq .Title "Municipal Solid Waste Storage No Storage Systems"}}{{ partial "subcat/municipal-waste-storage.html"}}{{end}}
+ {{if eq .Title "municipal solid waste storage household bin"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "municipal solid waste disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "no municipal solid waste disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "municipal disposal open dumps"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}} {{if eq .Title "msw disposal waste discarded at source"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
@@ -123,7 +142,7 @@
  {{if eq .Title "Compactor Trucks"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
 
  {{if eq .Title "No Disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
- {{if eq .Title "mws disposal no disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
+ {{if eq .Title "msw disposal no disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "Waste Discarded at Source"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "Open Burning"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "Open Dumps"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
@@ -132,8 +151,9 @@
  {{if eq .Title "Incineration"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
 
  {{if eq .Title "Municipal Solid Waste Recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
+ {{if eq .Title "msw recovery no recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "No Recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
- {{if eq .Title "Composting"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
+ {{if eq .Title "solid waste composting"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "Refuse Derived Fuel"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "Pyrolysis"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "pyrolysis"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}

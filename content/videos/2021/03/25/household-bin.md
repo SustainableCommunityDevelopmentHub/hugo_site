@@ -1,9 +1,14 @@
 ---
 layout: post
 title: Municipal Solid Waste Systems Household Bin
-clinic: ["Water"]
-cat: ["Municipal Solid Waste Storage","Municipal Solid Waste Storage Household Bin"]
-tag: ["Peacewater Link", "Household Bin", "MSW", "Solid Waste"]
+cat: 
+- Municipal Solid Waste Storage
+- Municipal Solid Waste Storage Household Bin
+tag: 
+- Peacewater Link
+- Household Bin
+- MSW
+- Solid Waste
 date: 202-03-25
 ---
 
