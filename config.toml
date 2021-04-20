@@ -147,12 +147,29 @@ canonifyurls = true
   parent = "Wastewater"
 
 [[menu.main]]
-  name = "Clinic Topics"
-  url = "/videos/2017/07/start-a-clinic/index.html/"
-  weight = 50
+  name = "Shelter"
+  url = "/cat/water"
+  weight = 45
 
 [[menu.main]]
-  name = "Peacewater link"
+  name = "Building Materials"
+  url = "/cat/building-materials/"
+  weight = 46
+  parent = "Shelter"
+
+[[menu.main]]
+  name = "Structures"
+  url = "/cat/procurement"
+  weight = 47
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Clinic Topics"
+  url = "/videos/2017/07/start-a-clinic/index.html/"
+  weight = 49
+
+[[menu.main]]
+  name = "Water Systems"
   url = "/clinic/peacewaters_clinic"
   weight = 51
   parent = "Clinic Topics"
