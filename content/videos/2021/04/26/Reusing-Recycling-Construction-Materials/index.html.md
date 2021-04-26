@@ -14,7 +14,7 @@ tag:
 date: 2021-04-26 
 --- 
 
-============================================= 
+
 Here is a quick blog article on how to recycle your construction materials and where you can find places to get recycled construction materials for reuse. 
 
 Posted September 16, 2019. 
