@@ -12,7 +12,7 @@
 
 {{else}} 
 
-{{if eq .Title "Shelter" }}{{ partial "subcat/shelter.html"}}{{end}}
+{{if eq .Cat "Shelter" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "Wastewater Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "wastewater collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "No Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
@@ -134,6 +134,7 @@
  {{if eq .Title "municipal solid waste disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "no municipal solid waste disposal"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "municipal disposal open dumps"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}} {{if eq .Title "msw disposal waste discarded at source"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
+
  {{if eq .Title "Municipal Solid Waste Transfer"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
  {{if eq .Title "No Transfer"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
  {{if eq .Title "Human Power"}}{{ partial "subcat/municipal-waste-transfer.html"}}{{end}}
@@ -158,7 +159,6 @@
  {{if eq .Title "Pyrolysis"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "pyrolysis"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "Munitipal Solid Waste Recycling"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
- {{if eq .Title "shelter"}}{{ partial "subcat/shelter.html"}}{{end}}
             </aside>
             <aside class="col-1 xs-hide"></aside>
 {{ if .Params.tag}}{{if .Params.cat }}
