@@ -133,3 +133,8 @@ sometime.
 
 > Arden Buck brings forcus to the human and natural ecosystem work of SCD Hub. Arden has been active with many organizations over the years and it is an honor to have his advising and support as SCD Hub takes on new challenges and roles in sustainable community development.
 
+<BR>
+## Devon Miller
+
+> Devon advises SCD Hub on planning andbig picture issues.  He is a dedicated father and promoter of sustainable food systems, developer of new markets, Jui Jitsu instructor, friend to SCD Hub.
+
