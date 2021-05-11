@@ -13,6 +13,7 @@
 {{else}} 
 
 {{if eq .Title "Shelter" }}{{ partial "subcat/shelter.html"}}{{end}}
+{{if eq .Title "Brick" }}{{ partial "subcat/brick.html"}}{{end}}
 {{if eq .Title "Wastewater Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "wastewater collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
 {{if eq .Title "No Collection" }}{{ partial "subcat/wastewater-collection.html"}}{{end}}
@@ -150,6 +151,7 @@
  {{if eq .Title "Sanitary Landfilling"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
  {{if eq .Title "Incineration"}}{{ partial "subcat/municipal-waste-disposal.html"}}{{end}}
 
+ {{if eq .Title "msw recovery refuse derived fuel"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "Municipal Solid Waste Recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "msw recovery no recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
  {{if eq .Title "No Recovery"}}{{ partial "subcat/municipal-waste-recovery.html"}}{{end}}
@@ -180,7 +182,6 @@
             </aside>
 {{ end }}
             </aside>
-            <aside class="col-1 xs-hide"></aside>
 
    
                         {{if gt (len .Summary) 0}}
@@ -205,5 +206,3 @@ i
   <a class="ampstart-btn caps text-decoration-none inline-block" href="/tag/{{ . | urlize }}" option="body">{{ . }}</a></div>
 {{ end }}
 {{ end }}
-            <aside class="col-1 xs-hide">
-            </aside>

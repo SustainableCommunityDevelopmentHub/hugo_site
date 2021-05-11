@@ -4,13 +4,10 @@
         <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Params.description }}</span>
         </header>
 
-<div class="col">                         </div>
-
-
 {{ partial "tag.html" . }}
 
 </aside>
-           <aside class="www-components col-3 relative">
+           <aside class="www-components col-9 relative">
 
         {{- range ( first 50 .Data.Pages ) }}
         {{ .Render "li" }}
