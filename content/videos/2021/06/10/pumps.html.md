@@ -3,7 +3,7 @@ layout: post
 title: Commmon water lifting & transport pumps, common problems and comparison of methods of repair
 cat:
 - pumps
-tag
+tag:
 - pumps
 - water pumps
 youtubeid: NbunlN5nYzM
