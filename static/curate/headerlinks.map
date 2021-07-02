@@ -1,0 +1,16 @@
+        <map name="map">
+        <!-- #$-:Image map file created by GIMP Image Map plug-in -->
+        <!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+        <!-- #$-:Please do not edit lines starting with "#$" -->
+        <!-- #$VERSION:2.3 -->
+        <!-- #$AUTHOR:Greg Willson -->
+        <area shape="rect" coords="88,16,308,106" alt="Peacewater Link" href="index.html" />
+        <area shape="rect" coords="322,13,405,110" alt="Drinking Water" href="drinkingwater.html" />
+        <area shape="rect" coords="406,13,534,109" href="solidwaste.html" />
+        <area shape="rect" coords="535,13,646,111" href="wastewater_sewage.html" />
+        <area shape="rect" coords="898,15,1089,109" href="applied_research.html" />
+        <area shape="rect" coords="30,105,147,131" href="applied_research.html" />
+        <area shape="rect" coords="160,104,259,132" href="topics.html" />
+        <area shape="rect" coords="281,103,402,134" href="concept.html" />
+        <area shape="rect" coords="429,103,605,133" href="get-involved.html" />
+        </map>

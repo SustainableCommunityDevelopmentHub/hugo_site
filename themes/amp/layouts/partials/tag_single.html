@@ -1,8 +1,8 @@
    <amp-selector layout="container">
         <main class="flex pl2">
-            <aside class="col-1 xs-hide"></aside>
-
             <article class="www-components flex-auto col-10">
+                <section class="www-component-desc">
+                </section>
                 <section class="www-component-desc">
                 {{ .Content | replaceRE "eliteaccordion" "" | replaceRE "elitetoggle" "" | replaceRE "title=&ldquo;Generated closed captioned text&rdquo;" "" | safeHTML }}
                 </section>

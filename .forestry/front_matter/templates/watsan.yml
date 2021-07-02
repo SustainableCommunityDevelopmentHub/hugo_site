@@ -1,0 +1,32 @@
+---
+label: watsan
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: timeline1
+  type: datetime
+  label: timeline1
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
+pages:
+- content/boiling-water-option.md

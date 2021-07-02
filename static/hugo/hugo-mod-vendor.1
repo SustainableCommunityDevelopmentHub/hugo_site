@@ -1,0 +1,84 @@
+.nh
+.TH "HUGO\-MOD\-VENDOR" "1" "Mar 2021" "Hugo 0.80.0" "Hugo Manual"
+
+.SH NAME
+.PP
+hugo\-mod\-vendor \- Vendor all module dependencies into the \_vendor directory.
+
+
+.SH SYNOPSIS
+.PP
+\fBhugo mod vendor [flags]\fP
+
+
+.SH DESCRIPTION
+.PP
+Vendor all module dependencies into the \_vendor directory.
+
+.PP
+If a module is vendored, that is where Hugo will look for it's dependencies.
+
+
+.SH OPTIONS
+.PP
+\fB\-h\fP, \fB\-\-help\fP[=false]
+	help for vendor
+
+
+.SH OPTIONS INHERITED FROM PARENT COMMANDS
+.PP
+\fB\-\-config\fP=""
+	config file (default is path/config.yaml|json|toml)
+
+.PP
+\fB\-\-configDir\fP="config"
+	config dir
+
+.PP
+\fB\-\-debug\fP[=false]
+	debug output
+
+.PP
+\fB\-e\fP, \fB\-\-environment\fP=""
+	build environment
+
+.PP
+\fB\-\-ignoreVendor\fP[=false]
+	ignores any \_vendor directory
+
+.PP
+\fB\-\-ignoreVendorPaths\fP=""
+	ignores any \_vendor for module paths matching the given Glob pattern
+
+.PP
+\fB\-\-log\fP[=false]
+	enable Logging
+
+.PP
+\fB\-\-logFile\fP=""
+	log File path (if set, logging enabled automatically)
+
+.PP
+\fB\-\-quiet\fP[=false]
+	build in quiet mode
+
+.PP
+\fB\-s\fP, \fB\-\-source\fP=""
+	filesystem path to read files relative from
+
+.PP
+\fB\-\-themesDir\fP=""
+	filesystem path to themes directory
+
+.PP
+\fB\-v\fP, \fB\-\-verbose\fP[=false]
+	verbose output
+
+.PP
+\fB\-\-verboseLog\fP[=false]
+	verbose logging
+
+
+.SH SEE ALSO
+.PP
+\fBhugo\-mod(1)\fP

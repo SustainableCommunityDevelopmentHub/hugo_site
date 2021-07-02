@@ -1,0 +1,96 @@
+.nh
+.TH "HUGO\-GEN\-CHROMASTYLES" "1" "Mar 2021" "Hugo 0.80.0" "Hugo Manual"
+
+.SH NAME
+.PP
+hugo\-gen\-chromastyles \- Generate CSS stylesheet for the Chroma code highlighter
+
+
+.SH SYNOPSIS
+.PP
+\fBhugo gen chromastyles [flags]\fP
+
+
+.SH DESCRIPTION
+.PP
+Generate CSS stylesheet for the Chroma code highlighter for a given style. This stylesheet is needed if pygmentsUseClasses is enabled in config.
+
+.PP
+See https://help.farbox.com/pygments.html for preview of available styles
+
+
+.SH OPTIONS
+.PP
+\fB\-h\fP, \fB\-\-help\fP[=false]
+	help for chromastyles
+
+.PP
+\fB\-\-highlightStyle\fP="bg:#ffffcc"
+	style used for highlighting lines (see https://github.com/alecthomas/chroma)
+
+.PP
+\fB\-\-linesStyle\fP=""
+	style used for line numbers (see https://github.com/alecthomas/chroma)
+
+.PP
+\fB\-\-style\fP="friendly"
+	highlighter style (see https://help.farbox.com/pygments.html)
+
+
+.SH OPTIONS INHERITED FROM PARENT COMMANDS
+.PP
+\fB\-\-config\fP=""
+	config file (default is path/config.yaml|json|toml)
+
+.PP
+\fB\-\-configDir\fP="config"
+	config dir
+
+.PP
+\fB\-\-debug\fP[=false]
+	debug output
+
+.PP
+\fB\-e\fP, \fB\-\-environment\fP=""
+	build environment
+
+.PP
+\fB\-\-ignoreVendor\fP[=false]
+	ignores any \_vendor directory
+
+.PP
+\fB\-\-ignoreVendorPaths\fP=""
+	ignores any \_vendor for module paths matching the given Glob pattern
+
+.PP
+\fB\-\-log\fP[=false]
+	enable Logging
+
+.PP
+\fB\-\-logFile\fP=""
+	log File path (if set, logging enabled automatically)
+
+.PP
+\fB\-\-quiet\fP[=false]
+	build in quiet mode
+
+.PP
+\fB\-s\fP, \fB\-\-source\fP=""
+	filesystem path to read files relative from
+
+.PP
+\fB\-\-themesDir\fP=""
+	filesystem path to themes directory
+
+.PP
+\fB\-v\fP, \fB\-\-verbose\fP[=false]
+	verbose output
+
+.PP
+\fB\-\-verboseLog\fP[=false]
+	verbose logging
+
+
+.SH SEE ALSO
+.PP
+\fBhugo\-gen(1)\fP

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PEACEWATER PROJECTS & CASE STUDIES DATA PORTAL</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css'><link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+  <script>window.LogRocket && window.LogRocket.init('hir9az/peacewater');</script>
+</head>
+<body>
+
+  <div class="container">
+        
+    <img src="https://raw.githubusercontent.com/SustainableCommunityDevelopmentHub/hugo_site/master/static/curate/peacewater_header_nav_case-studies_invovment_.png" border="0" usemap="#map" />
+    <map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:Greg Willson -->
+<area shape="rect" coords="88,16,308,106" alt="Peacewater Link" href="peacewater.link" />
+<area shape="rect" coords="322,13,405,110" alt="Drinking Water" href="drinkingwater.html" />
+<area shape="rect" coords="406,13,534,109" href="solidwaste.html" />
+<area shape="rect" coords="535,13,646,111" href="wastewater_sewage.html" />
+<area shape="rect" coords="898,15,1089,109" href="start.html" />
+</map>
+    
+    
+
+    
+      <!-- partial:index.partial.html -->
+    <div class="form-group pull-right">
+    <input type="text" class="search form-control" placeholder="What you looking for?">
+    </div>
+    
+<span class="counter pull-right"></span>
+<table class="table table-hover table-bordered results" style="width:90%">
+  <thead>
+    <tr>
+      
+      <th class="col-md-5 col-xs-5">Name / Surname</th>
+      <th class="col-md-4 col-xs-4">Job</th>
+      <th class="col-md-3 col-xs-3">City</th>
+    </tr>
+    <tr class="warning no-result">
+      <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        
+        <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+          
+          
+  </div>
+        
+        
+        
+        
+        
+      </td>
+      <td>UI & UX</td>
+      <td>Istanbul</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>  <div class="accordion" id="accordion">
+ 
+          <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+          
+          
+  </div></td>
+      <td>Software Developer</td>
+      <td>Istanbul</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Egemen Özbeyli</td>
+      <td>Purchasing</td>
+      <td>Kocaeli</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Engin Kızıl</td>
+      <td>Sales</td>
+      <td>Bozuyük</td>
+    </tr>
+  </tbody>
+</table>
+    
+  </div>    
+    
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js'></script><script  src="./script.js"></script>
+<script>
+    $(document).ready(function () {
+    $.getJSON('https:\/\/scdhub-g1eny-ecwo.vercel.app\//index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: true,
+      })
+    })
+  })
+</script>
+  
+  
+</body>
+</html>
+

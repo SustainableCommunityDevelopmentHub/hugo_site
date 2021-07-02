@@ -6,6 +6,7 @@ theme = "amp"
 [taxonomies]
   cat = "cat"
   tag = "tag"
+  Youtubeid = "youtubeid"
   clinic = "clinic"
 
 LanguageCode= "en-EN"
@@ -34,21 +35,15 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Partnering "
+  name = "Partner"
   url = "/about/#partner"
   weight = 23
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Non-profit Status"
+  name = "Non-profit"
   url = "/about/#501c3"
   weight = 23
-  parent= "SCD Hub"
-
-[[menu.main]]
-  name = "Membership"
-  url = "/members"
-  weight = 24
   parent= "SCD Hub"
 
 [[menu.main]]
@@ -62,41 +57,6 @@ canonifyurls = true
   url = "/donate"
   weight = 26
   parent= "SCD Hub"
-
-[[menu.main]]
-  name = "Drinking Water"
-  url = "/cat/water"
-  weight = 27
-
-[[menu.main]]
-  name = "Water Sources"
-  url = "/cat/water-sources/"
-  weight = 28
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Water Procurement"
-  url = "/cat/procurement"
-  weight = 29
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Water Storage"
-  url = "/cat/water-storage/"
-  weight = 30
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Water Treatment"
-  url = "/cat/water-treatment/"
-  weight = 31
-  parent = "Drinking Water"
-
-[[menu.main]]
-  name = "Water Distribution"
-  url = "/cat/simple-water-distribution/"
-  weight = 32
-  parent = "Drinking Water"
 
 [[menu.main]]
   name = "Solid Waste Storage"
@@ -136,7 +96,7 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Wastewater Treatment"
-  url = "/cat/treatment"
+  url = "/cat/wastewater-treatment"
   weight = 42
   parent = "Wastewater"
 
@@ -147,51 +107,109 @@ canonifyurls = true
   parent = "Wastewater"
 
 [[menu.main]]
-  name = "Clinic Topics"
+  name = "Shelter"
+  url = "/cat/shelter"
+  weight = 45
+
+[[menu.main]]
+  name = "Building Materials"
+  url = "/cat/building-materials/"
+  weight = 46
+  parent = "Shelter"
+
+[[menu.main]]
+  name = "Structures"
+  url = "/cat/structures"
+  weight = 47
+  parent = "Shelter"
+
+[[menu.main]]
+  name = "Clinics"
   url = "/videos/2017/07/start-a-clinic/index.html/"
-  weight = 50
+  weight = 49
 
 [[menu.main]]
   name = "Water Systems"
-  url = "/cat/water-systems-evaluation"
+  url = "/clinic/peacewaters_clinic"
   weight = 51
-  parent = "Clinic Topics"
+  parent = "Clinics"
 
 [[menu.main]]
-  name = "Renewables"
-  url = "/cat/renewables"
-  weight = 51
-  parent = "Clinic Topics"
+  name = "Energy"
+  url = "/clinic/renewables"
+  weight = 52
+  parent = "Clinics"
+
+[[menu.main]]
+  name = "Telecommunications"
+  url = "/clinic/renewables"
+  weight = 35
+  parent = "Clinics"
 
 [[menu.main]]
   name = "Shelter"
   url = "/cat/shelter"
-  weight = 52
-  parent = "Clinic Topics"
+  weight = 53
+  parent = "Clinics"
 
 [[menu.main]]
-  name = "Food"
+  name = "Food Security"
   url = "/cat/food"
-  weight = 53
-  parent = "Clinic Topics"
+  weight = 54
+  parent = "Clinics"
 
 [[menu.main]]
   name = "IT"
   url = "/clinic/information-technology"
-  weight = 45
-  parent = "Clinic Topics"
+  weight = 55
+  parent = "Clinics"
+
+[[menu.main]]
+  name = "Drinking Water"
+  url = "/cat/water"
+  weight = 127
+
+[[menu.main]]
+  name = "Water Sources"
+  url = "/cat/water-sources/"
+  weight = 128
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Procurement"
+  url = "/cat/procurement"
+  weight = 129
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Storage"
+  url = "/cat/water-storage/"
+  weight = 130
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Treatment"
+  url = "/cat/water-treatment/"
+  weight = 131
+  parent = "Drinking Water"
+
+[[menu.main]]
+  name = "Water Distribution"
+  url = "/cat/simple-water-distribution/"
+  weight = 32
+  parent = "Drinking Water"
 
 [params]
     amp = true
     # define which amp-elements you are using globally, these elements will be included in every page
-    ampElements = ["amp-accordion","amp-ad","amp-analytics","amp-carousel","amp-iframe","amp-app-banner","amp-dynamic-css-classes","amp-form","amp-fx-flying-carpet","amp-image-lightbox","amp-lightbox","amp-sidebar","amp-social-share","amp-sticky-ad","amp-user-notification"]
+    ampElements = ["amp-accordion","amp-ad","amp-analytics","amp-carousel","amp-iframe","amp-app-banner","amp-dynamic-css-classes","amp-youtube","amp-form","amp-fx-flying-carpet","amp-image-lightbox","amp-lightbox","amp-sidebar","amp-social-share","amp-sticky-ad","amp-user-notification"]
   description = "SCD Hub"
   metadescription = "Library of Sustainable Community Development solutions and approaches"
   cover = "images/n0.jpg"
   catcover = "images/n0.jpg"
   author = "Greg Willson"
   authorlocation = "Nederland, Colorado, USA"
-  authorwebsite = "http://scdhub.org/greg"
+  authorwebsite = "http://scdhub.org/"
   authorbio= "About SCD Hub"
   logo = "images/logo0.svg"
   # googleAnalyticsUserID = "UA-79101-12"
@@ -200,7 +218,7 @@ canonifyurls = true
   githubName = "sustainablecommunitydevelopmenthub"
   twitterName = "scdhub"
   facebookName = "SCD Hub"
-  # codepenName = "biomassives"
+  codepenName = "biomassives"
   linkedinName = "acmeideal@gmail.com"
   # stackoverflowId = ""
   # keybaseName = ""

@@ -1,4 +1,8 @@
 ---
-title: Video Library
+title: Sustainable Project Driven Library Development
+type: post
 ---
-The Sustainable Community Development Hub Educational Video library by category
+
+In support of planning document preparation, community meeting facilitation, technology education.
+
+

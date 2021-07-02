@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Municipal Solid Waste Storage
-clinic: ["Water"]
 cat: ["Municipal Solid Waste Storage"]
-tag: ["ECHO WATER", "Water", "MSW", "Municipal Solid Waste"]
+tag: ["Peacewater Link", "Water", "MSW", "Municipal Solid Waste"]
 date: 2020-12-01
 ---
 
 
-Municipal Solid Waste Storage Decision Portal 
-=============================================
+Municipal Solid Waste Storage 
+============================
 
-This is a test page as we begin to develop a system for managing web content for use in web content curation groups.
+Context is everything here. Peacewater Link supports large and small scale solutions for solid waste management.  Many projects are struggling to find a path forward which considers, storage, awareness of new emergent markets, products that can be made in their own community. 
+
+Peacewater Link/ SCD Hub works to track incentive and partnership programs for social ventures, clean rivers and clean environment initiatives.  In east Africa, the self help movement has shown great promise by aligning community members around important economic and environmental health concerns.
