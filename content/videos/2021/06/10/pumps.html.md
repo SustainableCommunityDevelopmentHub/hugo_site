@@ -19,9 +19,13 @@ a.	Priming a water pump means to remove all the air from the system.  Water pump
 b.	Involves filling the pump system with water usually through a designated port called the prime plug or prime opening.
 c.	This website explains the process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
 d.	Good additional video about priming troubleshooting: 
+
 {{< rawhtml >}}
+
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 {{< rawhtml >}}
+
 NOTE: It is not recommended to prime pump while running, as shown in this video.
 
 ### 2.	Leaking gasket or seal issue
