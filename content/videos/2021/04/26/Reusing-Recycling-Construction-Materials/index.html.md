@@ -14,8 +14,12 @@ tag:
 date: 2021-04-26 
 --- 
 
+Reuse of Construction Materials
+===============================
 
-Here is a quick blog article on how to recycle your construction materials and where you can find places to get recycled construction materials for reuse. 
+![resused building materials - wood & bottle reuse](/images/headers/scdhub_reused_building_materials.jpg)
+
+Here is a short blog article on how to recycle your construction materials and some ideas you can find places to get recycled construction materials for reuse. 
 
 Posted September 16, 2019. 
 [How to reuse and recycle construction materials](https://centennialwoods.com/blog/know-the-source-of-your-rhttps://recyclecoach.com/residents/blog/how-to-reuse-and-recycle-construction-materials/eclaimed-wood/)
