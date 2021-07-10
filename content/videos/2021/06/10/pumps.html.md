@@ -26,7 +26,9 @@ d.	Good additional video about priming troubleshooting:
 
 {{< rawhtml >}}
 
-NOTE: It is not recommended to prime pump while running, as shown in this video.
+NOTE: It is not recommended to prime pump while running
+
+
 
 ### 2.	Leaking gasket or seal issue
 ### 3.	Broken / damaged parts 
