@@ -7,8 +7,6 @@ tag:
 - pumps
 - water pumps
 - pump repair
-youtubeid: NbunlN5nYzM
-headerimage: pump1.jpg
 date: 2021-06-10
 --- 
 # Commmon water lifting & transport pumps, common problems and comparison of methods of repair
