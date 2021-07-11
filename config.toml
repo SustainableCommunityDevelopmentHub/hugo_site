@@ -3,6 +3,10 @@ languageCode = "en-us"
 title = "Sustainable Community Development Hub"
 theme = "amp"
 
+[markup.goldmark.renderer]
+hardWraps = true
+
+
 [taxonomies]
   cat = "cat"
   tag = "tag"

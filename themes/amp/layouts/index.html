@@ -263,9 +263,29 @@ var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqsc
 s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
 </script>
 
+
+    <h1>1</h1>
     <article class="www-components flex-auto col-12">
                 <section class="www-component-desc" id="samples_templates">
                     <div class="abe-examples flex flex-wrap">
+                      {{ $home := .Site.Taxonomies.tag.shelter  }}
+                        {{ range ($home.Pages.GroupBy "Section") }}
+  	                  {{ if eq .Key "articles" }}
+    	                    {{ range last 3 .Pages.ByDate }}
+    	                    //-- your code here --//
+ 	                  {{ end }}
+                        {{ end }}
+                      {{ end }}
+                    </div>
+                </section>
+    </article>
+
+    <h1>2</h1>
+    <article class="www-components flex-auto col-12">
+                <section class="www-component-desc" id="samples_templates">
+                    <div class="abe-examples flex flex-wrap">
+
+
                       {{- range .Data.Pages }}
                         {{ .Render "li" }}
                       {{- end }}
