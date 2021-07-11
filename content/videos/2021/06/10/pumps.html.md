@@ -33,7 +33,7 @@ Replacing a mechanical seal or gasket will be different for every pump, but foll
 <ol>
   <li> Disconnect power and drain if required
   <li> Disassemble pump 
-  <li> Remove old seal'
+  <li> Remove old seal
   <li> Clean and lubricate where necesarry
   <li> Replace seal or gasket and reassemble
 <ol>
