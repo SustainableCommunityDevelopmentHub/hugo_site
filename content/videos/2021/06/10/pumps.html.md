@@ -27,12 +27,11 @@ date: 2021-06-10
 {{< rawhtml >}}
 
 NOTE: It is not recommended to prime pump while running
-
-
-
-### 2.	Leaking gasket or seal issue
+  
+# 2.	Leaking gasket or seal issue
 Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
-<ol>
+
+  <ol>
   <li> Disconnect power and drain if required
   <li> Disassemble pump 
   <li> Remove old seal
