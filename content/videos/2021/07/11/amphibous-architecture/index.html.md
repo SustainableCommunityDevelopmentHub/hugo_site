@@ -35,7 +35,7 @@ The result was a metal frame fitted to the bottom of the original foundation of 
 
 ## Citations: 
 [1] The Buoyant Foundation Project. https://www.buoyantfoundation.org/home
-[2] Anthes, Emily. (January 3, 2018) "A Floating House to Resist the Floods of Climate Change." The New Yorker. https://www.newyorker.com/tech/annals-of-technology/a-floating-house-to-resist-the-floods-of-climate-change
+<p> [2] Anthes, Emily. (January 3, 2018) "A Floating House to Resist the Floods of Climate Change." The New Yorker. https://www.newyorker.com/tech/annals-of-technology/a-floating-house-to-resist-the-floods-of-climate-change <p>
 
 ## Relevant Videos:
 {{< rawhtml >}}
