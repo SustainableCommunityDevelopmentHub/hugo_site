@@ -43,12 +43,11 @@ See this video for one example of a mechanical seal replacement:
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
+ 
+### 3.	Impeller damage
+### 4.	Improper wiring
 
-### 3.	Broken / damaged parts 
-### 4.	Impeller damage
-### 5.	Improper wiring
-
-### 6.  Pressure switch
+### 5.  Pressure switch
 a.	Another area of malfunction in a pump is the pressure switch.  The pressure switch monitors the pressure of water and turns the pump on or off.  
 b.	View this guide on troubleshooting pressure switch issues:
 https://empirepumpinc.com/well-inspections/well-pump-pressure-switch-problems/
