@@ -10,14 +10,12 @@ tag:
 date: 2021-04-20
 --- 
 
-Recycled Pallete Wood Safety
-============================================= 
+## Recycled Pallet Wood Safety
+Pallets are a popular and cheap (sometimes free) source for reclaimed wood, but not all pallet woods are safe for use indoors where children, pets, and people with immune disorders reside. Some pallets are treated with harsh chemicles to kill pests, while others might have endured chemical spills in a warehouse, or been stored for long periods of time in uncontrolled environments leaving them susceptible to mold, mildew, and pests. Understanding the symbols marked on pallets as well as knowing where they are coming from and how to treat them before use is important to ensuring your pallets will not pose a health threat to you or your household.
 
-Source: Youtube user: This Life Outdoors  - 21.4K subscribers
-Pallet safety.  How do you know if the pallets you are using are safe for your DIY Pallet Wood Projects?  
-In this video I cover the types of pallets and which ones pose a health concern.  Learn which pallets are good for pallet projects and reclaiming.  
-Knowing this information is important, especially if you are considering building a pallet cabin like we did.  
-Be confident that all of the FREE Pallet Wood you are getting is safe to use for your DIY Pallet Wood Projects.
+## Pallet wood safety video:
+{{< rawhtml >}}
 
-[https://www.youtube.com/watch?v=aM2c8kBhIFk] 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aM2c8kBhIFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< /rawhtml >}}
