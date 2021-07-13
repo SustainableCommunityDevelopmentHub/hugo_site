@@ -15,7 +15,7 @@ date: 2021-06-10
 ## Reasons for water pump failure:
 ### 1.  Running pump dry / not priming
 
- -Priming a water pump means to remove all the air from the system.  Water pumps need to be primed before use.
+ - Priming a water pump means to remove all the air from the system.  Water pumps need to be primed before use.
  - Involves filling the pump system with water usually through a designated port called the prime plug or prime opening.
  - This website explains the process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
  - Good additional video about priming troubleshooting:
@@ -53,10 +53,7 @@ See this video for one example of a mechanical seal replacement:
 ### 4.	Improper wiring
 
 ### 5.  Pressure switch
-a.	Another area of malfunction in a pump is the pressure switch.  The pressure switch monitors the pressure of water and turns the pump on or off.  
-b.	View this guide on troubleshooting pressure switch issues:
+Another area of malfunction in a pump is the pressure switch.  The pressure switch monitors the pressure of water and turns the pump on or off.  
+- View this guide on troubleshooting pressure switch issues:
 https://empirepumpinc.com/well-inspections/well-pump-pressure-switch-problems/
 
-
-Water pump issues and repair
-{{< figure src="/pumps/pump1.jpg" title="Cool Image" class="pull-left" >}}
