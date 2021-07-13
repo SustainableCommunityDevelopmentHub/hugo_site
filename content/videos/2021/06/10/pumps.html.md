@@ -33,7 +33,13 @@ A damaged pressure switch can sometimes be repaired, but it is often cost-effect
  - Involves filling the pump system with water usually through a designated port called the prime plug or prime opening.
  - This website explains the priming process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
 
-Video 1 shows an example of priming a pump.  NOTE: It is not recommended to prime pump while running
+This video shows an example of priming a pump.  NOTE: It is not recommended to prime pump while running
+
+{{< rawhtml >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /rawhtml >}}
 
 ## Mechanical seal issue
 If your water pump is not leaking water, there may be a leak or other issue with the mechanical seal. Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
@@ -47,53 +53,43 @@ If your water pump is not leaking water, there may be a leak or other issue with
 It is best to consult the directions specific to your water pump.  This information can usually be found in the operations manual or on the manufacturers website.  
 See this video for one example of a mechanical seal replacement:
 
+{{< rawhtml >}}
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< /rawhtml >}}
  
 ## Impeller damage
 In centrifugal pumps, the impeller can be damaged, which will prevent the pump from moving water.  If the water pump feels slower, weaker or unable to pump at all, it may have a damaged impeller.  The easiest way to confirm if the impeller is damaged is to take the pump apart and look at it. 
 Most impellers can be purchased and replaced. Consult the manufactures website or pump documentation to identify the correct impeller.  It is crucial to use the correct impeller, or the pump will not function correctly.
 
-See this example video for replacing an impeller: https://www.youtube.com/watch?v=qI-zHbQ17uk&ab_channel=McLanahanCorporation
+See this example video for replacing an impeller: 
+
+{{< rawhtml >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qI-zHbQ17uk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /rawhtml >}}
+
 NOTE: Not every pump will be exactly like the video, but the process is similar.  
 
 ## Improper wiring
 Improper or damaged wiring can also cause a pump to malfunction or stop working.  One way to investigate electrical issues is to test wires for power and resistance. 
 Water pumps typically come in 2-wire and 3-wire configurations.  This guide explains the difference between 2-wire and 3-wire pumps and how they are wired: https://www.waterpumpsdirect.com/stories/1852-Well-Pump-Installation-Guide.html
 
-If the insulation on the wiring is damaged, electricity will leak out.  To test for defective wires measure the resistance. Video 3 explains one method of testing the insulation of well pump wires.  
-
-The measured resistance can mean different things, depending on what the value is:
-- Low Resistance: Leak in insulation (usually a nick or cut somewhere along the wire)
-- Zero or Near Zero Resistance: A short in the circuit wiring
-- Infinite or Very Large Resistance: Break in circuit
-
-
-## Supplementary Videos
-
-
-### Video 1
-{{< rawhtml >}}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{< /rawhtml >}}
-
-### Video 2
-
-{{< rawhtml >}}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{< /rawhtml >}}
-
-### Video 3
+If the insulation on the wiring is damaged, electricity will leak out.  To test for defective wires measure the resistance. This video demonstrates one method of testing the insulation of well pump wires:
 
 {{< rawhtml >}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YC2jptaU0qc?start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {{< /rawhtml >}}
+
+The measured resistance can mean different things, depending on what the value is:
+- Low Resistance: Leak in insulation (usually a nick or cut somewhere along the wire)
+- Zero or Near Zero Resistance: A short in the circuit wiring
+- Infinite or Very Large Resistance: Break in circuit
+
 
 
 
