@@ -13,7 +13,6 @@ date: 2021-06-10
 
 ## Reasons for water pump failure:
 ### 1.  Running pump dry / not priming
-{{< rawhtml >}}
 
   <ul>
   <li> Priming a water pump means to remove all the air from the system.  Water pumps need to be primed before use.
@@ -30,7 +29,7 @@ date: 2021-06-10
 
 NOTE: It is not recommended to prime pump while running
   
-# 2.	Leaking gasket or seal issue
+ # 2.	Leaking gasket or seal issue
 Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
 
   <ol>
