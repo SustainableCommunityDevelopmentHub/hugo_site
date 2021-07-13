@@ -51,18 +51,17 @@ See this video for one example of a mechanical seal replacement:
 
  
 ## Impeller damage
-In centrifugal pumps, the impeller can be damaged, which will prevent the pump from moving water.  If the water pump feels slower, weaker or unable to pump at all, it may have a damaged impeller.  
-Most impellers can be purchased and replaced. Consult the manufactures website or pump documentation to identify the correct impeller.
+In centrifugal pumps, the impeller can be damaged, which will prevent the pump from moving water.  If the water pump feels slower, weaker or unable to pump at all, it may have a damaged impeller.  The easiest way to confirm if the impeller is damaged is to take the pump apart and look at it. 
+Most impellers can be purchased and replaced. Consult the manufactures website or pump documentation to identify the correct impeller.  It is crucial to use the correct impeller, or the pump will not function correctly.
+
+See this example video for replacing an impeller: https://www.youtube.com/watch?v=qI-zHbQ17uk&ab_channel=McLanahanCorporation
+NOTE: Not every pump will be exactly like the video, but the process is similar.  
 
 ## Improper wiring
 Improper or damaged wiring can also cause a pump to malfunction or stop working.  One way to investigate electrical issues is to test wires for power and resistance. 
 Water pumps typically come in 2-wire and 3-wire configurations.  This guide explains the difference between 2-wire and 3-wire pumps and how they are wired: https://www.waterpumpsdirect.com/stories/1852-Well-Pump-Installation-Guide.html
 
-Pump Wiring
-If the insulation on the wiring is damaged, electricity will leak out.  To test for defective wires measure the resistance. This video explains one method of testing the insulation of well pump wires.  
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YC2jptaU0qc?start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If the insulation on the wiring is damaged, electricity will leak out.  To test for defective wires measure the resistance. Video 3 explains one method of testing the insulation of well pump wires.  
 
 The measured resistance can mean different things, depending on what the value is:
 - Low Resistance: Leak in insulation (usually a nick or cut somewhere along the wire)
@@ -78,13 +77,15 @@ The measured resistance can mean different things, depending on what the value i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< /rawhtml >}}
+
 ### Video 2
 
 {{< rawhtml >}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< rawhtml >}}
+{{< /rawhtml >}}
 
 ### Video 3
 
@@ -92,7 +93,7 @@ The measured resistance can mean different things, depending on what the value i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YC2jptaU0qc?start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< rawhtml >}}
+{{< /rawhtml >}}
 
 
 
