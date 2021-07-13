@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Commmon water lifting & transport pumps, common problems and comparison of methods of repair
+title: Water pumps: Common problems and comparison of methods of repair
 cat:
 - pumps
 tag:
@@ -9,17 +9,16 @@ tag:
 - pump repair
 date: 2021-06-10
 --- 
-# Commmon water lifting & transport pumps, common problems and comparison of methods of repair
+
+# Water pumps: Common problems and comparison of methods of repair
 
 ## Reasons for water pump failure:
 ### 1.  Running pump dry / not priming
 
-  <ul>
-  <li> Priming a water pump means to remove all the air from the system.  Water pumps need to be primed before use.
-  <li> Involves filling the pump system with water usually through a designated port called the prime plug or prime opening.
-  <li> This website explains the process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
-  <li> Good additional video about priming troubleshooting:
-  <ul>
+ -Priming a water pump means to remove all the air from the system.  Water pumps need to be primed before use.
+ - Involves filling the pump system with water usually through a designated port called the prime plug or prime opening.
+ - This website explains the process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
+ - Good additional video about priming troubleshooting:
 
 {{< rawhtml >}}
 
@@ -28,17 +27,18 @@ date: 2021-06-10
 {{< rawhtml >}}
 
 NOTE: It is not recommended to prime pump while running
-  
+    
+    
+   
  # 2.	Leaking gasket or seal issue
 Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
 
-  <ol>
   <li> Disconnect power and drain if required
   <li> Disassemble pump 
   <li> Remove old seal
   <li> Clean and lubricate where necesarry
   <li> Replace seal or gasket and reassemble
-<ol>
+    <
   It is best to consult the directions specific to your water pump.  This information can usually be found in the operations manual or on the manufacturers website.  
 See this video for one example of a mechanical seal replacement:
   
