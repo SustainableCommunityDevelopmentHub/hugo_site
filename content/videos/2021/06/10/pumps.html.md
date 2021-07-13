@@ -43,7 +43,7 @@ See this video for one example of a mechanical seal replacement:
 Improper or damaged wiring can also cause a pump to malfunction or stop working.  One way to investigate electrical issues is to test wires for power and resistance. 
 Water pumps typically come in 2-wire and 3-wire configurations.  This guide explains the difference between 2-wire and 3-wire pumps and how they are wired: https://www.waterpumpsdirect.com/stories/1852-Well-Pump-Installation-Guide.html
 
-### Nick / cut in wire (loss of insulation)
+#### Nick / cut in wire (loss of insulation)
 If the insulation on the wiring is damaged, electricity will leak out.  To test for defective wires measure the resistance: if the   
 
 
