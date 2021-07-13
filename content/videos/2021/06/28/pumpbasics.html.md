@@ -22,6 +22,7 @@ The image below as well as the following website provides a basis for understand
 https://www.pumpfundamentals.com/what%20is%20head.htm
 {{< figure src="/pumps/pump1.jpg" class="pull-left" >}}
 
+### Supplementary Video
 This video explains how flow rate and head relates to performance of a pump:
 {{< rawhtml >}}
 
