@@ -28,6 +28,8 @@ https://empirepumpinc.com/well-inspections/well-pump-pressure-switch-problems/
  - This website explains the priming process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
  - Good additional video about priming troubleshooting:
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 NOTE: It is not recommended to prime pump while running
 
 ## Mechanical seal issue
@@ -42,7 +44,8 @@ If your water pump is not leaking water, there may be a leak or other issue with
 It is best to consult the directions specific to your water pump.  This information can usually be found in the operations manual or on the manufacturers website.  
 See this video for one example of a mechanical seal replacement:
 
-  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  
 ## Impeller damage
 ## Improper wiring
