@@ -17,7 +17,7 @@ Some common issues and solutions are detailed below, with additional refereneces
 
 ## Pressure switch
 One of the most common problems in a pump is the pressure switch.  The pressure switch monitors the pressure of water and turns the pump on or off.
-If your pump is not running when it should be, you may have a faulty pressure switch. This could be for a number of reason:
+If your pump is not running when it should be, you may have a faulty pressure switch. This could be for a number of reasons:
 - No water or not enough water is not reaching the pressure switch
 - Pressure switch is not wired or connected correctly
 - Pressure switch is damaged
@@ -32,11 +32,8 @@ A damaged pressure switch can sometimes be repaired, but it is often cost-effect
  - Priming a water pump means to remove all the air from the system.  Water pumps need to be primed before use.
  - Involves filling the pump system with water usually through a designated port called the prime plug or prime opening.
  - This website explains the priming process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
- - Good additional video about priming troubleshooting:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-NOTE: It is not recommended to prime pump while running
+Video 1 shows an example of priming a pump.  NOTE: It is not recommended to prime pump while running
 
 ## Mechanical seal issue
 If your water pump is not leaking water, there may be a leak or other issue with the mechanical seal. Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
@@ -68,6 +65,29 @@ The measured resistance can mean different things, depending on what the value i
 - Low Resistance: Leak in insulation (usually a nick or cut somewhere along the wire)
 - Zero or Near Zero Resistance: A short in the circuit wiring
 - Infinite or Very Large Resistance: Break in circuit
+
+### Video 1
+{{< rawhtml >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< rawhtml >}}
+
+### Video 2
+
+{{< rawhtml >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< rawhtml >}}
+
+### Video 3
+
+{{< rawhtml >}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YC2jptaU0qc?start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< rawhtml >}}
 
 
 
