@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Water pumps: Common problems and comparison of methods of repair
+title: Water pumps, Common problems and comparison of methods of repair
 cat:
 - pumps
 tag:
