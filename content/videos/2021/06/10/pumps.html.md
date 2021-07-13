@@ -51,6 +51,7 @@ See this video for one example of a mechanical seal replacement:
 
  
 ## Impeller damage
+In centrifugal pumps, the impeller can be damaged, which will 
 ## Improper wiring
 Improper or damaged wiring can also cause a pump to malfunction or stop working.  One way to investigate electrical issues is to test wires for power and resistance. 
 Water pumps typically come in 2-wire and 3-wire configurations.  This guide explains the difference between 2-wire and 3-wire pumps and how they are wired: https://www.waterpumpsdirect.com/stories/1852-Well-Pump-Installation-Guide.html
@@ -70,8 +71,6 @@ The measured resistance can mean different things, depending on what the value i
 {{< rawhtml >}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{< rawhtml >}}
 
 ### Video 2
 
