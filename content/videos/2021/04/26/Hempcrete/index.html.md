@@ -25,14 +25,15 @@ Burkey, D. (2016, March 30). Some Interesting Facts About Hempcrete As a Buildin
 ## Videos:
 Here are a couple videos on how hempcrete is made, its benefits, benefits of hemp crop, and why we shoud be using it as a building material:  
 
-{{ < rawhtml > }}
+{{< rawhtml >}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vw_aXP6_9-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{ < /rawhtml > }}
+{{< /rawhtml >}}
 
-{{ < rawhtml > }}
+
+{{< rawhtml >}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fwiLdmvUJ3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{ < /rawhtml > }}
+{{< /rawhtml >}}
