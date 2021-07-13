@@ -77,13 +77,15 @@ The measured resistance can mean different things, depending on what the value i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+{{< /rawhtml >}}
+
 ### Video 2
 
 {{< rawhtml >}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< rawhtml >}}
+{{< /rawhtml >}}
 
 ### Video 3
 
@@ -91,7 +93,7 @@ The measured resistance can mean different things, depending on what the value i
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YC2jptaU0qc?start=96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-{{< rawhtml >}}
+{{< /rawhtml >}}
 
 
 
