@@ -20,12 +20,6 @@ date: 2021-06-10
  - This website explains the process in more detail: https://inspectapedia.com/water/Prime_The_Well_Pump.php
  - Good additional video about priming troubleshooting:
 
-{{< rawhtml >}}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HTijuouVtoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{< rawhtml >}}
-
 NOTE: It is not recommended to prime pump while running
     
     
@@ -42,11 +36,6 @@ Replacing a mechanical seal or gasket will be different for every pump, but foll
   It is best to consult the directions specific to your water pump.  This information can usually be found in the operations manual or on the manufacturers website.  
 See this video for one example of a mechanical seal replacement:
 
-{{< rawhtml >}}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-fXzTTN0ME0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-{{< rawhtml >}}
   
  
 ### 3.	Impeller damage
