@@ -11,16 +11,16 @@ date: 2021-06-10
 --- 
 
 # Water pumps: Common problems and comparison of methods of repair
+
 This resource provides a thourough guide on diagnosing and troubleshooting water pump issues: https://inspectapedia.com/water/Water_Pump_Repair_Guide.php#MasterIndex
 Some common issues and solutions are detailed below, with additional refereneces. 
-
 
 ## Pressure switch
 One of the most common problems in a pump is the pressure switch.  The pressure switch monitors the pressure of water and turns the pump on or off.
 If your pump is not running when it should be, you may have a faulty pressure switch. This could be for a number of reasons:
-- No water or not enough water is not reaching the pressure switch
-- Pressure switch is not wired or connected correctly
-- Pressure switch is damaged
+-  No water or not enough water is not reaching the pressure switch
+-  Pressure switch is not wired or connected correctly
+-  Pressure switch is damaged
 
 - View this guide on troubleshooting pressure switch issues:
 https://empirepumpinc.com/well-inspections/well-pump-pressure-switch-problems/
