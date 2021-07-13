@@ -24,14 +24,14 @@ NOTE: It is not recommended to prime pump while running
     
     
    
- # 2.	Leaking gasket or seal issue
-Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
+ ## 2.	Mechanical seal issue
+If your water pump is not leaking water, there may be a leak or other issue with the mechanical seal. Replacing a mechanical seal or gasket will be different for every pump, but follows the same basic process.  
 
-  - Disconnect power and drain if required
-  - Disassemble pump 
-  - Remove old seal
-  - Clean and lubricate where necesarr
-  - Replace seal or gasket and reassemble
+  1. Disconnect power and drain if required
+  2. Disassemble pump 
+  3. Remove old seal
+  4. Clean and lubricate where necesarry
+  5. Replace seal or gasket and reassemble
 
   It is best to consult the directions specific to your water pump.  This information can usually be found in the operations manual or on the manufacturers website.  
 See this video for one example of a mechanical seal replacement:
