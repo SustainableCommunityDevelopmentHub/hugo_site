@@ -1,7 +1,0 @@
-{
-   "date": "2017-08-02",
-   "layout": "post",
-   "title": "Review of Potential Frameworks"
-}
-
-[["Hart\u2019s Guide to Sustainable Community Indicators","17"],["IISD\u2019s Dashboard of Sustainability","20"],["Maclaren\u2019s Urban Sustainability Indicator Matrix","22"],["FCM Quality of Life Reporting System: Environmental Indicators","24"],["National Round Table on the Environment and the Economy, Environment and Sustainable\nDevelopment Indicator Initiative","28"],["Statistics Canada\u2019s Trends in Cities Project","32"],["Statistics Canada\u2019s Human Activity and the Environment Report","37"],["The Canadian Policy Research Networks Quality of Life Indicators","41"],["National Atlas and Quality\u2013of-life Mapping System","45"],["Community Sustainability Pressure\u2013state\u2013response Analytic Framework","45"],["Pollution Watch Canada\u2019s Pollution Scorecard","47"],["The Alberta GPI Sustainable Well-Being Accounting System","48"],["Edmonton Capital Region \u201cIndicators of Success","56"],["GPI Atlantic\u2019s Community Sustainability Indicators","60"],["UBC\u2019s Sustainable Development Institute\u2019s Georgia Basin (QUEST) Model","61"],["Fraser Basin Sustainability Indicators","61"]]

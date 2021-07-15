@@ -6,6 +6,9 @@ theme = "amp"
 [markup.goldmark.renderer]
 hardWraps = true
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 
 [taxonomies]
   cat = "cat"

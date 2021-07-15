@@ -1,6 +1,60 @@
+<form method="get" action="">
+  <input id="search" name="q" type="text" />
+  <button type="submit" class="button">Search</button>
+  <a href="/search">Clear</a>
+</form>
+<div id="#app"></div>
+
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<!-- Generate a list of posts so we can display them -->
+{{ $p := slice }}
+{{ range (where .Site.RegularPages "Section" "==" "post") }}
+  {{ $post := dict "link" .RelPermalink "title" .Title "content" (substr .Plain 0 200) -}}
+  {{ $p = $p | append $post -}}
+{{ end }}
+<script>
+const posts = JSON.parse(
+  {{ $p | jsonify }}
+);
+
+const query = new URLSearchParams(window.location.search);
+const searchString = query.get('q');
+document.querySelector('#search').value = searchString;
+const $target = document.querySelector('#app');
+
+// Our index uses title as a reference
+const postsByTitle = posts.reduce((acc, curr) => {
+  acc[curr.title] = curr;
+  return acc;
+}, {});
+
+fetch('/index.json').then(function (res) {
+  return res.json();
+}).then(function (data) {
+  const index = lunr.Index.load(data);
+  const matches = index.search(searchString);
+  const matchPosts = [];
+  matches.forEach((m) => {
+    matchPosts.push(postsByTitle[m.ref]);
+  });
+
+  if (matchPosts.length > 0) {
+    $target.innerHTML = matchPosts.map(p => {
+      return `<div>
+        <h3><a href="${p.link}">${p.title}</a></h3>
+        <p>${p.content}...</p>
+      </div>`;
+    }).join('');
+  } else {
+    $target.innerHTML = `<div>No search results found</div>`;
+  }
+});
+
+
+
     <!-- Start Footer -->
 
-	<!-- from campser theme --><figure class="author-image">
+	<figure class="author-image">
         <a style="position: relative; display: block; width: 100%; height: 100%; background-size: cover; background-position: 50%; border-radius: 100%; background-image: url(/images/scdhub_box1.png);" href="/"></a>
     	</figure>
 

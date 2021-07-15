@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "hugo-lunr": "^0.0.4",
     "lunr": "^2.3.9"
-  }
+  },
+  "scripts": {
+    "index": "hugo-lunr -i \"content/videos/**\" -o static/index.json"
+  },
+  "devDependencies": {
+    "lunr": "^2.3.6",
+    "parser-front-matter": "^1.6.4"
+  },
+  "license": "MIT"
 }
