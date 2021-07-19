@@ -5,20 +5,20 @@ layout = "post"
 title = "SCD Hub Organizational Mission"
 
 +++
-To serve as a hub for sustainable community development in order to provide trustworthy development & training tools to facilitate project planning, design & execution.
+
+To serve as a hub for sustainable community development (SCD) in order to provide trustworthy development & training tools to facilitate project planning, design & execution. Our current work emphasizes the life cycle of water.
 <BR><BR>
 
-SCD Hub serves a curated collection of tagged and sub-categorized video and lierary citation content . Our aim in curating content is to clearly assess what approaches work and what approaches have challenges, and what kind? 
+SCD Hub serves as a library of content (e.g. video, graphics, literature) related to water resources. Our aim in curating content is to clearly assess what approaches work and what approaches have challenges, and what kind? 
 
 
 <BR><BR>
-Hence  [Peacewater Docs](http://sharaj2.sg-host.com) This site provides the Peacewater/SCD Hub community with a forum. We will be seeking moderator assistance soon, so if you know someone.. :) thank you so much for the consideration..
+Hence  [Peacewater Docs](http://sharaj2.sg-host.com) This site provides the Peacewater/SCD Hub community with a forum.
 
-. If you wish to suggest a learning resource ( video, document, web url ), please share it in the comments. Thank you -[greg](mailto:acmeideal@gmail.com "email greg")
+If you wish to suggest a learning resource ( video, document, web url ), please share it in the comments. Thank you -[greg](mailto:acmeideal@gmail.com "email greg")
 
 <BR><BR>
-
-Our current work emphasizes the life cycle of water.
+ANNOUCEMENT: FALL 2021 We are adding energy and telecommunications to the library in cooperation with students at the University of New Mexico (EPICS Program)!  
 
 
 
