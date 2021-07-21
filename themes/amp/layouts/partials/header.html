@@ -54,6 +54,7 @@
         <div class="flex justify-start items-center ampstart-sidebar-header"><a href="#" on="tap:header-sidebar.toggle" class="ampstart-navbar-trigger items-start">✕</a></div>
         <nav class="ampstart-sidebar-nav ampstart-nav">
           {{ $currentPage := . }}
+                <ul><li>{{ partial "search-form.html" . }}</li></ul>
           {{ range .Site.Menus.main }}
             {{ if .HasChildren }}
             <ul class="list-reset m0 p0 caps h5">
@@ -70,7 +71,7 @@
                         </section>
                     </amp-accordion>
                     <!-- End Dropdown-inline -->
-                </li>
+
             </ul>
             {{else}}
                 <a href="{{.URL}}" class="block caps h5 py1 abe-primary">{{ .Name }}</a>
