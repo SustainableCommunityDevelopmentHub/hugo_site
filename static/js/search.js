@@ -1,65 +1,148 @@
-var store, lunrIndex, $results;
+var sidebars = document.getElementById("sidebars");
+var searchResults = document.getElementById("search-results");
+var searchInput = document.getElementById("search-query");
 
-// Initialize lunrjs using our generated index file
-function initLunr() {
-  // First retrieve the index file
+// the length of the excerpts
+var contextDive = 40;
 
-  $.getJSON("/lunr-index.json")
-    .done(function(index) {
-      store = index.store;
-      lunrIndex = lunr.Index.load(index.index);
-    })
-    .fail(function(jqxhr, textStatus, error) {
-      var err = textStatus + ", " + error;
-      console.error("Error getting Hugo index flie:", err);
+var timerUserInput = false;
+searchInput.addEventListener("keyup", function()
+{
+    // don't start searching every time a key is pressed,
+    // wait a bit till users stops typing
+    if (timerUserInput) { clearTimeout(timerUserInput); }
+    timerUserInput = setTimeout(
+        function()
+        {
+            search(searchInput.value.trim());
+        },
+        500
+    );
+});
+
+function search(searchQuery)
+{
+    // clear previous search results
+    while (searchResults.firstChild)
+    {
+        searchResults.removeChild(searchResults.firstChild);
+    }
+
+    // ignore empty and short search queries
+    if (searchQuery.length === 0 || searchQuery.length < 3)
+    {
+        searchResults.style.display = "none";
+        sidebars.style.display = "block";
+        return;
+    }
+
+    sidebars.style.display = "none";
+    searchResults.style.display = "block";
+
+    // load your index file
+    getJSON("/index.json", function (contents)
+    {
+        var results = [];
+        let regex = new RegExp(searchQuery, "i");
+        // iterate through posts and collect the ones with matches
+        contents.forEach(function(post)
+        {
+            // here you can also search in tags, categories
+            // or whatever you put into the index.json layout
+            if (post.title.match(regex))
+            {
+                results.push(post);
+            }
+        });
+
+        if (results.length > 0)
+        {
+            searchResults.appendChild(
+                htmlToElement("<div><b>Found: ".concat(results.length, "</b></div>"))
+            );
+
+            // populate search results block with excerpts around the matched search query
+            results.forEach(function (value, key)
+            {
+                let firstIndexOf = value.content.toLowerCase().indexOf(searchQuery.toLowerCase());
+                let lastIndexOf = firstIndexOf + searchQuery.length;
+                let spaceIndex = firstIndexOf - contextDive;
+                if (spaceIndex > 0)
+                {
+                    spaceIndex = value.content.indexOf(" ", spaceIndex) + 1;
+                    if (spaceIndex < firstIndexOf) { firstIndexOf = spaceIndex; }
+                    else { firstIndexOf = firstIndexOf - contextDive / 2; }
+                }
+                else
+                {
+                    firstIndexOf = 0;
+                }
+                let lastSpaceIndex = lastIndexOf + contextDive;
+                if (lastSpaceIndex < value.content.length)
+                {
+                    lastSpaceIndex = value.content.indexOf(" ", lastSpaceIndex);
+                    if (lastSpaceIndex !== -1) { lastIndexOf = lastSpaceIndex; }
+                    else { lastIndexOf = lastIndexOf + contextDive / 2; }
+                }
+                else
+                {
+                    lastIndexOf = value.content.length - 1;
+                }
+
+                let summary = value.content.substring(firstIndexOf, lastIndexOf);
+                if (firstIndexOf !== 0) { summary = "...".concat(summary); }
+                if (lastIndexOf !== value.content.length - 1) { summary = summary.concat("..."); }
+
+                let div = "".concat("<div id=\"search-summary-", key, "\">")
+                    .concat("<h4 class=\"post-title\"><a href=\"", value.permalink, "\">", value.title, "</a></h4>")
+                    .concat("<p>", summary, "</p>")
+                    .concat("</div>");
+                searchResults.appendChild(htmlToElement(div));
+
+                // optionaly highlight the search query in excerpts using mark.js
+                new Mark(document.getElementById("search-summary-" + key))
+                    .mark(searchQuery, { "separateWordSearch": false });
+            });
+        }
+        else
+        {
+            searchResults.appendChild(
+                htmlToElement("<div><b>Nothing found</b></div>")
+            );
+        }
     });
 }
 
-// Nothing crazy here, just hook up a listener on the input field
-function initUI() {
-  $results = $("#results");
-  $("#search").keyup(function() {
-    $results.empty();
-
-    // Only trigger a search when 2 chars. at least have been provided
-    var query = $(this).val();
-    if (query.length < 2) {
-      return;
-    }
-
-    var results = lunrIndex.search(query);
-
-    renderResults(results);
-  });
+function getJSON(url, fn)
+{
+    let xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.onload = function ()
+    {
+        if (xhr.status === 200)
+        {
+            fn(JSON.parse(xhr.responseText));
+        }
+        else
+        {
+            console.error(
+                "Some error processing ".concat(url, ": ", xhr.status)
+                );
+        }
+    };
+    xhr.onerror = function ()
+    {
+        console.error("Connection error: ".concat(xhr.status));
+    };
+    xhr.send();
 }
 
-/**
- * Display the 10 first results
- *
- * @param  {Array} results to display
- */
-function renderResults(results) {
-  if (!results.length) {
-    return;
-  }
-
-  // Only show the ten first results
-  results.slice(0, 20).forEach(function(result) {
-    var $result = $("<li>");
-    $result.append(
-      $("<a>", {
-        href: result.ref,
-        text: store[result.ref].title
-      })
-    );
-    $result.append($("<p>").html(store[result.ref].summary));
-    $results.append($result);
-  });
+// it is faster (more convenient)
+// to generate an element from the raw HTML code
+function htmlToElement(html)
+{
+    let template = document.createElement("template");
+    html = html.trim();
+    template.innerHTML = html;
+    return template.content.firstChild;
 }
-
-// Let's get started
-initLunr();
-
-$(document).ready(function() {
-  initUI();
-});

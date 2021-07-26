@@ -1,0 +1,35 @@
+
+<html>
+
+
+<body>
+
+<img src="art2.jpg" width="400" height="400" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:GregWillson -->
+<area shape="rect" coords="244,228,327,300" href="test1" />
+<area shape="rect" coords="30,42,207,211" href="test2" id="trig2"/>
+</map>
+
+<style>
+ #ifrm1 {
+    opacity: 0;
+    transition: opacity 1.5s linear;
+  }
+  #trig1:hover + iframe {
+    opacity: 1;
+    transition: opacity 1.5s linear;
+  }
+  #trig2:hover + iframe {
+    opacity: 1;
+    transition: opacity 1.5s linear;
+  }
+  </style>
+  
+  <a href='#/' id='trig1'>HOVER</a>
+  <iframe id='ifrm1' name='ifrm1' src='https://days.to/until/christmas'></iframe>

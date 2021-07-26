@@ -1,0 +1,838 @@
+{{ partial "header.html" . }}
+{{ partial "css/homepage_reveal_display.css" . }}
+<script async custom-element="amp-inline-gallery" src="https://cdn.ampproject.org/v0/amp-inline-gallery-0.1.js"></script>
+<style>
+#view-code{
+  color:#48cfad; 
+  font-size:14px;
+  text-transform:uppercase;
+  font-weight:700;
+  text-decoration:none;
+  position:absolute;top:640px; left:50%;margin-left:-35px;
+}
+#view-code:hover{color:#34c29e;}
+
+/* --- Product Card ---- */
+#make-3D-space{
+    position: relative;
+    perspective: 800px;
+    width:340px;
+    height:500px;
+    transform-style: preserve-3d;
+    transition: transform 5s;
+    position:absolute;    
+    top:80px;
+    left:50%;	
+    margin-left:-167px;
+}
+#product-front, #product-back{
+	width:335px;
+	height:500px;
+	background:#fff;
+	position:absolute;
+	left:-5px;
+	top:-5px;
+	-webkit-transition: all 100ms ease-out; 
+       -moz-transition: all 100ms ease-out; 
+         -o-transition: all 100ms ease-out; 
+            transition: all 100ms ease-out; 
+}
+#product-back{
+	display:none;
+	transform: rotateY( 180deg );
+}
+#product-card.animate #product-back, #product-card.animate #product-front{
+	top:0px;
+	left:0px;
+	-webkit-transition: all 100ms ease-out; 
+       -moz-transition: all 100ms ease-out; 
+         -o-transition: all 100ms ease-out; 
+            transition: all 100ms ease-out; 
+}
+#product-card{
+	width:325px;
+	height:490px;
+	position:absolute;    
+	top:10px;
+	left:10px;	
+	overflow:hidden;
+    transform-style: preserve-3d;
+	-webkit-transition:  100ms ease-out; 
+       -moz-transition:  100ms ease-out; 
+         -o-transition:  100ms ease-out; 
+            transition:  100ms ease-out;
+}
+div#product-card.flip-10{
+	 -webkit-transform: rotateY( -10deg );
+         -moz-transform: rotateY( -10deg );
+           -o-transform: rotateY( -10deg );
+              transform: rotateY( -10deg );
+			   transition:  50ms ease-out; 			
+}
+div#product-card.flip90{
+	 -webkit-transform: rotateY( 90deg );
+         -moz-transform: rotateY( 90deg );
+           -o-transform: rotateY( 90deg );
+              transform: rotateY( 90deg );
+			   transition:  100ms ease-in; 			
+}
+div#product-card.flip190{
+	 -webkit-transform: rotateY( 190deg );
+         -moz-transform: rotateY( 190deg );
+           -o-transform: rotateY( 190deg );
+              transform: rotateY( 190deg );
+			   transition:  100ms ease-out; 			
+}
+div#product-card.flip180{
+	 -webkit-transform: rotateY( 180deg );
+         -moz-transform: rotateY( 180deg );
+           -o-transform: rotateY( 180deg );
+              transform: rotateY( 180deg );
+			   transition:  150ms ease-out; 			
+}
+#product-card.animate{
+	top:5px;
+	left:5px;
+	width:335px;
+	height:500px;
+	box-shadow:0px 13px 21px -5px rgba(0, 0, 0, 0.3);
+	-webkit-transition:  100ms ease-out; 
+       -moz-transition:  100ms ease-out; 
+         -o-transition:  100ms ease-out; 
+            transition:  100ms ease-out; 
+}
+.stats-container{
+	background:#fff;	
+	position:absolute;
+	top:386px;
+	left:0;
+	width:265px;
+	height:300px;
+	padding:27px 35px 35px;	
+	-webkit-transition: all 200ms ease-out; 
+       -moz-transition: all 200ms ease-out; 
+         -o-transition: all 200ms ease-out; 
+            transition: all 200ms ease-out;
+}
+#product-card.animate .stats-container{
+	top:272px;
+	-webkit-transition: all 200ms ease-out; 
+       -moz-transition: all 200ms ease-out; 
+         -o-transition: all 200ms ease-out; 
+            transition: all 200ms ease-out; 
+}
+.stats-container .product_name{
+	font-size:22px;
+	color:#393c45;	
+}
+.stats-container p{
+	font-size:16px;
+	color:#b1b1b3;	
+	padding:2px 0 20px 0;
+}
+.stats-container .product_price{
+	float:right;
+	color:#48cfad;
+	font-size:22px;
+	font-weight:600;
+}
+.image_overlay{
+	position:absolute;
+	top:0;
+	left:0; 
+	width:100%;
+	height:100%;
+	background:#48daa1;
+	opacity:0;	
+}
+#product-card.animate .image_overlay{
+	opacity:0.7;	
+	-webkit-transition: all 200ms ease-out; 
+       -moz-transition: all 200ms ease-out; 
+         -o-transition: all 200ms ease-out; 
+            transition: all 200ms ease-out; 
+}
+.product-options{
+	padding:2px 0 0;
+}
+.product-options strong{
+	font-weight:700;
+	color:#393c45;
+	font-size:14px;
+}
+.product-options span{	
+	color:#969699;
+	font-size:14px;
+	display:block;
+	margin-bottom:8px;
+}
+#view_details{	
+	position:absolute;
+	top:112px;
+	left:50%;
+	margin-left:-85px;	
+	border:2px solid #fff;
+	color:#fff;
+	font-size:19px;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:700;
+	padding:10px 0;
+	width:172px;	
+	opacity:0;
+	-webkit-transition: all 200ms ease-out; 
+       -moz-transition: all 200ms ease-out; 
+         -o-transition: all 200ms ease-out; 
+            transition: all 200ms ease-out; 
+}
+#view_details:hover{	
+	background:#fff;
+	color:#48cfad;
+	cursor:pointer;
+
+}
+#product-card.animate #view_details{
+	opacity:1;
+	width:152px;
+	font-size:15px;
+	margin-left:-75px;
+	top:115px;
+	-webkit-transition: all 200ms ease-out; 
+       -moz-transition: all 200ms ease-out; 
+         -o-transition: all 200ms ease-out; 
+            transition: all 200ms ease-out; 		
+}
+div.colors div{
+	margin-top:3px;
+	width:15px; 
+	height:15px; 	
+	margin-right:5px;
+	float:left;
+}
+div.colors div span{
+	width:15px; 
+	height:15px; 
+	display:block;
+	border-radius:50%;
+}
+div.colors div span:hover{
+	width:17px;
+	height:17px;
+	margin:-1px 0 0 -1px;
+}
+div.c-blue span{background:#6e8cd5;}
+div.c-red span{background:#f56060;}
+div.c-green span{background:#44c28d;}
+div.c-white span{
+	background:#fff;
+	width:14px;
+	height:14px; 
+	border:1px solid #e8e9eb;
+}
+div.shadow{
+	width:335px;height:520px;
+	opacity:0;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:3;
+	display:none;
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0.1),rgba(0,0,0,0.2));
+    background: -o-linear-gradient(right,rgba(0,0,0,0.1),rgba(0,0,0,0.2)); 
+    background: -moz-linear-gradient(right,rgba(0,0,0,0.1),rgba(0,0,0,0.2)); 
+    background: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.2)); 
+}
+#product-back div.shadow{
+	z-index:10;
+	opacity:1;
+	background: -webkit-linear-gradient(left,rgba(0,0,0,0.2),rgba(0,0,0,0.1));
+    background: -o-linear-gradient(right,rgba(0,0,0,0.2),rgba(0,0,0,0.1)); 
+    background: -moz-linear-gradient(right,rgba(0,0,0,0.2),rgba(0,0,0,0.1)); 
+    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.1)); 
+}
+#flip-back{
+	position:absolute;
+	top:20px;
+	right:20px;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+#cx, #cy{
+	background:#d2d5dc;
+	position:absolute;
+	width:0px;
+	top:15px;
+	right:15px;
+	height:3px;
+	-webkit-transition: all 250ms ease-in-out;
+	   -moz-transition: all 250ms ease-in-out;
+		-ms-transition: all 250ms ease-in-out;
+		 -o-transition: all 250ms ease-in-out;
+			transition: all 250ms ease-in-out;
+}
+#flip-back:hover #cx, #flip-back:hover #cy{
+	background:#979ca7;
+	-webkit-transition: all 250ms ease-in-out;
+	   -moz-transition: all 250ms ease-in-out;
+		-ms-transition: all 250ms ease-in-out;
+		 -o-transition: all 250ms ease-in-out;
+			transition: all 250ms ease-in-out;
+}
+#cx.s1, #cy.s1{	
+	right:0;	
+	width:30px;	
+	-webkit-transition: all 100ms ease-out;
+	   -moz-transition: all 100ms ease-out;
+		-ms-transition: all 100ms ease-out;
+		 -o-transition: all 100ms ease-out;
+			transition: all 100ms ease-out;
+}
+#cy.s2{	
+	-ms-transform: rotate(50deg); 
+	-webkit-transform: rotate(50deg); 
+	transform: rotate(50deg);		 
+	-webkit-transition: all 100ms ease-out;
+	   -moz-transition: all 100ms ease-out;
+		-ms-transition: all 100ms ease-out;
+		 -o-transition: all 100ms ease-out;
+			transition: all 100ms ease-out;
+}
+#cy.s3{	
+	-ms-transform: rotate(45deg); 
+	-webkit-transform: rotate(45deg); 
+	transform: rotate(45deg);		 
+	-webkit-transition: all 100ms ease-out;
+	   -moz-transition: all 100ms ease-out;
+		-ms-transition: all 100ms ease-out;
+		 -o-transition: all 100ms ease-out;
+			transition: all 100ms ease-out;
+}
+#cx.s1{	
+	right:0;	
+	width:30px;	
+	-webkit-transition: all 100ms ease-out;
+	   -moz-transition: all 100ms ease-out;
+		-ms-transition: all 100ms ease-out;
+		 -o-transition: all 100ms ease-out;
+			transition: all 100ms ease-out;
+}
+#cx.s2{	
+	-ms-transform: rotate(140deg); 
+	-webkit-transform: rotate(140deg); 
+	transform: rotate(140deg);		 
+	-webkit-transition: all 100ms ease-out;
+	   -moz-transition: all 100ms ease-out;
+		-ms-transition: all 100ease-out;
+		 -o-transition: all 100ms ease-out;
+			transition: all 100ms ease-out;
+}
+#cx.s3{	
+	-ms-transform: rotate(135deg); 
+	-webkit-transform: rotate(135deg); 
+	transform: rotate(135deg);		 
+	-webkit-transition: all 100ease-out;
+	   -moz-transition: all 100ms ease-out;
+		-ms-transition: all 100ms ease-out;
+		 -o-transition: all 100ms ease-out;
+			transition: all 100ms ease-out;
+}
+#carousel{
+	width:335px;
+	height:500px;
+	overflow:hidden;
+	position:relative;
+
+}
+#carousel ul{
+	position:absolute;
+	top:0;
+	left:0;
+}
+#carousel li{
+	width:335px;
+	height:500px;
+	float:left;
+	overflow:hidden;	
+}
+.arrows-perspective{
+	width:335px;
+	height:55px;
+	position: absolute;
+	top: 218px;
+	transform-style: preserve-3d;
+    transition: transform 5s;
+	perspective: 335px;
+}
+.carouselPrev, .carouselNext{
+	width: 50px;
+	height: 55px;
+	background: #ccc;
+	position: absolute;	
+	top:0;
+	transition: all 200ms ease-out; 
+	opacity:0.9;
+	cursor:pointer;
+}
+.carouselNext{
+	top:0;
+	right: -26px;
+	-webkit-transform: rotateY( -117deg );
+         -moz-transform: rotateY( -117deg );
+           -o-transform: rotateY( -117deg );
+              transform: rotateY( -117deg );
+			  transition: all 200ms ease-out; 			
+
+}
+.carouselNext.visible{
+		right:0;
+		opacity:0.8;
+		background: #efefef;
+		-webkit-transform: rotateY( 0deg );
+         -moz-transform: rotateY( 0deg );
+           -o-transform: rotateY( 0deg );
+              transform: rotateY( 0deg );
+			  transition: all 200ms ease-out; 
+}
+.carouselPrev{		
+	left:-26px;
+	top:0;
+	-webkit-transform: rotateY( 117deg );
+         -moz-transform: rotateY( 117deg );
+           -o-transform: rotateY( 117deg );
+              transform: rotateY( 117deg );
+			  transition: all 200ms ease-out; 
+
+}
+.carouselPrev.visible{
+		left:0;
+		opacity:0.8;
+		background: #eee;
+		-webkit-transform: rotateY( 0deg );
+         -moz-transform: rotateY( 0deg );
+           -o-transform: rotateY( 0deg );
+              transform: rotateY( 0deg );
+			  transition: all 200ms ease-out; 
+}
+#carousel .x, #carousel .y{
+	height:2px;
+	width:15px;
+	background:#48cfad;
+	position:absolute;
+	top:31px;
+	left:17px;
+	-ms-transform: rotate(45deg); 
+	-webkit-transform: rotate(45deg); 
+	transform: rotate(45deg);	
+}
+#carousel .x{
+	-ms-transform: rotate(135deg); 	
+	-webkit-transform: rotate(135deg); 
+	transform: rotate(135deg);		
+	top:21px;
+}
+#carousel .carouselNext .x{
+	-ms-transform: rotate(45deg); 	
+	-webkit-transform: rotate(45deg); 
+	transform: rotate(45deg);		
+}
+#carousel .carouselNext .y{
+	-ms-transform: rotate(135deg); 	
+	-webkit-transform: rotate(135deg); 
+	transform: rotate(135deg);		
+}
+</style>
+
+    <header class="www-header" style="background-image:url(images/n0.jpg);">
+        <h1 class="mb4 px2 col-12 sm-col-8 mx-auto www-component-anchor" style="background-color:#000;transparency:50%;">{{ .Title }}</h1>
+        <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Site.Params.description }}</span>
+    </header>
+
+
+
+<div class="container" style="position:relative;top:-125px;">
+
+
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+<amp-inline-gallery layout="container">
+  <amp-base-carousel
+    class="gallery"
+    layout="responsive"
+    width="3.6"
+    height="2"
+    snap-align="center"
+    loop="true"
+    visible-count="1.2"
+    lightbox
+  >
+    <amp-img
+      src="/static/inline-examples/images/image1.jpg"
+      layout="responsive"
+      width="450"
+      height="300"
+    ></amp-img>
+    <amp-img
+      src="/static/inline-examples/images/image2.jpg"
+      layout="responsive"
+      width="450"
+      height="300"
+    ></amp-img>
+    <amp-img
+      src="/static/inline-examples/images/image3.jpg"
+      layout="responsive"
+      width="450"
+      height="300"
+    ></amp-img>
+  </amp-base-carousel>
+  <amp-inline-gallery-pagination layout="nodisplay" inset>
+  </amp-inline-gallery-pagination>
+</amp-inline-gallery>
+
+
+
+
+<div id="make-3D-space">
+    <div id="product-card">
+        <div id="product-front">
+        	<div class="shadow"></div>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt.png" alt="" />
+            <div class="image_overlay"></div>
+            <div id="view_details">View details</div>
+            <div class="stats">        	
+                <div class="stats-container">
+                    <span class="product_price">$39</span>
+                    <span class="product_name">Adidas Originals</span>    
+                    <p>Men's running shirt</p>                                            
+                    
+                    <div class="product-options">
+                    <strong>SIZES</strong>
+                    <span>XS, S, M, L, XL, XXL</span>
+                    <strong>COLORS</strong>
+                    <div class="colors">
+                        <div class="c-blue"><span></span></div>
+                        <div class="c-red"><span></span></div>
+                        <div class="c-white"><span></span></div>
+                        <div class="c-green"><span></span></div>
+                    </div>
+                </div>                       
+                </div>                         
+            </div>
+        </div>
+        <div id="product-back">
+	        <div class="shadow"></div>
+            <div id="carousel">
+                <ul>
+                    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large.png" alt="" /></li>
+                    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large2.png" alt="" /></li>
+                    <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large3.png" alt="" /></li>
+                </ul>
+                <div class="arrows-perspective">
+                    <div class="carouselPrev">
+                        <div class="y"></div>
+	                    <div class="x"></div>
+                    </div>
+                    <div class="carouselNext">
+                        <div class="y"></div>
+	                    <div class="x"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="flip-back">
+            	<div id="cy"></div>
+                <div id="cx"></div>
+            </div>
+        </div>	  
+    </div>	
+</div>	
+
+
+  <div class="card-grid">
+    <div class="card-grid__section card-grid__section--large">
+      <div class="card card--fresh">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Engaged learning
+            </h5>
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              Community dialogues via Peace Engineering student programs. 
+            </h5>
+
+            <p class="card__text">
+              "SCD Clinics" Our method is to support more community involvement with strutured support and research partnerships.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-grid__section">
+      
+      <div class="card card--vanilla">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Partner project- school girl assistance
+            </h5>
+              {{ partial "fontawesome.html" "diamond" }}
+
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              Sponsor feminine hygiene products for a group of young girls.
+            </h5>
+
+            <p class="card__text">
+              In communities lacking proper sanitation, often young girls often choose to quit attending school when menstration starts.
+
+            <form action="https://www.paypal.com/donate" method="post" target="_top">
+              <input type="hidden" name="business" value="CNUT8D7G7QEXA" />
+              <input type="hidden" name="item_name" value="Vulnerable girls menstrual cup project" />
+              <input type="hidden" name="currency_code" value="USD" />
+              <input type="hidden" name="amount" value="11.11" />
+              <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+              </form>
+            </p>
+              
+          </div>
+        </div>
+      </div>
+      <div class="card card--aqua">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Assisting improvised & emergent communities
+            </h5>
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              Umati Portal to assist Table Banking groups
+            </h5>
+
+            <p class="card__text">
+              Getting clean water, quality food and reliable sanitation.
+            </p>
+            
+            <p class="card__text">
+              Understanding context is critical, and the key to successful long term outcomes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-grid__shorter">
+      <div class="card card--deluxe">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Partner project- Rastronics Biodigester
+            </h5>
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              Ras Tronics- Contact: Dennis Otieno
+            </h5>
+
+            <p class="card__text">
+              Donations help Masaii biogas project to develop.
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>                
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card card--crimson">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Infrastructure Planning
+            </h5>
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              Logical framework planning
+            </h5>
+
+            <p class="card__text">
+              Meeting to plan short, medium, and long term goals can help ensure that funding & infrastructure improvements are the appropriate ones.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      
+    
+      </div>
+    </div>
+    
+    <div class="card-grid__section">
+      <div class="card card--bamboo">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Partner project- Mamawatoto Self Help Group 
+            </h5>
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              African leaders creating new green jobs. 
+            </h5>
+
+            <p class="card__text">
+              Shoe restoration, upcycled handbags, medicinals, flower & tree farm nurseries. 
+
+              <form action="https://www.paypal.com/donate" method="post" target="_top">
+                <input type="hidden" name="business" value="CNUT8D7G7QEXA" />
+                <input type="hidden" name="item_name" value="Mamawatoto Self Help Group" />
+                <input type="hidden" name="currency_code" value="USD" />
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                </form>
+                
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card card--chill">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              SCD Hub wishes to thank UNM Peace Engineering
+              <img width=220 src="/images/attribution/logo_peacewater_solutions_database_may9_2021.png">
+            </h5>
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              <img width=220 src="/images/buttons/drinking_water.gif">
+              <img width=220 src="/images/buttons/wastewater.gif">
+              <img width=220 src="/images/buttons/solid_waste.gif">
+            </h5>
+
+            <p class="card__text"></p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card-grid__section card-grid__section--large">
+      <div class="card card--vanilla">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+              Building materials research
+            </h5>
+              {{ partial "fontawesome.html" "building" }}
+          </div>
+        </div>
+
+        <div class="card__beneath">
+          <div>
+            <h5 class="card__heading">
+              Summer 2021 - Drexel U Support
+            </h5>
+
+            <p class="card__text">
+               Thank you Enoch and Khalil for your work on practical sustainable building materials reference citations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
+  <span class="row">
+    <div class="col-auto"></div>
+    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/drinking_water.gif"></div>
+  </span>
+  <span class="row">
+    <div class="col-auto"></div>
+    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/solid_waste.gif"></div>
+    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/wastewater.gif"></div>
+    <div class="col-auto"></div>
+  </span>
+  <span class="row">
+    <div class="col-auto"></div>
+    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/solid_waste.gif"></div>
+    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/shelter__.gif"></div>
+    <div class="col-auto"></div>
+  </span>
+-->
+
+    <amp-selector layout="container">
+        <main class="flex pl2">
+<script type="text/javascript">
+var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+{widgetcode:"2a06198e78db20c075bf0fe0faf53bf02f2abc60e276428b23ab12aa4b13ae0f", values:{},ready:function(){}};
+var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+</script>
+
+<!--
+    <article class="www-components flex-auto col-12">
+                <section class="www-component-desc" id="samples_templates">
+                    <div class="abe-examples flex flex-wrap">
+                      {{ $home := .Site.Taxonomies.tag.shelter  }}
+                        {{ range ($home.Pages.GroupBy "Section") }}
+  	                  {{ if eq .Key "articles" }}
+    	                    {{ range last 3 .Pages.ByDate }}
+    	                    //-- your code here --//
+ 	                  {{ end }}
+                        {{ end }}
+                      {{ end }}
+                    </div>
+                </section>
+    </article>
+-->
+
+    <article class="www-components flex-auto col-12">
+                <section class="www-component-desc" id="samples_templates">
+                    <div class="abe-examples flex flex-wrap">
+
+
+                      {{- range .Data.Pages.ByDate.Reverse }}
+                        {{ .Render "li" }}
+                      {{- end }}
+                    </div>
+                </section>
+            </article>
+        </main>
+    </amp-selector>
+{{ partial "footer.html" . }}
+

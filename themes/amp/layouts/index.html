@@ -1,16 +1,67 @@
 {{ partial "header.html" . }}
-{{ partial "search-form.html" . }}
 {{ partial "css/homepage_reveal_display.css" . }}
-
+<script async custom-element="amp-inline-gallery" src="https://cdn.ampproject.org/v0/amp-inline-gallery-0.1.js"></script>
 
     <header class="www-header" style="background-image:url(images/n0.jpg);">
         <h1 class="mb4 px2 col-12 sm-col-8 mx-auto www-component-anchor" style="background-color:#000;transparency:50%;">{{ .Title }}</h1>
         <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Site.Params.description }}</span>
     </header>
+<body>
+<div class="container" style="position:relative;top:-195px;" >
+<div class="col-sm-1"></div>
+<div class="row" style="margin:25px;">
+<div class="col-sm-1 col-md-1"></div>
+<div class="col-md-5"><h2>Peace Engineering</h2><p>SCD Hub supports <a href="https://allnations.cafe">All Nations Cafe</a>'s model for informal education and mentoring process and peacemaking model</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+<div class="col-sm-1 col-md-1"></div>
+</div>
+<div class="row">
+<div class="col-md-6"><h2>Plastic Burn Abatement</h2><p></p></div><div class="col-md-6"><h2>Self Help Groups</h2><p>The ability to work together toward common goals in community is at the core of the table banking movement. Planning a good system with two groups in mind, talking to Kigali community leader.</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+</div>
+<div class="col-sm-1"></div>
+<div class="row" style="margin:25px;">
+<div class="col-sm-1 col-md-1"></div>
+<div class="col-md-5"><h2>Biogas projects</h2><p>Small to mid-sized biogas projects designed to satisfy local sanitation and energy requirements.  Hub and spoke model allows for processing  locations for biosolids, commposting on-site is another option. Biodigester membrane shipped via alibaba $75, or made from truck tubes repurposed into long flexible methane producing membrane biodigesters. </p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+<div class="col-sm-1 col-md-1"></div>
+</div>
+<div class="row">
+<div class="col-md-6"><h2>Innovation Elevation</h2><p></p></div><div class="col-md-6"><h4>Short film comedic -docu -drama series</h4><p> SCD Hub research fuses the creative, scientific, and interpersonal dynamics that effect personal outcomes relating to a current sewage pipe repair project in urban Kenya and potentially effected drinking water taps running through hoses.  Colorado water contamination stories are shared and discussed alongside contemprary African water issues in a candid manner, solutions to common problems and case histories are explored and researched as part of the program, demonstrating a culture of inquiry and research.</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+</div>
+</div>
 
 
 
-<div class="container" style="position:relative;top:-125px;">
+<div class="container" style="position:relative;top:-225px;">
+
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+
+
+  <div class="card-grid">
+        <div class="card__overlay">
+          <div>
+            <h5 class="card__overlay-heading">
+             <style>
+             #ifrm1 {
+              opacity: 0;
+              transition: opacity 1.5s linear;
+             }
+             #trig1:hover + iframe {
+              opacity: 1;
+              transition: opacity 1.5s linear;
+             }
+             </style>
+
+             <a href='#/' id='trig1'>HOVER</a>
+             <iframe id='ifrm1' name='ifrm1' src='https://days.to/until/christmas'></iframe> 
+            </h5>
+              {{ partial "fontawesome.html" "diamond" }}
+          </div>
+        </div>
+  </div>
+3
+<hr>
+
+
   <div class="card-grid">
     <div class="card-grid__section card-grid__section--large">
       <div class="card card--fresh">
@@ -44,6 +95,8 @@
             <h5 class="card__overlay-heading">
               Partner project- school girl assistance
             </h5>
+              {{ partial "fontawesome.html" "diamond" }}
+
           </div>
         </div>
 
@@ -225,9 +278,9 @@
             <h5 class="card__heading">
               Summer 2021 - Drexel U Support
             </h5>
-
+              {{ partial "fontawesome.html" "bolt" }}
             <p class="card__text">
-               Thank you Enoch and Khalil for your work on practical sustainable building materials reference citations.
+               Enoch and Khalil for pumps, building materials, and reference citations.
             </p>
           </div>
         </div>
@@ -236,7 +289,6 @@
   </div>
 </div>
 
-<!--
   <span class="row">
     <div class="col-auto"></div>
     <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/drinking_water.gif"></div>
@@ -249,11 +301,15 @@
   </span>
   <span class="row">
     <div class="col-auto"></div>
-    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/solid_waste.gif"></div>
     <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/shelter__.gif"></div>
     <div class="col-auto"></div>
   </span>
--->
+  <span class="row">
+    <div class="col-auto"></div>
+    <div class="mb2 px2 col-2 sm-col-2 mx-auto www-component-anchor"><img width=210 src="/images/buttons/telecom.png"></div>
+    <div class="col-auto"></div>
+  </span>
+
 
     <amp-selector layout="container">
         <main class="flex pl2">
@@ -286,7 +342,7 @@ s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.
                     <div class="abe-examples flex flex-wrap">
 
 
-                      {{- range .Data.Pages }}
+                      {{- range .Data.Pages.ByDate.Reverse }}
                         {{ .Render "li" }}
                       {{- end }}
                     </div>
@@ -294,4 +350,6 @@ s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.
             </article>
         </main>
     </amp-selector>
-{{ partial "footer.html" . }}
+
+{{ partial "basefoot.html" . }}
+

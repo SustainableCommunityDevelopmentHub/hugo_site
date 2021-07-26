@@ -6,6 +6,17 @@ theme = "amp"
 [markup.goldmark.renderer]
 hardWraps = true
 
+[params.search]
+enabled = true
+keyboardControlled = "topSearchbar"
+
+[params.search.topSearchbar]
+enabled = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML","JSON"]
 
 [taxonomies]
   cat = "cat"
@@ -159,6 +170,12 @@ canonifyurls = true
 [[menu.main]]
   name = "Food Security"
   url = "/cat/food"
+  weight = 54
+  parent = "Clinics"
+
+[[menu.main]]
+  name = "Soil Conservation"
+  url = "/cat/soil-conservation"
   weight = 54
   parent = "Clinics"
 
