@@ -3,7 +3,7 @@ var searchResults = document.getElementById("search-results");
 var searchInput = document.getElementById("search-query");
 
 // the length of the excerpts
-var contextDive = 40;
+var contextDive = 56;
 
 var timerUserInput = false;
 searchInput.addEventListener("keyup", function()
@@ -19,6 +19,24 @@ searchInput.addEventListener("keyup", function()
         500
     );
 });
+
+// trigger this only on load
+var urlparam = getUrlVars()["query"];
+console.log("query"+urlparam);
+if (urlparam.length > 3) search(urlparam);
+
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    
+    });
+    const elem = document.querySelector('#search-query');
+    elem.innerText = vars;
+    return vars;
+}
+
+
 
 function search(searchQuery)
 {
@@ -64,12 +82,13 @@ function search(searchQuery)
             // populate search results block with excerpts around the matched search query
             results.forEach(function (value, key)
             {
-                let firstIndexOf = value.content.toLowerCase().indexOf(searchQuery.toLowerCase());
+                console.log("loopval"+key);
+                let firstIndexOf = value.contents.toLowerCase().indexOf(searchQuery.toLowerCase());
                 let lastIndexOf = firstIndexOf + searchQuery.length;
                 let spaceIndex = firstIndexOf - contextDive;
                 if (spaceIndex > 0)
                 {
-                    spaceIndex = value.content.indexOf(" ", spaceIndex) + 1;
+                    spaceIndex = value.contents.indexOf(" ", spaceIndex) + 1;
                     if (spaceIndex < firstIndexOf) { firstIndexOf = spaceIndex; }
                     else { firstIndexOf = firstIndexOf - contextDive / 2; }
                 }
@@ -78,30 +97,30 @@ function search(searchQuery)
                     firstIndexOf = 0;
                 }
                 let lastSpaceIndex = lastIndexOf + contextDive;
-                if (lastSpaceIndex < value.content.length)
+                if (lastSpaceIndex < value.contents.length)
                 {
-                    lastSpaceIndex = value.content.indexOf(" ", lastSpaceIndex);
+                    lastSpaceIndex = value.contents.indexOf(" ", lastSpaceIndex);
                     if (lastSpaceIndex !== -1) { lastIndexOf = lastSpaceIndex; }
                     else { lastIndexOf = lastIndexOf + contextDive / 2; }
                 }
                 else
                 {
-                    lastIndexOf = value.content.length - 1;
+                    lastIndexOf = value.contents.length - 1;
                 }
 
-                let summary = value.content.substring(firstIndexOf, lastIndexOf);
+                let summary = value.contents.substring(firstIndexOf, lastIndexOf);
                 if (firstIndexOf !== 0) { summary = "...".concat(summary); }
-                if (lastIndexOf !== value.content.length - 1) { summary = summary.concat("..."); }
+                if (lastIndexOf !== value.contents.length - 1) { summary = summary.concat("..."); }
 
                 let div = "".concat("<div id=\"search-summary-", key, "\">")
                     .concat("<h4 class=\"post-title\"><a href=\"", value.permalink, "\">", value.title, "</a></h4>")
                     .concat("<p>", summary, "</p>")
-                    .concat("</div>");
+                    .concat("</div><br><br>");
                 searchResults.appendChild(htmlToElement(div));
 
-                // optionaly highlight the search query in excerpts using mark.js
-                new Mark(document.getElementById("search-summary-" + key))
-                    .mark(searchQuery, { "separateWordSearch": false });
+               // optionaly highlight the search query in excerpts using mark.js
+               // new Mark(document.getElementById("search-summary-" + key))
+               //   .mark(searchQuery, { "separateWordSearch": false });
             });
         }
         else

@@ -1,5 +1,5 @@
 --- 
-layout: post
+layout: post 
 title: WET Mindmap
 cat:
 - peace-engineering
@@ -11,7 +11,8 @@ tag:
 date: 2021-06-10
 --- 
 
-# Archive Search Page
+# Search SCD Hub
+
 
 <div class="sidebar-section">
     <input id="search-query" placeholder="Search" />
@@ -28,3 +29,5 @@ date: 2021-06-10
 
 
 
+<amp-youtube width="480" height="270" layout="responsive" data-videoid="V8YGax8FVyo">
+</amp-youtube>

@@ -6,11 +6,21 @@ cat: ["concrete","design education","lectures","Shelter"]
 tag: ["Architecture"]
 ---
 
-https://www.youtube.com/watch?v=LwxT0KmBw_A
+# Fabric Formed Concrete Structures
+
+{{< rawhtml >}}
+
+<iframe width="100%" height="600" src="https://www.youtube.com/embed/LwxT0KmBw_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{{< /rawhtml >}}
+
+
 
 There are many types of concrete, designed to suit a variety or purposes coupled with a range of compositions, finishes and performance characteristics.
 
-Read more : https://en.wikipedia.org/wiki/Types_o...
+--
+Read more about types of concrete : https://en.wikipedia.org/wiki/Types_of_concrete
+--
 
 May you find this video informative and be thrilled to subscribe for more. Thanks for watching!
 
