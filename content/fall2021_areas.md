@@ -20,4 +20,7 @@ date = "2021-07-23"
 
 ## IT Clinic
 The following links are useful for SCD Hub's tech clinic.
+
+{{< rawhtml >}}
 <a href="https://getpublii.com">[0]</a>,<a href="https://netlify.com">[1]</a>, <a href="https://github.com">[2]</a>, <a href="https://portal.etiny.xyz">Umati Portal</a>
+{{< /rawhtml >}}

@@ -9,11 +9,11 @@
 </aside>
            <aside class="www-components col-9 relative">
 
-        {{- range ( first 50 .Data.Pages ) }}
+
+        {{- range ( first 10 .Data.Pages ) }}
         {{ .Render "li" }}
         {{- end }}
 
     </main>
-
 
 {{ partial "footer.html" . }}

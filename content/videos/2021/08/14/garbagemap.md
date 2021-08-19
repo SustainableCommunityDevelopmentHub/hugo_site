@@ -13,6 +13,7 @@ date: 2021-08-14
 # Garbage Map
 
 ## What kind of Garbage can be mapped? What is this tool/project for?: , 
+
 Roadside waste that can be tracked back to its source. Upstream responsibility is the goal of this waste awareness and waste mitigation p
 roject. Join SCD Hub Team lead Tanya Shawn Unger in the use of open street map, open layers, mysql database in the modern free software solution context.
 

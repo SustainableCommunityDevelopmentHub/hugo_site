@@ -31,6 +31,8 @@ DisqusShortname = "scdhub"
 Copyright = "Rights respected for copyright holders."
 canonifyurls = true
 
+# open source, shelter, drinking water, waste water, solid waste, telecom, energy, climate
+
 [menu]
 [[menu.main]]
   name = "SCD Hub"
@@ -56,7 +58,7 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Non-profit"
+  name = "Entity"
   url = "/about/#501c3"
   weight = 23
   parent= "SCD Hub"
@@ -68,7 +70,7 @@ canonifyurls = true
   parent= "SCD Hub"
 
 [[menu.main]]
-  name = "Fundraising"
+  name = "Donate"
   url = "/donate"
   weight = 26
   parent= "SCD Hub"
