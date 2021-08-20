@@ -74,838 +74,287 @@ nodeTemplate.events.on("out", function (event) {
     })
 })
 
+
 networkSeries.data = [  
    {  
-      "name":"Phoebe",
+      "name":"Water Management",
       "value":102,
       "linkWith":[  
-         "Gunther"
+         "Energy",
+         "Interfaces"
       ],
       "children":[  
          {  
-            "name":"David",
+            "name":"Purification",
             "value":14
          },
          {  
-            "name":"Roger",
+            "name":"Reclaimation",
             "value":1
          },
          {  
-            "name":"Duncan",
+            "name":"Distribution",
             "value":1
          },
          {  
-            "name":"Rob Dohnen",
+            "name":"Database",
             "value":2
-         },
-         {  
-            "name":"Ryan",
-            "value":5
-         },
-         {  
-            "name":"Malcom",
-            "value":1
-         },
-         {  
-            "name":"Robert",
-            "value":1
-         },
-         {  
-            "name":"Sergei",
-            "value":1
-         },
-         {  
-            "name":"Vince",
-            "value":2
-         },
-         {  
-            "name":"Jason",
-            "value":1
-         },
-         {  
-            "name":"Rick",
-            "value":2
-         },
-         {  
-            "name":"Gary",
-            "value":7
-         },
-         {  
-            "name":"Jake",
-            "value":2
-         },
-         {  
-            "name":"Eric",
-            "value":3
-         },
-         {  
-            "name":"Mike",
-            "value":18
          }
       ]
    },
    {  
-      "name":"Monica",
+      "name":"Power System Hardware",
       "value":204,
       "linkWith":[  
-         "Rachel",
-         "Chandler",
-         "Ross",
-         "Joey",
-         "Phoebe"
+         "Interfaces",
+         "Data"
       ],
       "children":[  
          {  
-            "name":"Paul the wine guy",
+            "name":"Interfaces",
             "value":1
          },
          {  
-            "name":"Mr Geller",
+            "name":"Water",
             "value":8
          },
          {  
-            "name":"Mrs Geller",
+            "name":"Solar Panels",
             "value":14
          },
          {  
-            "name":"Aunt Lilian",
+            "name":"Windmills",
             "value":2
          },
          {  
-            "name":"Nana",
+            "name":"Battery Bank",
             "value":1
          },
          {  
-            "name":"Young Ethan",
+            "name":"Generator",
             "value":5
          },
          {  
-            "name":"Ben",
+            "name":"External Power",
             "value":9
          },
          {  
-            "name":"Fun Bobby",
+            "name":"Generator",
             "value":3
          },
          {  
-            "name":"Richard",
+            "name":"Fuel Cell",
             "value":16
          },
          {  
-            "name":"Mrs Green",
+            "name":"User Support (Maintenance & Manuals)",
             "value":4
          },
          {  
-            "name":"Paolo2",
-            "value":1
-         },
-         {  
-            "name":"Pete",
+            "name":"Hardware",
             "value":10
          },
          {  
-            "name":"Chip",
+            "name":"System Health",
             "value":1
-         },
-         {  
-            "name":"Timothy (Burke)",
-            "value":1
-         },
-         {  
-            "name":"Emily",
-            "value":17
-         },
-         {  
-            "name":"Dr. Roger",
-            "value":3
          }
       ]
    },
    {  
-      "name":"Ross",
+      "name":"Data",
       "value":216,
       "linkWith":[  
-         "Joey",
-         "Phoebe",
-         "Mrs Geller",
-         "Aunt Lilian",
-         "Mrs Bing",
-         "Ben",
-         "Mrs Green",
-         "Emily"
+         "Comm",
+         "Energy"
       ],
       "children":[  
          {  
-            "name":"Carol",
+            "name":"Data for Homer",
             "value":10
          },
          {  
-            "name":"Celia",
+            "name":"Availability",
             "value":2
          },
          {  
-            "name":"Julie",
+            "name":"Scale",
             "value":6
          },
          {  
-            "name":"Chloe",
+            "name":"Inventory",
             "value":1
          },
          {  
-            "name":"Bonnie",
+            "name":"Community Needs",
             "value":4
          },
          {  
-            "name":"Messy Girl (Cheryl)",
+            "name":"Situation",
             "value":5
          },
          {  
-            "name":"Jill",
+            "name":"Resources for Ops Center",
             "value":1
          },
          {  
-            "name":"Elizabeth",
+            "name":"Resources for System Construction",
             "value":8
          },
          {  
-            "name":"Aunt Millie",
+            "name":"Checklists",
             "value":2
          },
          {  
-            "name":"Mona",
+            "name":"Analysis",
             "value":11
-         },
-         {  
-            "name":"Emma",
-            "value":7
-         },
-         {  
-            "name":"Charlie",
-            "value":13
          }
       ]
    },
    {  
-      "name":"Chandler",
+      "name":"Comm",
       "value":167,
       "linkWith":[  
-         "Joey",
-         "Phoebe"
+         "Data",
+         "Security"
       ],
       "children":[  
          {  
-            "name":"Aurora",
+            "name":"Internet",
             "value":2
          },
          {  
-            "name":"Jill Goodacre",
+            "name":"Hot Spots",
             "value":1
          },
          {  
-            "name":"Janice",
+            "name":"EM Broadcast (AM/FM)",
             "value":12
          },
          {  
-            "name":"Mrs Bing",
+            "name":"Satelite Phone",
             "value":6
          },
          {  
-            "name":"Nina",
+            "name":"Medical Comms",
             "value":1
          },
          {  
-            "name":"Susie",
+            "name":"Management Comms",
             "value":5
-         },
-         {  
-            "name":"Mary Theresa",
-            "value":1
-         },
-         {  
-            "name":"Ginger",
-            "value":2
-         },
-         {  
-            "name":"Joanna",
-            "value":5
-         },
-         {  
-            "name":"Kathy",
-            "value":9
-         },
-         {  
-            "name":"Mr Bing",
-            "value":1
          }
       ]
    },
    {  
-      "name":"Rachel",
+      "name":"Security",
       "value":158,
       "linkWith":[  
-         "Chandler",
-         "Ross",
-         "Joey",
-         "Phoebe",
-         "Mr Geller",
-         "Mrs Geller"
+         "Comm",
+         "Data"
       ],
       "children":[  
          {  
-            "name":"Paolo",
+            "name":"Facial Racognition",
             "value":5
          },
          {  
-            "name":"Barry",
+            "name":"Manage Access (safely)",
             "value":1
          },
          {  
-            "name":"Dr Green",
+            "name":"Cyber & Physical Security & Safety",
             "value":3
-         },
-         {  
-            "name":"Mark3",
-            "value":1
-         },
-         {  
-            "name":"Josh",
-            "value":2
-         },
-         {  
-            "name":"Gunther",
-            "value":2
-         },
-         {  
-            "name":"Joshua",
-            "value":3
-         },
-         {  
-            "name":"Danny",
-            "value":1
-         },
-         {  
-            "name":"Mr. Zelner",
-            "value":1
-         },
-         {  
-            "name":"Paul Stevens",
-            "value":3
-         },
-         {  
-            "name":"Tag",
-            "value":4
-         },
-         {  
-            "name":"Melissa",
-            "value":1
-         },
-         {  
-            "name":"Gavin",
-            "value":2
          }
       ]
    },
    {  
-      "name":"Joey",
-      "value":88,
+      "name":"Control System",
+      "value":78,
       "linkWith":[  
-         "Phoebe",
-         "Janice",
-         "Mrs Green",
-         "Kathy",
-         "Emily",
-         "Charlie"
+         "Consumers",
+         "Security"
       ],
       "children":[  
          {  
-            "name":"Lorraine",
+            "name":"Homer",
             "value":2
          },
          {  
-            "name":"Melanie",
+            "name":"User Support",
             "value":2
          },
          {  
-            "name":"Erica",
+            "name":"Water Management",
             "value":2
          },
          {  
-            "name":"Kate",
+            "name":"Manage Power Systems",
             "value":4
          },
          {  
-            "name":"Lauren",
+            "name":"Switching Power Systems",
             "value":2
          },
          {  
-            "name":"Estelle",
+            "name":"Consumer Monitoring",
             "value":1
          },
          {  
-            "name":"Katie",
+            "name":"Managing Distribution",
             "value":2
          },
          {  
-            "name":"Janine",
+            "name":"Collapse OS: flexibility for old tech",
             "value":9
          },
          {  
-            "name":"Erin",
+            "name":"Expandible (scalability)",
             "value":1
+         }
+      ]
+   },
+   { 
+      "name":"Consumers",
+      "value":158,
+      "linkWith":[ 
+         "Economics & Fundraising",
+         "Control System"
+      ],
+      "children":[ 
+         { 
+            "name":"Interface to Local Systems",
+            "value":5
          },
-         {  
-            "name":"Cecilia",
-            "value":3
+         { 
+            "name":"Distribution Network",
+            "value":5
+         },
+         { 
+            "name":"Lighting",
+            "value":5
+         },
+         { 
+            "name":"American University of Dubai",
+            "value":5
+         },
+         { 
+            "name":"Computers",
+            "value":5
+         },
+         { 
+            "name":"Desalinization",
+            "value":5
+         },
+         { 
+            "name":"Classrooms",
+            "value":5
+         },
+         { 
+            "name":"Medical",
+            "value":10
          }
       ]
    }
 ];
-/**
- * ---------------------------------------
- * This demo was created using amCharts 4.
- *
- * For more information visit:
- * https://www.amcharts.com/
- *
- * Documentation is available at:
- * https://www.amcharts.com/docs/v4/
- * ---------------------------------------
- */
-
-am4core.useTheme(am4themes_animated);
-
-var chart = am4core.create("chartdiv", am4plugins_forceDirected.ForceDirectedTree);
-
-var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
-networkSeries.dataFields.linkWith = "linkWith";
-networkSeries.dataFields.name = "name";
-networkSeries.dataFields.id = "name";
-networkSeries.dataFields.value = "value";
-networkSeries.dataFields.children = "children";
-
-networkSeries.links.template.strength = 1;
-networkSeries.manyBodyStrength = -5;
-networkSeries.centerStrength = 0.5;
-
-networkSeries.nodes.template.label.text = "{name}"
-networkSeries.fontSize = 8;
-networkSeries.minRadius = 15;
-networkSeries.maxRadius = 50;
-
-var nodeTemplate = networkSeries.nodes.template;
-nodeTemplate.tooltipText = "{name}";
-nodeTemplate.fillOpacity = 1;
-nodeTemplate.label.hideOversized = true;
-nodeTemplate.label.truncate = true;
-
-var linkTemplate = networkSeries.links.template;
-linkTemplate.strokeWidth = 1;
-var linkHoverState = linkTemplate.states.create("hover");
-linkHoverState.properties.strokeOpacity = 1;
-linkHoverState.properties.strokeWidth = 2;
-
-nodeTemplate.events.on("over", function (event) {
-    var dataItem = event.target.dataItem;
-    dataItem.childLinks.each(function (link) {
-        link.isHover = true;
-    })
-})
-
-nodeTemplate.events.on("out", function (event) {
-    var dataItem = event.target.dataItem;
-    dataItem.childLinks.each(function (link) {
-        link.isHover = false;
-    })
-})
-
-networkSeries.data = [  
-   {  
-      "name":"Phoebe",
-      "value":102,
-      "linkWith":[  
-         "Gunther"
-      ],
-      "children":[  
-         {  
-            "name":"David",
-            "value":14
-         },
-         {  
-            "name":"Roger",
-            "value":1
-         },
-         {  
-            "name":"Duncan",
-            "value":1
-         },
-         {  
-            "name":"Rob Dohnen",
-            "value":2
-         },
-         {  
-            "name":"Ryan",
-            "value":5
-         },
-         {  
-            "name":"Malcom",
-            "value":1
-         },
-         {  
-            "name":"Robert",
-            "value":1
-         },
-         {  
-            "name":"Sergei",
-            "value":1
-         },
-         {  
-            "name":"Vince",
-            "value":2
-         },
-         {  
-            "name":"Jason",
-            "value":1
-         },
-         {  
-            "name":"Rick",
-            "value":2
-         },
-         {  
-            "name":"Gary",
-            "value":7
-         },
-         {  
-            "name":"Jake",
-            "value":2
-         },
-         {  
-            "name":"Eric",
-            "value":3
-         },
-         {  
-            "name":"Mike",
-            "value":18
-         }
-      ]
-   },
-   {  
-      "name":"Monica",
-      "value":204,
-      "linkWith":[  
-         "Rachel",
-         "Chandler",
-         "Ross",
-         "Joey",
-         "Phoebe"
-      ],
-      "children":[  
-         {  
-            "name":"Paul the wine guy",
-            "value":1
-         },
-         {  
-            "name":"Mr Geller",
-            "value":8
-         },
-         {  
-            "name":"Mrs Geller",
-            "value":14
-         },
-         {  
-            "name":"Aunt Lilian",
-            "value":2
-         },
-         {  
-            "name":"Nana",
-            "value":1
-         },
-         {  
-            "name":"Young Ethan",
-            "value":5
-         },
-         {  
-            "name":"Ben",
-            "value":9
-         },
-         {  
-            "name":"Fun Bobby",
-            "value":3
-         },
-         {  
-            "name":"Richard",
-            "value":16
-         },
-         {  
-            "name":"Mrs Green",
-            "value":4
-         },
-         {  
-            "name":"Paolo2",
-            "value":1
-         },
-         {  
-            "name":"Pete",
-            "value":10
-         },
-         {  
-            "name":"Chip",
-            "value":1
-         },
-         {  
-            "name":"Timothy (Burke)",
-            "value":1
-         },
-         {  
-            "name":"Emily",
-            "value":17
-         },
-         {  
-            "name":"Dr. Roger",
-            "value":3
-         }
-      ]
-   },
-   {  
-      "name":"Ross",
-      "value":216,
-      "linkWith":[  
-         "Joey",
-         "Phoebe",
-         "Mrs Geller",
-         "Aunt Lilian",
-         "Mrs Bing",
-         "Ben",
-         "Mrs Green",
-         "Emily"
-      ],
-      "children":[  
-         {  
-            "name":"Carol",
-            "value":10
-         },
-         {  
-            "name":"Celia",
-            "value":2
-         },
-         {  
-            "name":"Julie",
-            "value":6
-         },
-         {  
-            "name":"Chloe",
-            "value":1
-         },
-         {  
-            "name":"Bonnie",
-            "value":4
-         },
-         {  
-            "name":"Messy Girl (Cheryl)",
-            "value":5
-         },
-         {  
-            "name":"Jill",
-            "value":1
-         },
-         {  
-            "name":"Elizabeth",
-            "value":8
-         },
-         {  
-            "name":"Aunt Millie",
-            "value":2
-         },
-         {  
-            "name":"Mona",
-            "value":11
-         },
-         {  
-            "name":"Emma",
-            "value":7
-         },
-         {  
-            "name":"Charlie",
-            "value":13
-         }
-      ]
-   },
-   {  
-      "name":"Chandler",
-      "value":167,
-      "linkWith":[  
-         "Joey",
-         "Phoebe"
-      ],
-      "children":[  
-         {  
-            "name":"Aurora",
-            "value":2
-         },
-         {  
-            "name":"Jill Goodacre",
-            "value":1
-         },
-         {  
-            "name":"Janice",
-            "value":12
-         },
-         {  
-            "name":"Mrs Bing",
-            "value":6
-         },
-         {  
-            "name":"Nina",
-            "value":1
-         },
-         {  
-            "name":"Susie",
-            "value":5
-         },
-         {  
-            "name":"Mary Theresa",
-            "value":1
-         },
-         {  
-            "name":"Ginger",
-            "value":2
-         },
-         {  
-            "name":"Joanna",
-            "value":5
-         },
-         {  
-            "name":"Kathy",
-            "value":9
-         },
-         {  
-            "name":"Mr Bing",
-            "value":1
-         }
-      ]
-   },
-   {  
-      "name":"Rachel",
-      "value":158,
-      "linkWith":[  
-         "Chandler",
-         "Ross",
-         "Joey",
-         "Phoebe",
-         "Mr Geller",
-         "Mrs Geller"
-      ],
-      "children":[  
-         {  
-            "name":"Paolo",
-            "value":5
-         },
-         {  
-            "name":"Barry",
-            "value":1
-         },
-         {  
-            "name":"Dr Green",
-            "value":3
-         },
-         {  
-            "name":"Mark3",
-            "value":1
-         },
-         {  
-            "name":"Josh",
-            "value":2
-         },
-         {  
-            "name":"Gunther",
-            "value":2
-         },
-         {  
-            "name":"Joshua",
-            "value":3
-         },
-         {  
-            "name":"Danny",
-            "value":1
-         },
-         {  
-            "name":"Mr. Zelner",
-            "value":1
-         },
-         {  
-            "name":"Paul Stevens",
-            "value":3
-         },
-         {  
-            "name":"Tag",
-            "value":4
-         },
-         {  
-            "name":"Melissa",
-            "value":1
-         },
-         {  
-            "name":"Gavin",
-            "value":2
-         }
-      ]
-   },
-   {  
-      "name":"Joey",
-      "value":88,
-      "linkWith":[  
-         "Phoebe",
-         "Janice",
-         "Mrs Green",
-         "Kathy",
-         "Emily",
-         "Charlie"
-      ],
-      "children":[  
-         {  
-            "name":"Lorraine",
-            "value":2
-         },
-         {  
-            "name":"Melanie",
-            "value":2
-         },
-         {  
-            "name":"Erica",
-            "value":2
-         },
-         {  
-            "name":"Kate",
-            "value":4
-         },
-         {  
-            "name":"Lauren",
-            "value":2
-         },
-         {  
-            "name":"Estelle",
-            "value":1
-         },
-         {  
-            "name":"Katie",
-            "value":2
-         },
-         {  
-            "name":"Janine",
-            "value":9
-         },
-         {  
-            "name":"Erin",
-            "value":1
-         },
-         {  
-            "name":"Cecilia",
-            "value":3
-         }
-      ]
-   }
-];
-
-
 
 </script>
 
