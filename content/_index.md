@@ -1,5 +1,5 @@
 ---
-title: Sustainable Community Development Hub Peace Engineering Solutions Database
+title: Sustainable Community Development Peace Engineering Solutions Hub
 ---
 
 h2 this is some content
