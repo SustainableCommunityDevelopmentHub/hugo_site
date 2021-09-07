@@ -4,6 +4,18 @@ title = "Fall 2021 Peace Engineering"
 date = "2021-07-23"
 +++
 
+“In the instinct to schedule meetings, it appears that we often neglect to give participants a chance to prepare and form their thoughts.“ - Anne Quito
+
+
+## Areas
+
+
+
+
+
+
+
+## Methodology
 
 (1) researching and publishing of useful and contextually relevant SCDhub ( video and document review) solutions library in WET topic areas.
 
@@ -21,3 +33,7 @@ date = "2021-07-23"
 ## IT Clinic
 The following links are useful for SCD Hub's tech clinic.
 <a href="https://getpublii.com">[0]</a>,<a href="https://netlify.com">[1]</a>, <a href="https://github.com">[2]</a>, <a href="https://portal.etiny.xyz">Umati Portal</a>
+
+
+
+
