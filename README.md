@@ -16,4 +16,11 @@ To run:
 ```sh
 yarn
 yarn watch
+
 ```
+
+or
+
+hugo serve
+
+this system uses the amp.dev notation in its theme described at https://amp.dev 
