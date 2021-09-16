@@ -1,14 +1,26 @@
 <<<<<<< HEAD
-# Inventory Manager
+# SCD HUb Sustainable Solutions Database Hugo Code Generator
 =======
-# Manage video link library with HUGO - 'AMP'
->>>>>>> aea56fe4ef5035371a674c106b09384835f926d6
+# Content is managed via metadata files and amp
 
-An inventory item tracker for community food sharing and redistribution project group logistics system
+# sub categories are managed via the themes/layouts/_default/tag.html page
+these are visible on certain pages link from header/nav menus in to collections within the archive.
+
+
+
+video link library with HUGO 'AMP'
+
 
 To run:
 
 ```sh
 yarn
 yarn watch
+
 ```
+
+or
+
+hugo serve
+
+this system uses the amp.dev notation in its theme described at https://amp.dev 

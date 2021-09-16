@@ -1,78 +1,45 @@
 {{ partial "header.html" . }}
 {{ partial "css/homepage_reveal_display.css" . }}
 <script async custom-element="amp-inline-gallery" src="https://cdn.ampproject.org/v0/amp-inline-gallery-0.1.js"></script>
+<script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
 
     <header class="www-header" style="background-image:url(images/n0.jpg);">
         <h1 class="mb4 px2 col-12 sm-col-8 mx-auto www-component-anchor" style="background-color:#000;transparency:50%;">{{ .Title }}</h1>
         <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Site.Params.description }}</span>
-<script src="//cdn.amcharts.com/lib/4/core.js"></script>
-<script src="//cdn.amcharts.com/lib/4/charts.js"></script>
-<script src="//cdn.amcharts.com/lib/4/themes/animated.js"></script>
-<script src="//cdn.amcharts.com/lib/4/plugins/forceDirected.js"></script>
-<div id="chartdiv" style="
+<style>
 #chartdiv {
   width: 100%;
-  height: 600px;
+height:550px;
+max-width:100%;
 }
-"></div>
-<script>
-/**
- * ---------------------------------------
- * This demo was created using amCharts 4.
- *
- * For more information visit:
- * https://www.amcharts.com/
- *
- * Documentation is available at:
- * https://www.amcharts.com/docs/v4/
- * ---------------------------------------
- */
+.stories {
+  border-radius: 25px;
+  background: #FFF;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  width: 240px;
+  height: 100%
+}
+</style>
 
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/plugins/forceDirected.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<!-- Chart code -->
+<script>
+am4core.ready(function() {
+
+// Themes begin
 am4core.useTheme(am4themes_animated);
+// Themes end
+
+
 
 var chart = am4core.create("chartdiv", am4plugins_forceDirected.ForceDirectedTree);
-
 var networkSeries = chart.series.push(new am4plugins_forceDirected.ForceDirectedSeries())
-networkSeries.dataFields.linkWith = "linkWith";
-networkSeries.dataFields.name = "name";
-networkSeries.dataFields.id = "name";
-networkSeries.dataFields.value = "value";
-networkSeries.dataFields.children = "children";
-
-networkSeries.links.template.strength = 1;
-networkSeries.manyBodyStrength = -5;
-networkSeries.centerStrength = 0.5;
-
-networkSeries.nodes.template.label.text = "{name}"
-networkSeries.fontSize = 8;
-networkSeries.minRadius = 15;
-networkSeries.maxRadius = 50;
-
-var nodeTemplate = networkSeries.nodes.template;
-nodeTemplate.tooltipText = "{name}";
-nodeTemplate.fillOpacity = 1;
-nodeTemplate.label.hideOversized = true;
-nodeTemplate.label.truncate = true;
-
-var linkTemplate = networkSeries.links.template;
-linkTemplate.strokeWidth = 1;
-var linkHoverState = linkTemplate.states.create("hover");
-linkHoverState.properties.strokeOpacity = 1;
-linkHoverState.properties.strokeWidth = 2;
-
-nodeTemplate.events.on("over", function (event) {
-    var dataItem = event.target.dataItem;
-    dataItem.childLinks.each(function (link) {
-        link.isHover = true;
-    })
-})
-
-nodeTemplate.events.on("out", function (event) {
-    var dataItem = event.target.dataItem;
-    dataItem.childLinks.each(function (link) {
-        link.isHover = false;
-    })
-})
 
 networkSeries.data = [  
    {  
@@ -355,32 +322,94 @@ networkSeries.data = [
    }
 ];
 
+<<<<<<< HEAD
     </header>
+=======
+networkSeries.dataFields.value = "value";
+networkSeries.dataFields.name = "name";
+networkSeries.dataFields.children = "children";
+networkSeries.nodes.template.tooltipText = "{name}:{value}";
+networkSeries.nodes.template.fillOpacity = 1;
+
+networkSeries.nodes.template.label.text = "{name}"
+networkSeries.fontSize = 10;
+
+networkSeries.links.template.strokeWidth = 1;
+
+var hoverState = networkSeries.links.template.states.create("hover");
+hoverState.properties.strokeWidth = 3;
+hoverState.properties.strokeOpacity = 1;
+
+networkSeries.nodes.template.events.on("over", function(event) {
+  event.target.dataItem.childLinks.each(function(link) {
+    link.isHover = true;
+  })
+  if (event.target.dataItem.parentLink) {
+    event.target.dataItem.parentLink.isHover = true;
+  }
+
+})
+
+networkSeries.nodes.template.events.on("out", function(event) {
+  event.target.dataItem.childLinks.each(function(link) {
+    link.isHover = false;
+  })
+  if (event.target.dataItem.parentLink) {
+    event.target.dataItem.parentLink.isHover = false;
+  }
+})
+
+}); // end am4core.ready()
+
+
+
+</script>
+
+</header>
+>>>>>>> c56cb703c4e062624eb4c715dd654254c543de35
 <body>
 <div class="container" style="position:relative;top:-195px;" >
-<div class="col-sm-1"></div>
 <div class="row" style="margin:25px;">
+<<<<<<< HEAD
 <div class="col-sm-1 col-md-1"></div>
 <div class="col-md-5 col-sm-4"><h2>Peace Engineering</h2><p>SCD Hub supports <a href="https://www.ancdenver.com">All Nations Center</a>. A model for informal education and community peacemaking model, <a href="">Mango House Aurora Colorado</a>.</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
 <div class="col-sm-1 col-md-1"></div>
 </div>
 <div class="row">
 <div class="col-md-6 col-sm-4"><h2>Machakos Plastic Burn Abatement, Upcycling & Health Awareness Effort</h2><p></p></div><div class="col-md-6"><p>Environmental and human health need not be compromised. 'Safer than burning' waste planning via mapping and education.</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+=======
+<div class="col-md-5 col-sm-4">
+<div class="stories" style="height:250px;">
+<h2>Peace Engineering</h2><p>SCD Hub supports <a href="https://allnations.cafe">All Nations Cafe</a>'s model for informal education and mentoring process and peacemaking model</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+
+<BR>
+
+<div class="col-md-6 stories"><h2>Innovation Elevation</h2><p></p><h4>Short film comedic docu-drama series</h4>
+<p>Innovation Elevation is a creative video collaboration between Dirona Hills video production team and SCD Hub.  Investigating personal outcomes relating to a current sewage pipe repair project in urban Njiru, Kenya and how drinking water taps and wells running nearby are effected.</p><p><a class="btn btn-raised" href="/creative/innovation-elevation-video-series/" role="button">View details »</a></p></div>
+>>>>>>> c56cb703c4e062624eb4c715dd654254c543de35
 </div>
-<div class="col-sm-1"></div>
-<div class="row" style="margin:25px;">
+
 <div class="col-sm-1 col-md-1"></div>
-<div class="col-md-5 col-sm-4"><h2>Biogas projects</h2><p>Small to mid-sized biogas projects designed to satisfy local sanitation and energy requirements.  Hub and spoke model allows for processing  locations for biosolids, commposting on-site is another option. Biodigester membrane shipped via alibaba $75, or made from truck tubes repurposed into long flexible methane producing membrane biodigesters. </p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+<div class="col-md-6 col-sm-4 stories" style="width:320px; margin: 10 px;"><h2>Plastic Burn Abatement & Jobs</h2>
+
+<p><img src="/images/mamawatoto-group-machakos-2021_b.jpg" with=280><BR>
+Machakos Kenya community group focused on local job creation, <a href="https://mamawatoto.link">Mamawatoto Eco School</a>.
+Environmental and human health need not be compromised. 'Safer than burning' waste planning via mapping and education.</p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
 <div class="col-sm-1 col-md-1"></div>
+
+<div class="col-md-5 col-sm-4 stories"><h2>Biogas projects</h2><p>Small to mid-sized biogas projects designed to satisfy local sanitation and energy requirements.  Hub and spoke model allows for processing  locations for biosolids, commposting on-site is another option. Biodigester membrane shipped via alibaba $75, or made from truck tubes repurposed into long flexible methane producing membrane biodigesters. </p><p><a class="btn btn-raised" href="#" role="button">View details »</a></p></div>
+<div class="col-sm-1 col-md-1"></div>
+<<<<<<< HEAD
 </div>
 <div class="row">
 <div class="col-md-6"><h2>Innovation Elevation</h2><p></p></div><div class="col-md-6"><h4>Comedic docu-drama experiment</h4>
 
 <p>Innovation Elevation is a creative video collaboration between Dirona Hills video production team, Kenyan 3d animator Bonface Muriithi Mbaabu and SCD Hub.  Investigating personal outcomes relating to a current sewage pipe repair project in urban Njiru, Kenya and how drinking water taps and wells running nearby are effected.</p><p><a class="btn btn-raised" href="/creative/innovation-elevation-video-series/" role="button">View details »</a></p></div>
+=======
+
+>>>>>>> c56cb703c4e062624eb4c715dd654254c543de35
 </div>
 </div>
-
-
 
 <div class="container" style="position:relative;top:-225px;">
 
@@ -403,13 +432,18 @@ networkSeries.data = [
              }
              </style>
 
+<<<<<<< HEAD
              <a href='#/' id='trig1'>Share</a>
              <img src="http://localhost:1313/images/logo.svg"> 
+=======
+             <a href='#/' id='trig1'>HOVER</a>
+             <iframe id='ifrm1' name="ifrm1" width="560" height="315" src="https://www.youtube.com/embed/Z4jGxeyu0JE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </h5>
+>>>>>>> c56cb703c4e062624eb4c715dd654254c543de35
               {{ partial "fontawesome.html" "diamond" }}
           </div>
         </div>
   </div>
-3
 <hr>
 
 
@@ -558,16 +592,6 @@ networkSeries.data = [
   </div>
 </div>
 
-  <span class="row">
-    <div class="col-auto"></div>
-<div><img width=210 src="/images/buttons/drinking_water.gif">
-<img width=210 src="/images/buttons/solid_waste.gif"><BR>
-<img width=210 src="/images/buttons/wastewater.gif"><BR>
-<img width=210 src="/images/buttons/shelter__.gif"><BR>
-<img width=210 src="/images/buttons/telecom.png"></div>
-    <div class="col-auto"></div>
-  </span>
-  </span>
 
 
     <amp-selector layout="container">
@@ -611,3 +635,16 @@ s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.
     </amp-selector>
 
 {{ partial "basefoot.html" . }}
+
+    
+<span class="row">
+<div class="col-auto"></div>
+<div><img width=210 src="/images/buttons/drinking_water.gif">
+<img width=210 src="/images/buttons/solid_waste.gif"><BR>
+<img width=210 src="/images/buttons/wastewater.gif"><BR>
+<img width=210 src="/images/buttons/shelter__.gif"><BR>
+<img width=210 src="/images/buttons/telecom.png"></div>
+<div class="col-auto"></div>
+</span>
+    
+    
