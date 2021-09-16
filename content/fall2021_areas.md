@@ -4,12 +4,12 @@ title = "Fall 2021 Peace Engineering"
 date = "2021-07-23"
 +++
 
-“In the instinct to schedule meetings, it appears that we often neglect to give participants a chance to prepare and form their thoughts.“ - Anne Quito
-
+"In the instinct to schedule meetings, it appears that we often neglect to give participants a chance to prepare and form their thoughts." - Anne Quito
 
 ## Fall 2021 Peach Engineering Student Collaboration
 
-Project Title: SCD Hub Sustainable Solutions Database
+### Project Title: SCD Hub Sustainable Solutions Database
+
 Brief Project Description:
 --
 This project has three areas of effort: 1) Content curation: Students will gather and develop videos and
@@ -40,7 +40,7 @@ website with additional current content with emphasis on the quality, accuracy o
 ‘stickyness’ quality of engagement on the site. Secondly, students will develop an advocacy portal
 supporting sharing of time and resources for community projects.
 
-
+--
 
 
 ## Methodology
@@ -63,11 +63,4 @@ The following links are useful for SCD Hub's tech clinic.
 
 {{< rawhtml >}}
 <a href="https://getpublii.com">[0]</a>,<a href="https://netlify.com">[1]</a>, <a href="https://github.com">[2]</a>, <a href="https://portal.etiny.xyz">Umati Portal</a>
-<<<<<<< HEAD
 {{< /rawhtml >}}
-=======
-
-
-
-
->>>>>>> c56cb703c4e062624eb4c715dd654254c543de35
