@@ -16,7 +16,7 @@ When sizing a water pump, the most important factors to consider are
 ### Head:
 - Pump head is the vertical distance that the pump can move water.  
 - Usually measured in feet or meters.
-Total head accounts for the suction head and the discharge head of the pump.  
+- Pumps typically have a discharge head and suction head; Total head accounts for both of these factors.   
 
 The image below as well as the following website provides a basis for understanding pump head and the differences between suction and discharge head: 
 https://www.pumpfundamentals.com/what%20is%20head.htm
