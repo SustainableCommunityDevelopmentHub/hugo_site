@@ -20,3 +20,11 @@ https://ecologi.com/projects/converting-landfill-gas-to-energy-turkey
 ## Metrics
 
 8 mw power system / unit - reference - Great Kills Landfill, Staten Island, NY
+
+---
+x = 1: 1
+x = 2: 3
+x = 1: 5
+x = 2: 7
+x = 1: 9
+x = 2: 11
