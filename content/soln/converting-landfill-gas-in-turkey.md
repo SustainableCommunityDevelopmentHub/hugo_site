@@ -1,5 +1,5 @@
 --- 
-layout: post 
+layout: robots
 title: Converting landfill gas to energy
 cat:
 - methane recovery from landfills
