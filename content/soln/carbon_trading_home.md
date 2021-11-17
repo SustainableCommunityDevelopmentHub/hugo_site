@@ -4,12 +4,13 @@ title: Carbon Trading
 cat:
 - carbon trading
 tag:
-- methane recovery
-- methane capture
-- centralized context
-- Turkey
-- renwwable energy
-date: 2021-09-21
+- purdue-epics
+- carbon-trading
+- carbon-credits
+- carbon-trading-systems
+- student-review
+- Purdue-class-of-2025
+date: 2021-11-17
 --- 
 # Carbon Trading
 
