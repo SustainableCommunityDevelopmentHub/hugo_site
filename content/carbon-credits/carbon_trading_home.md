@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: Carbon Trading 
+title: Carbon Trading Home 
 cat:
 - carbon trading
 tag:
@@ -12,8 +12,9 @@ tag:
 - Purdue-class-of-2025
 date: 2021-11-17
 --- 
-# Carbon Trading
+# Carbon Trading Overview  
 
+.. thank you to 2021 Purdue EPICS Students, Abu-Mulaweh, Nusaybah, Ramiro Jordan,  Khalil Alibhai, Reuben Koech, Greg W for leading this area of research
 ##  
 
 https://ecologi.com/projects/converting-landfill-gas-to-energy-turkey
