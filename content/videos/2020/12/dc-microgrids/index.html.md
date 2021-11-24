@@ -1,8 +1,8 @@
 ---
 layout: post
 title: DC Microgrid System Design and Testing
-cat: ["renewables", "municipal-solid-waste-disposal"]
-tag: ["ECHO WATER", "municipal solid waste disposal", "DIY", "small systems", "MSW", "MSW Disposal"]
+cat: ["renewables"]
+tag: ["waste disposal", "DIY", "small systems"]
 date: 2020-12-01
 ---
 
@@ -10,17 +10,6 @@ date: 2020-12-01
 DC Microgrid System Design and Testing
 =============================================
 
+There are several excellent examples of linked system grids that are designed to for greater reliability in local settings.  By linking small systems together, short burts of higher power than would be available in each independany system is possible, sharing of battery bank or other system components is possible as well.
 
-
-In a way, 
-we all 
-
-make solid contributions
-
-whether transported materials compost or form various engineered uses for humanity
-
-we risk disposing of land by improperly attending to insects or ground water. 
-
-
-
-a(href="https://en.wikipedia.org/wiki/Municipal_solid_waste#Disposal")Source: Wikipedia
+An rural electricication outfit in India provides an excellent low cost service to subscribers by wiring together to enable to sharing of solar panels, charge controllers, battery banks, and other system components.
