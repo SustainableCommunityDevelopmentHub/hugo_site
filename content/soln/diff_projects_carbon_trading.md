@@ -19,6 +19,7 @@ This resource provides a thourough guide on different types of projects that can
 -  a
 -  b
 -  c
+
 This video shows an example of carbon credits in agriculture
 
 {{< rawhtml >}}
