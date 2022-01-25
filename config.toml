@@ -142,7 +142,6 @@ canonifyurls = true
 
 [[menu.main]]
   name = "Clinics"
-  url = "/videos/2017/07/start-a-clinic/index.html/"
   weight = 49
 
 [[menu.main]]
