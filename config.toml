@@ -43,7 +43,6 @@ canonifyurls = true
   url = "/about-scdhub"
   weight = 2
 
-
 [[menu.main]]
   name = "Mission & Vision"
   url = "/about/#mission"
