@@ -2,10 +2,6 @@
 {{ partial "css/homepage_reveal_display.css" . }}
 <script async custom-element="amp-inline-gallery" src="https://cdn.ampproject.org/v0/amp-inline-gallery-0.1.js"></script>
 <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
-
-    <header class="www-header" style="background-image:url(images/n0.jpg);">
-        <h1 class="mb4 px2 col-12 sm-col-8 mx-auto www-component-anchor" style="background-color:#000;transparency:50%;">{{ .Title }}</h1>
-        <span class="h3 block mb4 px2 col-12 sm-col-8 mx-auto">{{ .Site.Params.description }}</span>
 <style>
 #chartdiv {
   width: 100%;
@@ -359,9 +355,14 @@ networkSeries.nodes.template.events.on("out", function(event) {
 }); // end am4core.ready()
 </script>
 
+<header class="www-header" style="background-image:url(images/n0.jpg);">
+        <h1 class="mb4 px2 col-12 sm-col-8 mx-auto www-component-anchor" style="background-color:#000;transparency:50%;">{{ .Title }}</h1>
 </header>
 <body>
-<div class="container" style="position:relative;top:-195px;" >
+   
+    </header>
+    
+    <div class="container" style="position:relative;top:-195px;" >
 
 <div class="row" style="margin:25px;">
     
