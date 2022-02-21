@@ -5,7 +5,6 @@ layout = "post"
 title = "SCD Hub Organizational Mission"
 
 +++
-###TEST: Khalil
 To serve as a hub for sustainable community development (SCD) in order to provide trustworthy development & training tools to facilitate project planning, design & execution. Our current work emphasizes the life cycle of water.
 <BR><BR>
 
