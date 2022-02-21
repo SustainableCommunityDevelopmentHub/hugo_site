@@ -2,7 +2,7 @@
 date = 2022-02-21T00:00:00Z
 description = "about scdhub"
 layout = "post"
-title = "ABOUT SCCD HUB"
+title = "ABOUT SCD HUB"
 
 +++
 
