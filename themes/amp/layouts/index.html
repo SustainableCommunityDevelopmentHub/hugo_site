@@ -2,6 +2,9 @@
 {{ partial "css/homepage_reveal_display.css" . }}
 <script async custom-element="amp-inline-gallery" src="https://cdn.ampproject.org/v0/amp-inline-gallery-0.1.js"></script>
 <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
+<script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+<script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
+
 <style>
 #chartdiv {
   width: 100%;
@@ -363,6 +366,44 @@ networkSeries.nodes.template.events.on("out", function(event) {
     </header>
     
     <div class="container" style="position:relative;top:-195px;" >
+      
+    <style>
+    .carousel-prev,
+.carousel-next {
+  filter: drop-shadow(0px 1px 2px #4a4a4a);
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.carousel-prev {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path  d="M14,7.4 L9.4,12 L14,16.6" fill="none" stroke="#fff" stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" /></svg>');
+}
+
+.carousel-next {
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path  d="M10,7.4 L14.6,12 L10,16.6" fill="none" stroke="#fff" stroke-width="2px" stroke-linejoin="round" stroke-linecap="round" /></svg>');
+}  
+  </style>
+      
+<amp-base-carousel …>
+  <div>first slide</div>
+  <div>sec slide</div>
+  <div>third slide</div>
+  <div>4th slide</div>
+  
+  <button slot="next-arrow" class="carousel-next" aria-label="Next"></button>
+  <button
+    slot="prev-arrow"
+    class="carousel-prev"
+    aria-label="Previous"
+  ></button>
+</amp-base-carousel>
+      
+      
+      
 
 <div class="row" style="margin:25px;">
   
