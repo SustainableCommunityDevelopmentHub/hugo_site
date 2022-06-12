@@ -388,25 +388,35 @@ networkSeries.nodes.template.events.on("out", function(event) {
 }  
   </style>
       
-<amp-base-carousel …>
-  <div>first slide</div>
-  <div>sec slide</div>
-  <div>third slide</div>
-  <div>4th slide</div>
-  
-  <button slot="next-arrow" class="carousel-next" aria-label="Next"></button>
-  <button
-    slot="prev-arrow"
-    class="carousel-prev"
-    aria-label="Previous"
-  ></button>
-</amp-base-carousel>
-      
-      
-      
 
+      
 <div class="row" style="margin:25px;">
   
+<amp-carousel class="collapsible-captions" height="332" layout="fixed-height" type="slides">
+  <figure>
+    <div class="fixed-height-container">
+      <amp-img layout="fill" src="https://unsplash.it/500/400"></amp-img>
+    </div>
+    <figcaption on="tap:AMP.setState({expanded: !expanded})" tabindex="0" role="button" [class]="expanded ? 'expanded' : ''">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+      <span [text]="expanded ? '▼' : '▲'">▲</span>
+    </figcaption>
+  </figure>
+  <figure>
+    <div class="fixed-height-container">
+      <amp-img layout="fill" src="https://unsplash.it/500/500"></amp-img>
+    </div>
+    <figcaption on="tap:AMP.setState({expanded: !expanded})" tabindex="0" role="button" [class]="expanded ? 'expanded' : ''">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+      <span [text]="expanded ? '▼' : '▲'">▲</span></figcaption>
+  </figure>
+  <figure>
+    <div class="fixed-height-container">
+      <amp-img layout="fill" src="https://unsplash.it/200/500"></amp-img>
+    </div>
+    <figcaption on="tap:AMP.setState({expanded: !expanded})" tabindex="0" role="button" [class]="expanded ? 'expanded' : ''">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+      <span [text]="expanded ? '▼' : '▲'">▲</span></figcaption>
+  </figure>
+</amp-carousel>
+
   
 <div class="col-md-2 stories" style="height:450px;"><h2><a href="https://ecocommunity-dao.github.io">Biocomposites Breakdown</a></h2><p><a href="https://ecocommunity-dao.github.io">Ecocommunity DAO </a></p></div>
     
