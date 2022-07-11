@@ -2,12 +2,9 @@
 date = 2017-04-24T00:00:00Z
 description = "this is details details details"
 layout = "post"
-title = "SCD Hub Organizational Mission"
+title = "SCD Hub Organization"
 
 +++
-
-# SCD Hub Organization
-
 
 ## Mission
 To serve as a hub for sustainable community development (SCD) in order to provide trustworthy development & training tools to facilitate project planning, design & execution.
