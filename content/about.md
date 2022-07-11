@@ -12,7 +12,7 @@ To serve as a hub for sustainable community development (SCD) in order to provid
 <BR><BR>
 
 
-SCD Hub serves as a library of content (e.g. video, graphics, literature) related to water, wastewater management, and solidwaste  resources. Our aim in curating content is to clearly assess what approaches work and what approaches have challenges, and what kind? 
+SCD Hub serves as a library of content (e.g. video, graphics, literature) related to water, wastewater, solidwaste management, and community development information resources. Our aim in curating content is to clearly assess what approaches work and what approaches have challenges, and to contextualize these challenges. 
 <BR><BR>
 
 
