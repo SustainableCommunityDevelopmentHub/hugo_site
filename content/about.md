@@ -5,16 +5,19 @@ layout = "post"
 title = "SCD Hub Organizational Mission"
 
 +++
-To serve as a hub for sustainable community development (SCD) in order to provide trustworthy development & training tools to facilitate project planning, design & execution. Our current work emphasizes the life cycle of water.
+To serve as a hub for sustainable community development (SCD) in order to provide trustworthy development & training tools to facilitate project planning, design & execution.
 <BR><BR>
 
-SCD Hub serves as a library of content (e.g. video, graphics, literature) related to water resources. Our aim in curating content is to clearly assess what approaches work and what approaches have challenges, and what kind? 
-
-
+SCD Hub serves as a library of content (e.g. video, graphics, literature) related to water, wastewater management, and solidwaste  resources. Our aim in curating content is to clearly assess what approaches work and what approaches have challenges, and what kind? 
 <BR><BR>
-Hence  [Peacewater Docs](http://sharaj2.sg-host.com) This site provides the Peacewater/SCD Hub community with a forum.
-
-If you wish to suggest a learning resource ( video, document, web url ), please share it in the comments. Thank you -[greg](mailto:ecocommunity@protonmail.com "email Greg")
-
+  
+  <b>VISION:</b><BR>
+  To support community literacy in locally appropriate techniques and technologies that support climate, human, & ecosystem health.
+  
+  
 <BR><BR>
-ANNOUNCEMENT: FALL 2021 We are adding energy and telecommunications to the library in cooperation with students at the University of New Mexico (EPICS Program)!  
+[The SCD Hub Forum](http://mylunch.link:4567) now serves as a public interface for collecting and sharing current research before it is added to this website as a technology review page.
+
+  
+<BR><BR>  
+If you wish to suggest a learning resource or interesting SCD related project, please post it directly to mylunch.link formum or [greg](mailto:ecocommunity@protonmail.com "contact Greg at scdhub.org or text/whatsapp 01 303 720 6790")
