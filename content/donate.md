@@ -116,6 +116,9 @@ cashapp: $ecocommunitydao
 
 * optimism: 0x6985DF215A251aadf9e08E882843b11b1c1c8A72
 
+* polkastarter: 0x12747CBF5493f75B043Aa9CDbb98e3Bc2A97d6A9
+
+
 ## donations support SCD Hub programs, projects, or partner efforts,
 
 # thank you!
