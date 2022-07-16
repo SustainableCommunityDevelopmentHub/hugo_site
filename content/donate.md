@@ -68,6 +68,8 @@ cashapp: $ecocommunitydao
 
 * flow: 0x798274d2027dc4c0
 
+* sand: 0xaF9C8FE71016A406AaFf9DfB7A42f861B774d721
+
 * comp: 0xBCfBf65c0ba39A3C36c918ca7fD0040e39ba5350
 
 * xrp: rw2ciyaNshpHe7bCHo4bRWq6pqqynnWKQg xrp tag: 2504701680
