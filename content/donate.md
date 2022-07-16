@@ -22,15 +22,17 @@ SCD Hub aims to support community literacy in
 
 
 Please send a tax deducatable donation via:
-
+.
 Sustainable Community Development Hub
 P O Box 911
 Nederland, CO 80466
-
+.
+.
 venmo: ecocommunitydao
-
+.
 cashapp: $ecocommunitydao
-
+.
+.
 ## crypto donation or Ecocommunity-DAO NFT purchase 
 
 
