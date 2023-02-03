@@ -6,7 +6,7 @@ cat: ["Drinking Water", "Water", "piped water gravity"]
 tag: ["Piped water pumped", "Drinking water distribution"]
 ---
 
-<h2>how are piped drinking water distribution systems designed, how are they managed, what are common problems in urban slums and low income areas?</h2>
+<h2>How are piped drinking water distribution systems designed, how are they managed, what are common problems in urban slums and low income areas?</h2>
 <p>
 Piped drinking water distribution systems are typically designed by engineers and hydrologists, who take into account various factors such as water source availability, water quality, population density, and topography. They must also ensure that the system can withstand hydraulic pressure and minimize the risk of contamination.
 </p><p>
