@@ -2,7 +2,7 @@
 layout: post
 title: Drinking Water Distribution
 date: 2023-01-25
-cat: ["Drinking Water", "Water"]
+cat: ["Drinking Water", "Water", "piped water gravity"]
 tag: ["Piped water pumped", "Drinking water distribution"]
 ---
 
