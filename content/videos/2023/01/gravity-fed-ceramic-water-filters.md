@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gravity Fed Water Filters
+title: Gravity Fed Ceramic Water Filters
 date: 2023-01-24
 cat: ["Water Treatment"]
 tag: ["Gravity Fed Water Filter"]
