@@ -187,6 +187,33 @@
             </aside>
 
    
+        
+{{if eq .Title "Water Treatment"}}{{ partial "subcat/water-treatment.html"}}<p>
+        
+       Q; please describe the risks associated with the different water filter designs currently being produced locally in low income areas.
+        </p><p>
+A: The risks associated with locally made water filters in low-income areas can vary depending on the design of the filter. Here are some common risks associated with different water filter designs:
+        </p><p>
+    Gravity-fed ceramic filters: These filters can crack or break, allowing contaminants to pass through. Additionally, the ceramic element can become contaminated with bacteria if not cleaned properly.
+        </p><p>
+    Bio-sand filters: Bio-sand filters can become clogged with debris, reducing the effectiveness of the filter. In addition, if not properly maintained, the filter can become a breeding ground for bacteria.
+        </p><p>
+    Solar stills: Solar stills can be unreliable in cloudy or rainy weather and require a large amount of sunlight to operate effectively.
+        </p><p>
+    UV water purifiers: UV purifiers require a consistent source of electricity to operate and can be expensive to maintain. In addition, if the UV bulb is not replaced regularly, the filter may not effectively kill bacteria and viruses.
+        </p><p>
+    Reverse osmosis filters: Reverse osmosis filters can be expensive and require a consistent water supply to operate. In addition, the filters can become clogged with impurities, reducing their effectiveness.
+        </p><p>
+    Chlorine treatment: Chlorine treatment requires consistent access to chlorine and can lead to the formation of harmful by-products if not properly dosed.
+        </p><p>
+Overall, it's important to ensure that locally made water filters are designed, manufactured, and maintained to meet the appropriate quality standards to ensure they provide safe drinking water.
+      
+        </p>{{end}}
+
+        
+        
+        
+        
                         {{if gt (len .Summary) 0}}
                         <div class="ampstart-card abe-sample-card flex flex-column flex-auto p1 mb1">
                             <h3 class="mb1">{{ .Title }}<i class=""></i></h3>
